@@ -1,57 +1,178 @@
 {
   "date": "2026-10-06",
-  "updatedAt": "准备就绪",
-  "edition": "预览版",
+  "updatedAt": "2026-10-06 16:13 CST",
+  "edition": "今日正式版",
   "readMinutes": 20,
   "overview": [
-    "首期晨报将在下一个上午 9 点自动更新。",
-    "科技、金融和娱乐将占主要篇幅。",
-    "全球重大事件仍会保留，避免形成领域盲区。",
-    "社交热点会区分事实、争议与纯网络讨论。",
-    "重要消息将附上可点击的原始来源。"
+    "西班牙提前至 11 月 29 日举行大选，住房危机已从民生议题升级为全国政治变量。",
+    "亚洲股市多数跟随美股走高，日本市场领涨，韩国市场回落，油价与长期国债收益率仍是风险定价的核心。",
+    "OpenAI 将在美国测试更具视觉化的 ChatGPT 广告，生成式人工智能产品的商业化正从订阅走向广告与数据衡量。",
+    "谷歌确认 Project Suncatcher 原型卫星已取得联系，太空计算开始进入硬件验证阶段，但距离商业化仍很远。",
+    "好莱坞的 Paramount 与 Warner Bros. 合并预计今天完成，行业关注点已转向债务、内容投入和新闻编辑独立性。"
   ],
   "events": [
     {
-      "category": "科技",
-      "status": "版面预览",
-      "title": "科技栏目会关注真正改变行业的进展",
-      "summary": "包括人工智能、芯片、网络安全、监管、重大科研进展和关键行业交易。",
-      "why": "每条内容都会说明它可能影响谁，以及影响发生在哪一步。",
-      "uncertainty": "发布信息、实际可用能力和行业推测会分开呈现。",
-      "sources": []
+      "category": "世界",
+      "status": "已确认",
+      "title": "西班牙提前大选，住房危机成为竞选主轴",
+      "summary": "西班牙首相佩德罗·桑切斯宣布将于 11 月 29 日举行大选，比原计划提前约八个月。政府此前推动的紧急住房措施在议会受挫，巴塞罗那等地随后出现大规模住房抗议，部分示威者与警方发生冲突。",
+      "why": "西班牙近年经济增速在发达经济体中较快，但租金、驱逐和房地产投机带来的不满持续累积。提前大选会增加欧洲政治不确定性，也可能让住房政策成为其他高房价国家的参照议题。",
+      "uncertainty": "选举刚刚宣布，主要政党的完整纲领和联盟安排仍未确定。抗议规模会否继续扩大，也要看政府与地方当局接下来的回应。",
+      "sources": [
+        {"name": "美联社报道", "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8"},
+        {"name": "巴塞罗那抗议现场", "url": "https://apnews.com/article/88423b9ec5024ebcadd7c3c7e4f31321"}
+      ]
     },
     {
       "category": "金融",
-      "status": "版面预览",
-      "title": "金融栏目会把数字和现实影响放在一起",
-      "summary": "覆盖主要市场、央行、利率、宏观数据、汇率、大宗商品和重要公司财报。",
-      "why": "重点说明哪些变化可能影响个人与企业决策。",
-      "uncertainty": "市场观点会与已确认数据明确区分。",
-      "sources": []
+      "status": "市场进行中",
+      "title": "亚洲股市多数走高，油价和长端利率继续牵动风险偏好",
+      "summary": "日本日经 225 指数一度上涨约 1.1%，香港市场上涨约 0.8%，韩国综合股价指数则回落约 0.9%。芯片股表现分化，Advantest 上涨，三星电子与 SK 海力士走弱。隔夜美国科技股的涨势提供支撑，油价回落也缓解了部分成本压力。",
+      "why": "短线市场同时交易人工智能带来的盈利预期、长期国债收益率处于高位的估值压力，以及中东局势对能源价格的影响。对投资者而言，指数上涨并不代表风险同步下降，行业和地区之间的分化仍然很大。",
+      "uncertainty": "欧洲交易时段和美国开盘后，债券收益率、油价与地缘政治消息都可能改变盘面。文中点位是报道发布时的快照，不应视为收盘结果或投资建议。",
+      "sources": [
+        {"name": "美联社亚洲市场", "url": "https://apnews.com/article/e8285ec7afbe81e9df277e8ee2127982"},
+        {"name": "路透市场综述", "url": "https://sa.marketscreener.com/news/asian-shares-track-wall-street-higher-treasury-yields-near-multi-decade-highs-ce785dd8dc89fe2d"}
+      ]
+    },
+    {
+      "category": "科技",
+      "status": "官方发布",
+      "title": "OpenAI 扩大 ChatGPT 广告测试，生成图片时也可能出现视觉广告",
+      "summary": "OpenAI 公布新的 ChatGPT 广告形式，计划在美国于本月稍晚启动小规模测试。新广告会在图像生成过程中出现，与正常回答清晰分隔并带有标识。公司还将接入 Hightouch、Tealium 和 LiveRamp，帮助广告主衡量转化和管理受众数据。",
+      "why": "这表明大型人工智能产品正在寻找订阅之外的收入来源。广告若进入创作流程，用户体验、推荐中立性和数据使用边界都会成为新的竞争要素，也会影响品牌把预算从搜索与社交平台迁往对话式产品的速度。",
+      "uncertainty": "目前只是美国试点，OpenAI 尚未证明这种形式能否在不损害信任的情况下规模化。公司公布的每周用户规模属于自行披露，外部尚难独立核验。",
+      "sources": [
+        {"name": "OpenAI 官方公告", "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"}
+      ]
+    },
+    {
+      "category": "科技",
+      "status": "本周进展",
+      "title": "谷歌太空计算原型取得联系，Project Suncatcher 进入在轨验证",
+      "summary": "谷歌确认搭载 Project Suncatcher 原型的卫星已通过 SpaceX Transporter-18 发射，并与地面建立联系。任务将测试 TPU 在振动、辐射和极端温度下的表现，为未来把人工智能计算部署到近地轨道积累数据。",
+      "why": "近地轨道可获得更持续的太阳能，但散热、辐射、激光互联、发射成本与维护难度都远高于地面数据中心。此次任务的价值在于验证关键硬件边界，目前无法提供太空云计算服务。",
+      "uncertainty": "这仍是长期研究项目。谷歌设想的多卫星计算网络、稳定高速互联和商业成本尚未得到验证，当前成果不等于可运营的数据中心。",
+      "sources": [
+        {"name": "Google 官方更新", "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"}
+      ]
+    },
+    {
+      "category": "科技",
+      "status": "官方承诺",
+      "title": "亚马逊追加十亿美元，缓解数据中心扩张带来的社区压力",
+      "summary": "亚马逊宣布未来五年在美国数据中心所在社区追加超过 10 亿美元投入，覆盖社区学院、技能培训、能源负担、水资源保护和地方自行确定的项目。公司称，计划将帮助超过 30 万名相关社区居民降低社区学院教育成本。",
+      "why": "人工智能基础设施的扩张正把用电、用水、土地与税收问题带到地方政治中心。大型云服务商开始把社区补偿写成长期承诺。芯片、资本和当地的持续许可都会影响数据中心竞争。",
+      "uncertainty": "金额、受益人数和环境效果来自亚马逊披露。不同地区的项目上线时间和实际分配方式仍会变化，需要后续看地方协议与独立数据。",
+      "sources": [
+        {"name": "亚马逊 Built Together", "url": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together"}
+      ]
+    },
+    {
+      "category": "科技",
+      "status": "已确认",
+      "title": "光遗传学三位先驱获得诺贝尔生理学或医学奖",
+      "summary": "卡尔·戴塞尔罗斯、彼得·黑格曼和格奥尔格·纳格尔因推动光遗传学发展获得今年诺贝尔生理学或医学奖。该技术把光敏蛋白与基因工具结合，使研究人员可以用光精确开启或关闭特定神经元，已经深刻改变神经科学实验。",
+      "why": "光遗传学让大脑活动与行为之间的因果关系更容易被测试，并为失明、抑郁、成瘾和神经退行性疾病研究提供新路径。奖项也提醒市场区分基础研究工具与可直接用于患者的成熟疗法。",
+      "uncertainty": "技术在动物研究中影响巨大，但面向人类的治疗仍受基因递送、安全性和长期效果限制。获奖不意味着相关疗法已经普遍可用。",
+      "sources": [
+        {"name": "美联社诺奖报道", "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba"}
+      ]
     },
     {
       "category": "娱乐",
-      "status": "版面预览",
-      "title": "娱乐栏目会减少八卦噪声",
-      "summary": "关注影视、音乐、游戏、流媒体、文化产业和具有跨地区影响的艺人事件。",
-      "why": "优先选择有产业影响或跨平台传播的内容。",
-      "uncertainty": "营销话题和未经证实的传闻不会混入事实部分。",
-      "sources": []
+      "status": "今日待完成",
+      "title": "Paramount 与 Warner Bros. 合并临近交割，好莱坞进入四大集团时代",
+      "summary": "美国联邦法官已批准 Paramount 与 12 个州就收购 Warner Bros. 达成的和解，为交易扫清关键障碍。行业媒体称交易计划于 10 月 6 日完成，合并后的公司将名为 Skydance Corp.。承诺内容包括未来五年在美国额外投入至少 15 亿美元制作资金，并设立新闻编辑独立委员会。",
+      "why": "交易会把传统好莱坞五大制片厂进一步压缩为四大集团，影响院线片数量、流媒体竞争、人才议价和新闻资产治理。接下来真正决定成败的将是债务消化、品牌整合以及内容预算是否兑现。",
+      "uncertainty": "截至本期更新时间，公开信息指向今天交割，但仍应等待公司正式宣布完成。合并承诺的执行效果需要数年观察。",
+      "sources": [
+        {"name": "美联社法院进展", "url": "https://apnews.com/article/f30a8a9a4d26393177bc1af5bff1e990"},
+        {"name": "Variety 行业分析", "url": "https://au.variety.com/2026/film/news/skydance-david-ellison-paramount-warner-bros-merger-debt-40969/"}
+      ]
+    },
+    {
+      "category": "娱乐",
+      "status": "今日片单",
+      "title": "本周流媒体重点落在 Oasis 纪录片和多款跨媒介新作",
+      "summary": "美联社本周片单把 Oasis 重聚巡演纪录片、Pitbull 新专辑、Troye Sivan 第四张专辑、电视剧《Carrie》以及游戏《Gears of War E-Day》列为值得关注的新内容。Apple TV 还上线由约翰·塞纳主演的《Matchbox》。",
+      "why": "本周内容横跨音乐纪录片、传统影视和大型游戏，反映平台争夺注意力时越来越依赖跨媒介排期。对普通读者而言，这也是比艺人传闻更实用的娱乐消费入口。",
+      "uncertainty": "上线地区和具体日期可能因平台与版权市场不同而变化，观看前应以所在地区的应用页面为准。推荐属于编辑选择，不代表质量或商业表现保证。",
+      "sources": [
+        {"name": "美联社本周流媒体指南", "url": "https://apnews.com/article/b6a8f87491c50a0e3853f028b1204b6c"}
+      ]
+    },
+    {
+      "category": "娱乐",
+      "status": "已确认",
+      "title": "日间剧演员 Robert Kelker-Kelly 去世，相关搜索快速上升",
+      "summary": "曾在《Days of Our Lives》和《General Hospital》中出演重要角色的 Robert Kelker-Kelly 于上周六在密苏里州家中去世，终年 62 岁。当地警方向《洛杉矶时报》确认，急救人员接报到场前，他曾表示胸痛并随后失去反应。",
+      "why": "他在上世纪九十年代的美国日间剧观众中有较高辨识度，消息公布后迅速进入 Google 搜索趋势。此类热点常由怀旧观众推动，传播范围可能集中在北美电视受众。",
+      "uncertainty": "警方确认了死亡经过的基本信息，但公开报道未给出完整医学结论。社交平台上的具体死因推测不应视为事实。",
+      "sources": [
+        {"name": "洛杉矶时报", "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-10-05/robert-kelker-kelly-dead-days-of-our-lives-bo-brady"}
+      ]
     }
   ],
   "social": [
     {
       "rank": 1,
-      "topic": "跨平台热点将在这里出现",
-      "where": "Google Trends、X、Reddit、YouTube、TikTok",
-      "context": "每个话题都会说明传播地区、起因和事实基础。",
-      "confidence": "等待首期数据"
+      "topic": "Falcons 对 Saints",
+      "where": "Google Trends 美国区，24 小时搜索超过 100 万",
+      "context": "亚特兰大猎鹰以 45 比 24 击败新奥尔良圣徒，Bijan Robinson 跑出超过 140 码并取得两次达阵。讨论集中在强势跑攻与这场传统分区对决。",
+      "confidence": "高，趋势数据与 NFL 官方赛果相互印证"
+    },
+    {
+      "rank": 2,
+      "topic": "Gatorade 部分批次召回",
+      "where": "Google Trends 美国区，24 小时搜索超过 20 万",
+      "context": "涉及部分 28 盎司柠檬青柠和橙味常规及零糖产品，原因是标签未标示 Yellow 5 或 Yellow 6。官方页面列出了具体日期与生产代码，受影响范围仅限所列批次。",
+      "confidence": "高，品牌官方召回通知可查"
+    },
+    {
+      "rank": 3,
+      "topic": "Robert Kelker-Kelly",
+      "where": "Google Trends 美国区，24 小时搜索超过 20 万",
+      "context": "这位日间剧演员去世的消息引发集中搜索。可靠报道只确认了去世与急救经过，网络上的具体死因说法仍需谨慎。",
+      "confidence": "高，警方信息经主流媒体确认"
+    },
+    {
+      "rank": 4,
+      "topic": "纽约尼克斯季前赛",
+      "where": "Google Trends 美国区，24 小时搜索超过 10 万",
+      "context": "尼克斯在季前赛以 97 比 120 负于费城 76 人。热度主要来自新赛季阵容观察，季前赛结果不宜直接外推到常规赛。",
+      "confidence": "高，NBA 官方比分可查"
+    },
+    {
+      "rank": 5,
+      "topic": "Karl Deisseroth 与光遗传学",
+      "where": "Google Trends 美国区，24 小时搜索超过 5 万",
+      "context": "诺贝尔生理学或医学奖公布后，公众开始集中搜索获奖者和光遗传学原理。讨论中的医疗前景值得关注，但距离广泛临床使用仍有明显距离。",
+      "confidence": "高，诺奖结果与趋势数据均已确认"
     }
   ],
   "watchlist": [
-    "未来 24 至 72 小时的重要政策、财报与发布节点",
-    "可能继续扩散的科技、金融和娱乐事件",
-    "需要等待权威来源确认的高热度话题"
+    "诺贝尔物理学奖将在今天稍晚公布，关注获奖方向是否继续指向量子、人工智能硬件或基础粒子研究。",
+    "等待 Paramount 与 Warner Bros. 交易完成的公司公告，以及管理层、债务和内容部门的第一轮调整。",
+    "观察西班牙主要政党是否围绕租金、驱逐和住房供给提出可执行的竞选方案。",
+    "关注长期国债收益率和油价是否再度上行，它们会直接影响成长股估值、通胀预期和欧洲财政压力。",
+    "关注 ChatGPT 广告试点的展示位置、用户控制和数据共享规则，这些细节将决定市场接受度。"
   ],
-  "deepReads": []
+  "deepReads": [
+    {
+      "title": "Project Suncatcher 原型任务",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+      "reason": "看清太空人工智能计算目前真正验证了什么，以及哪些仍停留在设想阶段。"
+    },
+    {
+      "title": "OpenAI 新广告形式与衡量方式",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "reason": "了解对话式人工智能商业化怎样向广告生态延伸。"
+    },
+    {
+      "title": "西班牙提前大选背景",
+      "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8",
+      "reason": "从住房危机理解这场大选为何提前，以及它对欧洲政治的含义。"
+    }
+  ]
 }
