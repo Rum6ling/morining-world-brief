@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="每天上午九点更新的个人世界晨报，重点关注科技、金融与娱乐。" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23080d19'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%23f5b942' stroke-width='4'/%3E%3Cpath d='M20 34h24M25 26h14M27 42h10' stroke='%23f7f3e8' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <title>晨界 · 每日世界晨报</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="返回页面顶部">
+        <span class="brand-mark" aria-hidden="true">晨</span>
+        <span>晨界</span>
+      </a>
+      <div class="topbar-meta">
+        <span id="edition">每日晨报</span>
+        <span class="separator" aria-hidden="true"></span>
+        <span id="updatedAt">正在读取最新内容</span>
+      </div>
+    </header>
+
+    <main id="top" class="shell">
+      <section class="masthead" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">GLOBAL MORNING BRIEF</p>
+          <h1 id="page-title">今天，先读这 20 分钟</h1>
+          <p class="dek">世界要闻与网络热点，重点关注科技、金融和娱乐。</p>
+        </div>
+        <div class="date-card" aria-label="本期信息">
+          <span id="dateMonth" class="date-month">今天</span>
+          <strong id="dateDay" class="date-day">--</strong>
+          <span id="readTime" class="date-note">20 分钟阅读</span>
+        </div>
+      </section>
+
+      <nav class="filters" aria-label="筛选晨报内容">
+        <button class="filter is-active" type="button" data-filter="全部" aria-pressed="true">全部</button>
+        <button class="filter" type="button" data-filter="科技" aria-pressed="false">科技</button>
+        <button class="filter" type="button" data-filter="金融" aria-pressed="false">金融</button>
+        <button class="filter" type="button" data-filter="娱乐" aria-pressed="false">娱乐</button>
+        <button class="filter" type="button" data-filter="世界" aria-pressed="false">世界</button>
+      </nav>
+
+      <section class="overview-panel" aria-labelledby="overview-title">
+        <div class="section-heading compact">
+          <p class="section-kicker">01</p>
+          <h2 id="overview-title">一分钟概览</h2>
+        </div>
+        <ol id="overviewList" class="overview-list"></ol>
+      </section>
+
+      <section class="content-section" aria-labelledby="events-title">
+        <div class="section-heading">
+          <p class="section-kicker">02</p>
+          <div>
+            <h2 id="events-title">今日重要事件</h2>
+            <p>只保留过去 24 小时真正发生变化的内容</p>
+          </div>
+        </div>
+        <div id="eventsGrid" class="events-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="content-section" aria-labelledby="social-title">
+        <div class="section-heading">
+          <p class="section-kicker">03</p>
+          <div>
+            <h2 id="social-title">社交网络热度</h2>
+            <p>热度说明人们在讨论什么，可信度决定我们能相信多少</p>
+          </div>
+        </div>
+        <div id="socialList" class="social-list"></div>
+      </section>
+
+      <section class="lower-grid">
+        <article class="watch-panel" aria-labelledby="watch-title">
+          <div class="section-heading compact">
+            <p class="section-kicker">04</p>
+            <h2 id="watch-title">接下来值得观察</h2>
+          </div>
+          <ol id="watchList" class="watch-list"></ol>
+        </article>
+        <article class="reads-panel" aria-labelledby="reads-title">
+          <div class="section-heading compact">
+            <p class="section-kicker">05</p>
+            <h2 id="reads-title">值得打开的原文</h2>
+          </div>
+          <div id="deepReads" class="deep-reads"></div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>资料截止时间以页面顶部为准。重大事实会优先采用一手来源，并由可靠媒体交叉核验。</p>
+    </footer>
+
+    <template id="eventTemplate">
+      <article class="event-card">
+        <div class="card-meta">
+          <span class="category"></span>
+          <span class="status"></span>
+        </div>
+        <h3></h3>
+        <p class="summary"></p>
+        <dl>
+          <div><dt>为什么重要</dt><dd class="why"></dd></div>
+          <div><dt>仍需确认</dt><dd class="uncertainty"></dd></div>
+        </dl>
+        <div class="sources"></div>
+      </article>
+    </template>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
