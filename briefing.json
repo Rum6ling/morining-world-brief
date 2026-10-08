@@ -1,178 +1,164 @@
 {
-  "date": "2026-10-06",
-  "updatedAt": "2026-10-06 16:13 CST",
+  "date": "2026-10-08",
+  "updatedAt": "2026-10-08 11:25 CST",
   "edition": "今日正式版",
   "readMinutes": 20,
   "overview": [
-    "西班牙提前至 11 月 29 日举行大选，住房危机已从民生议题升级为全国政治变量。",
-    "亚洲股市多数跟随美股走高，日本市场领涨，韩国市场回落，油价与长期国债收益率仍是风险定价的核心。",
-    "OpenAI 将在美国测试更具视觉化的 ChatGPT 广告，生成式人工智能产品的商业化正从订阅走向广告与数据衡量。",
-    "谷歌确认 Project Suncatcher 原型卫星已取得联系，太空计算开始进入硬件验证阶段，但距离商业化仍很远。",
-    "好莱坞的 Paramount 与 Warner Bros. 合并预计今天完成，行业关注点已转向债务、内容投入和新闻编辑独立性。"
+    "俄军对乌克兰发动大规模导弹与无人机袭击，至少 28 人死亡，能源与民用基础设施再度成为焦点。",
+    "全球股市从高位回落，政府债务、高能源价格与人工智能估值共同抬高市场对利率和盈利的敏感度。",
+    "微软把本地人工智能模型和代理隔离技术推向 Windows 电脑，人工智能计算开始从云端向个人设备回流。",
+    "2026 年诺贝尔化学奖授予 Henri B. Kagan 和 Kenso Soai，两人的手性化学研究深刻影响现代制药。",
+    "Paramount 与 Warner Bros. Discovery 完成合并，HBO Max 与 Paramount+ 最终将走向统一服务，影视行业进入新一轮整合期。"
   ],
   "events": [
     {
       "category": "世界",
-      "status": "已确认",
-      "title": "西班牙提前大选，住房危机成为竞选主轴",
-      "summary": "西班牙首相佩德罗·桑切斯宣布将于 11 月 29 日举行大选，比原计划提前约八个月。政府此前推动的紧急住房措施在议会受挫，巴塞罗那等地随后出现大规模住房抗议，部分示威者与警方发生冲突。",
-      "why": "西班牙近年经济增速在发达经济体中较快，但租金、驱逐和房地产投机带来的不满持续累积。提前大选会增加欧洲政治不确定性，也可能让住房政策成为其他高房价国家的参照议题。",
-      "uncertainty": "选举刚刚宣布，主要政党的完整纲领和联盟安排仍未确定。抗议规模会否继续扩大，也要看政府与地方当局接下来的回应。",
+      "status": "持续更新",
+      "title": "俄军大规模袭击乌克兰，多地民用设施受损",
+      "summary": "乌克兰官员称，俄军在 10 月 7 日以导弹和无人机袭击全国多地，至少造成 28 人死亡、约 100 人受伤。北部切尔尼戈夫州普里卢基一栋五层住宅楼遭到重创，单地死亡人数达到 20 人，其中包括五名儿童。基辅及中部城市也报告伤亡，工业设施与能源基础设施受损。",
+      "why": "这轮袭击发生在冬季能源需求上升前，民用电力与供暖网络的脆弱性会重新成为乌克兰和欧洲援助方的紧迫问题。它也会影响防空弹药分配、外交谈判节奏和欧洲能源风险溢价。",
+      "uncertainty": "伤亡数字仍可能随着搜救推进而变化。交战双方关于拦截数量、目标性质和军事损失的说法需要等待更多独立证据。",
       "sources": [
-        {"name": "美联社报道", "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8"},
-        {"name": "巴塞罗那抗议现场", "url": "https://apnews.com/article/88423b9ec5024ebcadd7c3c7e4f31321"}
+        {"name": "路透社报道", "url": "https://uk.marketscreener.com/news/latest/At-least-28-killed-in-Ukraine-Zelenskiy-condemns-one-of-Russia-s-most-vile-strikes-12426983/"}
       ]
     },
     {
       "category": "金融",
-      "status": "市场进行中",
-      "title": "亚洲股市多数走高，油价和长端利率继续牵动风险偏好",
-      "summary": "日本日经 225 指数一度上涨约 1.1%，香港市场上涨约 0.8%，韩国综合股价指数则回落约 0.9%。芯片股表现分化，Advantest 上涨，三星电子与 SK 海力士走弱。隔夜美国科技股的涨势提供支撑，油价回落也缓解了部分成本压力。",
-      "why": "短线市场同时交易人工智能带来的盈利预期、长期国债收益率处于高位的估值压力，以及中东局势对能源价格的影响。对投资者而言，指数上涨并不代表风险同步下降，行业和地区之间的分化仍然很大。",
-      "uncertainty": "欧洲交易时段和美国开盘后，债券收益率、油价与地缘政治消息都可能改变盘面。文中点位是报道发布时的快照，不应视为收盘结果或投资建议。",
+      "status": "市场已收盘",
+      "title": "全球股市回落，债务与能源压力重新进入定价",
+      "summary": "美国三大股指周三回落，标普 500 指数收于 7801.77 点，道琼斯指数下跌 341.41 点，纳斯达克综合指数回落 61.20 点。欧洲与亚洲多数市场同样走弱，法国 CAC 40 指数下跌 1.2%，韩国综合股价指数下跌 2%。国际能源署加快释放石油库存的计划，为油价提供了一部分缓冲。",
+      "why": "市场此前对人工智能盈利增长抱有很高预期，但长期债券收益率、政府债务与能源成本同时处于高位。接下来的财报季需要兑现接近 30% 的每股收益增长预期，任何落差都可能放大波动。",
+      "uncertainty": "指数点位反映 10 月 7 日收盘情况，亚洲 10 月 8 日交易仍在进行。短线走势容易被油价、债券拍卖和地缘政治消息改变，不构成投资建议。",
       "sources": [
-        {"name": "美联社亚洲市场", "url": "https://apnews.com/article/e8285ec7afbe81e9df277e8ee2127982"},
-        {"name": "路透市场综述", "url": "https://sa.marketscreener.com/news/asian-shares-track-wall-street-higher-treasury-yields-near-multi-decade-highs-ce785dd8dc89fe2d"}
+        {"name": "美联社市场综述", "url": "https://apnews.com/article/stocks-markets-rates-oil-earnings-44b75c188756038371cf3112ede9cee8"}
+      ]
+    },
+    {
+      "category": "金融",
+      "status": "政策预警",
+      "title": "IMF 提醒各国同时处理债务、能源与人工智能风险",
+      "summary": "国际货币基金组织总裁 Kristalina Georgieva 在新加坡表示，高债务、人工智能投资热潮和战争导致的能源冲击正共同影响全球经济。她敦促富裕与低收入国家更快控制债务，并为人工智能建立更清晰的监管框架。下周在曼谷举行的 IMF 与世界银行年会将继续讨论这些问题。",
+      "why": "高利率环境下，政府需要在偿债、公共服务和产业投资之间作出更艰难的选择。数据中心建设能拉动投资，也会增加能源需求和资产估值风险，这三项压力已经开始互相放大。",
+      "uncertainty": "这是一项政策警告，并非新的全球经济预测。各国财政空间、能源结构和人工智能投资规模差异很大，不能把统一结论直接套用到每个市场。",
+      "sources": [
+        {"name": "美联社 IMF 报道", "url": "https://apnews.com/article/war-ai-georgieva-imf-oil-debt-2da9d879e2eb70e1e16d14fd1a307a99"}
       ]
     },
     {
       "category": "科技",
       "status": "官方发布",
-      "title": "OpenAI 扩大 ChatGPT 广告测试，生成图片时也可能出现视觉广告",
-      "summary": "OpenAI 公布新的 ChatGPT 广告形式，计划在美国于本月稍晚启动小规模测试。新广告会在图像生成过程中出现，与正常回答清晰分隔并带有标识。公司还将接入 Hightouch、Tealium 和 LiveRamp，帮助广告主衡量转化和管理受众数据。",
-      "why": "这表明大型人工智能产品正在寻找订阅之外的收入来源。广告若进入创作流程，用户体验、推荐中立性和数据使用边界都会成为新的竞争要素，也会影响品牌把预算从搜索与社交平台迁往对话式产品的速度。",
-      "uncertainty": "目前只是美国试点，OpenAI 尚未证明这种形式能否在不损害信任的情况下规模化。公司公布的每周用户规模属于自行披露，外部尚难独立核验。",
+      "title": "微软推动人工智能在 Windows 电脑本地运行",
+      "summary": "微软公布可直接在个人电脑上运行的人工智能编程模型，并推出 Microsoft Execution Containers，用系统级隔离限制人工智能代理访问未经授权的数据和执行任务。公司还展示了采用英伟达 RTX Spark 芯片的 Surface Laptop Ultra，Anthropic、OpenAI 与英伟达将采用这套隔离工具。",
+      "why": "本地运行可以减少云端费用、降低延迟并改善敏感数据控制，但也把安全责任转移到终端设备。微软与苹果正在争夺企业本地人工智能入口，英伟达则试图进入长期由英特尔和 AMD 主导的个人电脑市场。",
+      "uncertainty": "内存短缺推高了高性能设备价格，消费者和企业是否愿意为本地模型支付溢价仍不明确。厂商展示的性能与安全承诺还需要真实工作负载检验。",
       "sources": [
-        {"name": "OpenAI 官方公告", "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"}
+        {"name": "路透社报道", "url": "https://live.euronext.com/en/financial-news/microsoft-brings-more-ai-pcs-it-challenges-apple"}
       ]
     },
     {
       "category": "科技",
-      "status": "本周进展",
-      "title": "谷歌太空计算原型取得联系，Project Suncatcher 进入在轨验证",
-      "summary": "谷歌确认搭载 Project Suncatcher 原型的卫星已通过 SpaceX Transporter-18 发射，并与地面建立联系。任务将测试 TPU 在振动、辐射和极端温度下的表现，为未来把人工智能计算部署到近地轨道积累数据。",
-      "why": "近地轨道可获得更持续的太阳能，但散热、辐射、激光互联、发射成本与维护难度都远高于地面数据中心。此次任务的价值在于验证关键硬件边界，目前无法提供太空云计算服务。",
-      "uncertainty": "这仍是长期研究项目。谷歌设想的多卫星计算网络、稳定高速互联和商业成本尚未得到验证，当前成果不等于可运营的数据中心。",
+      "status": "公司调整",
+      "title": "亚马逊再度裁员，零售业务成为主要调整对象",
+      "summary": "亚马逊确认削减少量岗位，主要位于负责电商网站的 Stores 部门。知情人士称，此轮受影响的白领员工少于 1000 人，涉及美国、印度和英国的客户服务与卖家服务等团队。裁员恰逢 Prime Big Deal Days 促销活动进行。",
+      "why": "亚马逊在疫情期扩张后持续压缩管理与零售成本，同时把更多资本投向云计算和人工智能。小规模、分散式裁员可能比一次性大裁员更能反映大型科技公司长期重配人力的方式。",
+      "uncertainty": "公司没有公布完整人数和地区明细，内部团队的最终影响仍可能变化。裁员与人工智能投资之间存在战略关联，但目前没有证据表明具体岗位由人工智能直接替代。",
       "sources": [
-        {"name": "Google 官方更新", "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"}
+        {"name": "路透社报道", "url": "https://www.investing.com/news/stock-market-news/amazon-makes-fresh-job-cuts-mainly-in-retail-division-4937790"}
       ]
     },
     {
       "category": "科技",
-      "status": "官方承诺",
-      "title": "亚马逊追加十亿美元，缓解数据中心扩张带来的社区压力",
-      "summary": "亚马逊宣布未来五年在美国数据中心所在社区追加超过 10 亿美元投入，覆盖社区学院、技能培训、能源负担、水资源保护和地方自行确定的项目。公司称，计划将帮助超过 30 万名相关社区居民降低社区学院教育成本。",
-      "why": "人工智能基础设施的扩张正把用电、用水、土地与税收问题带到地方政治中心。大型云服务商开始把社区补偿写成长期承诺。芯片、资本和当地的持续许可都会影响数据中心竞争。",
-      "uncertainty": "金额、受益人数和环境效果来自亚马逊披露。不同地区的项目上线时间和实际分配方式仍会变化，需要后续看地方协议与独立数据。",
+      "status": "奖项公布",
+      "title": "诺贝尔化学奖表彰手性化学突破",
+      "summary": "法国科学家 Henri B. Kagan 与日本科学家 Kenso Soai 获得 2026 年诺贝尔化学奖。两人研究了分子的镜像结构，并发展出让化学反应优先生成特定镜像版本的方法。不同镜像分子可能具有完全不同的生物作用，这项工作已成为现代药物设计的重要基础。",
+      "why": "许多药物需要精确控制分子的手性，错误的镜像形式可能无效甚至产生副作用。奖项把公众注意力带回一项已深度进入制药产业、却很少被普通人看见的基础化学能力。",
+      "uncertainty": "诺奖确认的是长期科学贡献，不意味着当天出现了新的药物或临床治疗。具体药物的有效性与安全性仍要经过各自的试验和监管审查。",
       "sources": [
-        {"name": "亚马逊 Built Together", "url": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together"}
-      ]
-    },
-    {
-      "category": "科技",
-      "status": "已确认",
-      "title": "光遗传学三位先驱获得诺贝尔生理学或医学奖",
-      "summary": "卡尔·戴塞尔罗斯、彼得·黑格曼和格奥尔格·纳格尔因推动光遗传学发展获得今年诺贝尔生理学或医学奖。该技术把光敏蛋白与基因工具结合，使研究人员可以用光精确开启或关闭特定神经元，已经深刻改变神经科学实验。",
-      "why": "光遗传学让大脑活动与行为之间的因果关系更容易被测试，并为失明、抑郁、成瘾和神经退行性疾病研究提供新路径。奖项也提醒市场区分基础研究工具与可直接用于患者的成熟疗法。",
-      "uncertainty": "技术在动物研究中影响巨大，但面向人类的治疗仍受基因递送、安全性和长期效果限制。获奖不意味着相关疗法已经普遍可用。",
-      "sources": [
-        {"name": "美联社诺奖报道", "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba"}
+        {"name": "美联社诺奖报道", "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977"}
       ]
     },
     {
       "category": "娱乐",
-      "status": "今日待完成",
-      "title": "Paramount 与 Warner Bros. 合并临近交割，好莱坞进入四大集团时代",
-      "summary": "美国联邦法官已批准 Paramount 与 12 个州就收购 Warner Bros. 达成的和解，为交易扫清关键障碍。行业媒体称交易计划于 10 月 6 日完成，合并后的公司将名为 Skydance Corp.。承诺内容包括未来五年在美国额外投入至少 15 亿美元制作资金，并设立新闻编辑独立委员会。",
-      "why": "交易会把传统好莱坞五大制片厂进一步压缩为四大集团，影响院线片数量、流媒体竞争、人才议价和新闻资产治理。接下来真正决定成败的将是债务消化、品牌整合以及内容预算是否兑现。",
-      "uncertainty": "截至本期更新时间，公开信息指向今天交割，但仍应等待公司正式宣布完成。合并承诺的执行效果需要数年观察。",
+      "status": "交易完成",
+      "title": "Paramount 与 Warner Bros. 完成合并，流媒体整合提上日程",
+      "summary": "Skydance 完成对 Warner Bros. Discovery 的 810 亿美元收购，新集团同时拥有 Top Gun、Harry Potter、DC、Star Trek、HBO、CBS 与 Nickelodeon 等大量内容资产。公司表示，HBO Max 与 Paramount+ 将在未来统一为一个服务，但尚未公布时间表。",
+      "why": "合并后的服务拥有超过两亿订阅用户，并把电影、电视、新闻和体育版权进一步集中到一家集团。观众短期内不会看到应用立即变化，长期则可能面对订阅组合、内容窗口和价格的重构。",
+      "uncertainty": "管理层尚未说明统一品牌、定价和裁员安排。监管承诺要求维持电影产量与院线发行，但实际执行和原创内容投入需要多年观察。",
       "sources": [
-        {"name": "美联社法院进展", "url": "https://apnews.com/article/f30a8a9a4d26393177bc1af5bff1e990"},
-        {"name": "Variety 行业分析", "url": "https://au.variety.com/2026/film/news/skydance-david-ellison-paramount-warner-bros-merger-debt-40969/"}
+        {"name": "美联社行业分析", "url": "https://apnews.com/article/skydance-movies-television-streaming-warner-paramount-merger-69d859e9d6bebc3ecd73dafeec4b61b8"}
       ]
     },
     {
       "category": "娱乐",
-      "status": "今日片单",
-      "title": "本周流媒体重点落在 Oasis 纪录片和多款跨媒介新作",
-      "summary": "美联社本周片单把 Oasis 重聚巡演纪录片、Pitbull 新专辑、Troye Sivan 第四张专辑、电视剧《Carrie》以及游戏《Gears of War E-Day》列为值得关注的新内容。Apple TV 还上线由约翰·塞纳主演的《Matchbox》。",
-      "why": "本周内容横跨音乐纪录片、传统影视和大型游戏，反映平台争夺注意力时越来越依赖跨媒介排期。对普通读者而言，这也是比艺人传闻更实用的娱乐消费入口。",
-      "uncertainty": "上线地区和具体日期可能因平台与版权市场不同而变化，观看前应以所在地区的应用页面为准。推荐属于编辑选择，不代表质量或商业表现保证。",
+      "status": "初步讨论",
+      "title": "BBC 与 Channel 4 讨论更深层商业合作",
+      "summary": "路透社援引知情人士称，BBC、Channel 4 与英国政府讨论把 Channel 4 的广告业务、E4、Film4 和点播服务，与 BBC 商业子公司 UKTV 的部分业务组成合资企业。讨论仍处于初期，Channel 4 主频道不在当前方案内。",
+      "why": "英国公共广播机构同时面对传统电视观众流失、全球流媒体竞争和削减成本压力。若合作推进，它会改变公共媒体的广告销售、内容分发与数字平台规模，也可能成为其他国家公共媒体整合的参照。",
+      "uncertainty": "BBC 与 Channel 4 均未确认具体方案，谈判可能要等 BBC 新融资安排明朗后才会加速。现阶段不能把讨论当成已经决定的合并。",
       "sources": [
-        {"name": "美联社本周流媒体指南", "url": "https://apnews.com/article/b6a8f87491c50a0e3853f028b1204b6c"}
-      ]
-    },
-    {
-      "category": "娱乐",
-      "status": "已确认",
-      "title": "日间剧演员 Robert Kelker-Kelly 去世，相关搜索快速上升",
-      "summary": "曾在《Days of Our Lives》和《General Hospital》中出演重要角色的 Robert Kelker-Kelly 于上周六在密苏里州家中去世，终年 62 岁。当地警方向《洛杉矶时报》确认，急救人员接报到场前，他曾表示胸痛并随后失去反应。",
-      "why": "他在上世纪九十年代的美国日间剧观众中有较高辨识度，消息公布后迅速进入 Google 搜索趋势。此类热点常由怀旧观众推动，传播范围可能集中在北美电视受众。",
-      "uncertainty": "警方确认了死亡经过的基本信息，但公开报道未给出完整医学结论。社交平台上的具体死因推测不应视为事实。",
-      "sources": [
-        {"name": "洛杉矶时报", "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-10-05/robert-kelker-kelly-dead-days-of-our-lives-bo-brady"}
+        {"name": "路透社报道", "url": "https://www.marketscreener.com/news/britain-s-bbc-channel-4-discuss-broader-tie-up-to-cut-costs-sources-say-ce785ddedd8bf726"}
       ]
     }
   ],
   "social": [
     {
       "rank": 1,
-      "topic": "Falcons 对 Saints",
-      "where": "Google Trends 美国区，24 小时搜索超过 100 万",
-      "context": "亚特兰大猎鹰以 45 比 24 击败新奥尔良圣徒，Bijan Robinson 跑出超过 140 码并取得两次达阵。讨论集中在强势跑攻与这场传统分区对决。",
-      "confidence": "高，趋势数据与 NFL 官方赛果相互印证"
+      "topic": "Abby Zwerner 与校园枪击案审理",
+      "where": "Google Trends 美国区，过去一天搜索超过 2 万",
+      "context": "搜索热度来自弗吉尼亚州一名前副校长的刑事案件。检方指控她在 2023 年一名六岁学生枪击教师 Abby Zwerner 前忽视多次持枪警告。趋势反映公众重新关注校园安全责任与管理失职。",
+      "confidence": "高，趋势数据与法院报道方向一致"
     },
     {
       "rank": 2,
-      "topic": "Gatorade 部分批次召回",
-      "where": "Google Trends 美国区，24 小时搜索超过 20 万",
-      "context": "涉及部分 28 盎司柠檬青柠和橙味常规及零糖产品，原因是标签未标示 Yellow 5 或 Yellow 6。官方页面列出了具体日期与生产代码，受影响范围仅限所列批次。",
-      "confidence": "高，品牌官方召回通知可查"
+      "topic": "Mall of America",
+      "where": "Google Trends 美国区，过去一天搜索超过 1 万",
+      "context": "美国司法部称，一名 18 岁男子因涉嫌策划支持 ISIS 的商场大规模枪击而被捕。案件仍处于指控阶段，被告依法应被推定无罪，网络传播中不应把起诉内容写成既定事实。",
+      "confidence": "高，司法部公告与美联社报道相互印证"
     },
     {
       "rank": 3,
-      "topic": "Robert Kelker-Kelly",
-      "where": "Google Trends 美国区，24 小时搜索超过 20 万",
-      "context": "这位日间剧演员去世的消息引发集中搜索。可靠报道只确认了去世与急救经过，网络上的具体死因说法仍需谨慎。",
-      "confidence": "高，警方信息经主流媒体确认"
+      "topic": "90 美元 Medicare 返款",
+      "where": "Google Trends 美国区，相关问题搜索一度超过 20 万",
+      "context": "美国政府开始发放一次性 Medicare 返款，引发大量用户查询资格与到账原因。报道指出并非所有老年人都符合条件，相关政治宣传与实际规则之间存在明显信息差。",
+      "confidence": "中高，政策确有实施，但搜索词中混入了 Social Security 的误称"
     },
     {
       "rank": 4,
-      "topic": "纽约尼克斯季前赛",
-      "where": "Google Trends 美国区，24 小时搜索超过 10 万",
-      "context": "尼克斯在季前赛以 97 比 120 负于费城 76 人。热度主要来自新赛季阵容观察，季前赛结果不宜直接外推到常规赛。",
-      "confidence": "高，NBA 官方比分可查"
+      "topic": "共和党与医疗费用",
+      "where": "Google Trends 美国区，共和党和 health care 同时进入活跃趋势",
+      "context": "美国中期选举进入最后一个月，医疗成本、伊朗战争和生活费用成为竞选焦点。共和党拥有庞大广告资金，但多篇报道显示候选人仍担忧选民对医疗与物价的不满。",
+      "confidence": "中，趋势同时出现，但无法仅凭搜索数据证明两者完全由同一事件驱动"
     },
     {
       "rank": 5,
-      "topic": "Karl Deisseroth 与光遗传学",
-      "where": "Google Trends 美国区，24 小时搜索超过 5 万",
-      "context": "诺贝尔生理学或医学奖公布后，公众开始集中搜索获奖者和光遗传学原理。讨论中的医疗前景值得关注，但距离广泛临床使用仍有明显距离。",
-      "confidence": "高，诺奖结果与趋势数据均已确认"
+      "topic": "2026 年诺贝尔化学奖",
+      "where": "全球新闻与科学社群持续讨论",
+      "context": "讨论重点从获奖者身份转向手性分子为何会影响药物作用。社交平台上的通俗解释有助于传播，但把手性化学简化为某一种新药发明会误导读者。",
+      "confidence": "高，获奖结果已由诺贝尔委员会和主流媒体确认"
     }
   ],
   "watchlist": [
-    "诺贝尔物理学奖将在今天稍晚公布，关注获奖方向是否继续指向量子、人工智能硬件或基础粒子研究。",
-    "等待 Paramount 与 Warner Bros. 交易完成的公司公告，以及管理层、债务和内容部门的第一轮调整。",
-    "观察西班牙主要政党是否围绕租金、驱逐和住房供给提出可执行的竞选方案。",
-    "关注长期国债收益率和油价是否再度上行，它们会直接影响成长股估值、通胀预期和欧洲财政压力。",
-    "关注 ChatGPT 广告试点的展示位置、用户控制和数据共享规则，这些细节将决定市场接受度。"
+    "关注今天公布的诺贝尔文学奖，以及获奖结果是否带动作品版权、翻译与再版需求。",
+    "观察亚洲市场能否消化美股回落、美元走强与主权债收益率上升的共同压力。",
+    "等待乌克兰最新伤亡和能源设施受损评估，以及欧洲是否追加防空与电网援助。",
+    "关注微软本地人工智能电脑的实际定价、发货时间和第三方安全测试。",
+    "观察 Paramount 与 Warner Bros. 合并后的管理层调整、裁员范围和流媒体统一路线。"
   ],
   "deepReads": [
     {
-      "title": "Project Suncatcher 原型任务",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-      "reason": "看清太空人工智能计算目前真正验证了什么，以及哪些仍停留在设想阶段。"
+      "title": "IMF 对债务、人工智能与能源风险的判断",
+      "url": "https://apnews.com/article/war-ai-georgieva-imf-oil-debt-2da9d879e2eb70e1e16d14fd1a307a99",
+      "reason": "理解全球经济目前为何同时受到财政、技术投资和地缘能源冲击影响。"
     },
     {
-      "title": "OpenAI 新广告形式与衡量方式",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
-      "reason": "了解对话式人工智能商业化怎样向广告生态延伸。"
+      "title": "微软把人工智能代理带到个人电脑",
+      "url": "https://live.euronext.com/en/financial-news/microsoft-brings-more-ai-pcs-it-challenges-apple",
+      "reason": "看清本地模型的成本、安全边界，以及微软与苹果、英伟达之间的新竞争。"
     },
     {
-      "title": "西班牙提前大选背景",
-      "url": "https://apnews.com/article/7d8347e35f1a9e2965ea5b0f8c012bd8",
-      "reason": "从住房危机理解这场大选为何提前，以及它对欧洲政治的含义。"
+      "title": "Paramount 与 Warner Bros. 合并后的行业版图",
+      "url": "https://apnews.com/article/skydance-movies-television-streaming-warner-paramount-merger-69d859e9d6bebc3ecd73dafeec4b61b8",
+      "reason": "了解这笔交易对流媒体、院线、原创内容和用户订阅可能产生的长期影响。"
     }
   ]
 }
