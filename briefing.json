@@ -1,166 +1,170 @@
 {
-  "date": "2026-10-09",
-  "updatedAt": "2026-10-09 10:55 CST",
+  "date": "2026-10-10",
+  "updatedAt": "2026-10-10 12:02 CST",
   "edition": "今日正式版",
   "readMinutes": 20,
   "overview": [
-    "利雅得国际机场附近再传爆炸，超过 275 架次航班取消，胡塞武装宣称发动袭击，但关键细节仍待独立核实。",
-    "二级飓风 Isaias 正逼近美国墨西哥湾沿岸，佛罗里达、阿拉巴马和密西西比沿岸已进入撤离与停运准备。",
-    "布伦特原油上涨 4.1% 至每桶 104.28 美元，科技股承压，纳斯达克综合指数下跌 1.3%。",
-    "美国政府暂停微软等企业参与一项职业移民绿卡项目，科技人才政策与企业用工再度成为争议中心。",
-    "加拿大诗人、散文家 Anne Carson 获得诺贝尔文学奖，她以融合古典传统、诗歌和散文的写作闻名。"
+    "二级飓风 Isaias 登陆美国墨西哥湾沿岸，佛罗里达狭长地带和阿拉巴马面临强风、洪水与风暴潮。",
+    "南非法律人 Navi Pillay 获得诺贝尔和平奖，同一天美国对国际刑事法院实施机构级制裁。",
+    "利雅得机场袭击的死亡人数确认增至三人，胡塞武装宣称负责，沙特当局尚未确认责任方。",
+    "美国股市结束震荡一周并反弹，标普 500 指数上涨 0.6%，但油价与长期利率仍在高位。",
+    "谷歌把 Gemini 推向统一企业代理，台积电 9 月营收同比增长 54.6%，人工智能基础设施需求继续扩张。"
   ],
   "events": [
     {
       "category": "世界",
-      "status": "持续更新",
-      "title": "利雅得机场附近再传爆炸，国际航班大面积取消",
-      "summary": "沙特首都利雅得周四传出多次爆炸，目击者称其中一次发生在哈立德国王国际机场附近。FlightAware 数据显示，当天超过 275 架次航班取消。汉莎航空暂停利雅得航线至 10 月 16 日，印度航空及多家印度航司也暂时停飞。胡塞武装宣称以导弹攻击机场，但没有提供可独立验证的证据。",
-      "why": "沙特是全球最大的石油出口国，机场、油气设施和空域安全直接影响能源价格与区域交通。近期也门战事升级后，红海与霍尔木兹海峡之外的替代运输通道同样面临风险。",
-      "uncertainty": "沙特方面称拦截了多枚导弹，胡塞武装则宣称攻击造成破坏。袭击路径、实际损失和责任归属仍需更多证据，不能只依据交战一方的声明。",
+      "status": "灾害进行中",
+      "title": "飓风 Isaias 登陆美国墨西哥湾沿岸",
+      "summary": "Isaias 周五以二级飓风强度登陆美国墨西哥湾沿岸，给阿拉巴马和佛罗里达狭长地带带来强风、暴雨、洪水与危险风暴潮。风暴登陆前一度增强至三级，随后略有减弱。低洼沿海地区此前已发布撤离通知，多处机场、学校和公共设施停运。",
+      "why": "居民安全与电网恢复是眼前重点。墨西哥湾炼油设施若长时间停产，还会影响已经受到中东战争和俄乌战争冲击的燃料供应。",
+      "uncertainty": "损失和伤亡评估仍在进行。风暴进入内陆后会减弱，但强降雨、河流上涨和断电可能持续数日。当地居民应继续依据气象与应急部门通知行动。",
       "sources": [
-        {"name": "美联社现场报道", "url": "https://apnews.com/article/saudi-arabia-explosions-riyadh-airport-35194542a9d7ae54fca983db5f4f1adb"},
-        {"name": "美联社航班更新", "url": "https://apnews.com/article/dd8ff0055f772090e20961a918d18192"}
+        {"name": "美联社登陆报道", "url": "https://apnews.com/article/919a46d4bd705726b4e57f18ce677ac5"},
+        {"name": "美联社实时更新", "url": "https://apnews.com/article/b647d3e93f2b7bcd41ed1843d5a2a0e9"}
       ]
     },
     {
       "category": "世界",
-      "status": "灾害预警",
-      "title": "二级飓风 Isaias 逼近美国墨西哥湾沿岸",
-      "summary": "Isaias 已增强为二级飓风，最大持续风速约每小时 155 公里。美国国家飓风中心预计，它将在周五晚至周六早晨登陆佛罗里达狭长地带、阿拉巴马南部或密西西比南部附近。部分沿海地区要求游客撤离，学校停课，彭萨科拉机场计划周五上午停止商业航班。",
-      "why": "风暴既威胁居民、交通和电力系统，也会影响美国墨西哥湾的油气生产。它与中东供应风险同时出现，给能源市场增加了第二个短期冲击源。",
-      "uncertainty": "飓风路径、强度和风暴潮高度会在登陆前继续变化。沿岸居民应依据当地应急部门和美国国家飓风中心的最新通知行动。",
+      "status": "奖项与外交行动",
+      "title": "Navi Pillay 获诺贝尔和平奖，美国制裁国际刑事法院",
+      "summary": "南非出生的法律人、前联合国人权事务高级专员 Navi Pillay 获得 2026 年诺贝尔和平奖。评奖委员会表彰她推动国际法和追究战争罪、反人类罪与种族灭绝责任的工作。数小时后，美国宣布对国际刑事法院实施机构级制裁。该法院称措施会妨碍其运作并威吓工作人员与合作方。",
+      "why": "获奖与制裁在同一天发生，使国际司法机构能否独立调查大国及其盟友成为全球焦点。制裁可能影响法院的银行、软件、通信和跨境合作，也会迫使 125 个缔约国表态。",
+      "uncertainty": "Pillay 曾领导的联合国调查委员会认定以色列在加沙实施种族灭绝，以色列强烈否认。相关法律争议仍在国际机构审理，晨报只区分各方已公开的立场与行动。",
       "sources": [
-        {"name": "美联社飓风报道", "url": "https://apnews.com/article/hurricane-isaias-gulf-atlantic-alabama-florida-mississippi-8244ca45b8d4c292350f00adfabb0967"}
+        {"name": "美联社和平奖报道", "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1"},
+        {"name": "国际刑事法院声明", "url": "https://www.icc-cpi.int/news/icc-strongly-rejects-us-sanctions-against-institution"},
+        {"name": "美联社制裁报道", "url": "https://apnews.com/article/4ea3555403e3c695d8f81dc473515d9b"}
+      ]
+    },
+    {
+      "category": "世界",
+      "status": "伤亡已确认",
+      "title": "利雅得机场袭击造成三人死亡",
+      "summary": "沙特民航部门确认，周四针对利雅得哈立德国王国际机场及机场内一架飞机的袭击造成三名沙特公民死亡，另有人员受伤。胡塞武装宣称以弹道导弹发动攻击，沙特官方声明没有确认责任方。巴基斯坦表示，驻沙部队将参与防御，但不会进入也门作战。",
+      "why": "连续两天的机场袭击把也门战事直接带到全球重要航空和能源枢纽。航班中断、保险成本和油价波动会比战场本身更快影响普通旅行者与企业。",
+      "uncertainty": "交战各方关于导弹数量、拦截效果与破坏程度的说法仍不一致。公开视频只能确认机场附近出现烟雾，不能独立证明完整攻击过程。",
+      "sources": [
+        {"name": "美联社沙特更新", "url": "https://apnews.com/article/5226e214e7c50ceff68915379ec3a714"},
+        {"name": "美联社中东综述", "url": "https://apnews.com/article/4aba968d517041a89ae2284f0e00bd87"}
       ]
     },
     {
       "category": "金融",
       "status": "市场已收盘",
-      "title": "油价急升与科技股下跌令美股继续震荡",
-      "summary": "布伦特原油周四上涨 4.1%，收于每桶 104.28 美元。标普 500 指数下跌 0.5%，连续第二个交易日回落，道琼斯工业平均指数上涨 0.1%，纳斯达克综合指数下跌 1.3%。博通下跌 4.3%，美光科技下跌 4.8%。美国十年期国债收益率盘中由 5.35% 回落至 5.23%。",
-      "why": "中东紧张局势和飓风可能同时影响能源供应，油价上升会加重通胀压力。长期利率处于高位时，估值较高的科技股对盈利预期和资金成本尤其敏感。",
-      "uncertainty": "油价在一个月内多次大幅反转，外交表态、风暴路径和库存数据都可能迅速改变行情。文中数据是周四收盘和盘中快照，不构成投资建议。",
+      "title": "美股反弹收官，标普 500 接近历史高位",
+      "summary": "标普 500 指数周五上涨 0.6%，收于 7811.54 点，道琼斯工业平均指数上涨 0.8%，纳斯达克综合指数上涨 0.6%。标普 500 全周上涨 1.2%。十年期美国国债收益率收于约 5.24%，布伦特原油在早盘下跌后回升。",
+      "why": "市场暂时接受美国不会在中期选举前攻击伊朗的表态，但能源供应、长期借贷成本和人工智能企业融资仍在拉扯估值。下周美国大型银行开启财报季，盈利能否支撑高股价将成为新的检验。",
+      "uncertainty": "中东局势与飓风造成的能源供应影响仍可能改变油价。周一美国股市开市而债券市场休市，较低成交量可能放大短线波动。",
       "sources": [
-        {"name": "美联社市场综述", "url": "https://apnews.com/article/stocks-markets-bonds-oil-us-6a096d714c874db13632794a32cebaa6"},
-        {"name": "路透社油市报道", "url": "https://www.marketscreener.com/news/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks-ce785ddedf8af42d"}
+        {"name": "美联社市场综述", "url": "https://apnews.com/article/5d0f953dbf96febb0690c1aef23fa8a9"},
+        {"name": "美联社指数数据", "url": "https://apnews.com/article/dafbd0c4037ee10e2a9e305f3cfa8e70"}
       ]
     },
     {
       "category": "科技",
-      "status": "政策行动",
-      "title": "美国暂停微软参与职业移民绿卡项目",
-      "summary": "美国政府宣布暂停微软和其他几家公司参与一项让外籍员工申请永久居留的项目，并指控相关程序存在欺诈。副总统 JD Vance 公布行动时，也批评部分高校和企业依赖国际学生与外籍技术人员。微软尚需面对具体审查与后续程序。",
-      "why": "微软和其他科技公司长期依赖国际工程师。项目暂停会增加招聘周期和员工身份的不确定性，也可能让加拿大、欧洲和亚洲城市在争夺人工智能人才时获得机会。",
-      "uncertainty": "政府提出的是指控和行政行动，目前公开材料不足以判断微软是否实施了欺诈。项目覆盖范围、暂停期限和企业申诉结果仍不清楚。",
+      "status": "官方发布",
+      "title": "Google Cloud 推出统一企业 Gemini 代理",
+      "summary": "Google Cloud 发布面向企业的 Gemini agent。它能在单一界面回答问题、处理知识工作、生成媒体、编写与运行代码，也能连接 Gmail、Drive、Docs、Sheets、Calendar 和企业内部系统。管理员可设置身份、权限、沙箱、网络网关、模型路由与支出上限。",
+      "why": "企业人工智能竞争正在从聊天助手转向能执行长期任务的代理。真正的门槛落在数据权限、操作审计、成本控制和错误回滚，谷歌试图把这些能力和 Workspace、Cloud 绑在一起。",
+      "uncertainty": "谷歌披露的客户使用率和效率数据来自公司自身。代理能否在真实企业流程中稳定工作，仍需观察错误率、人工复核成本和安全事故。",
       "sources": [
-        {"name": "美联社政策报道", "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea"}
+        {"name": "Google Cloud 官方公告", "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?hl=en"}
       ]
     },
     {
       "category": "科技",
-      "status": "产品发布",
-      "title": "Upscale AI 推出跨芯片数据中心互联平台",
-      "summary": "英伟达支持的初创公司 Upscale AI 发布 Token Fabric，试图用硬件和软件连接来自不同供应商的人工智能处理器。系统会识别网络瓶颈和可能需要更换的设备，第一阶段计划在今年第四季度推出，完整平台将分阶段延伸至 2027 年。",
-      "why": "大型人工智能集群的效率越来越取决于芯片之间的数据传输。云服务商若能混用不同厂商的芯片，采购选择会增加，也可能削弱单一供应商对整套计算系统的控制。",
-      "uncertainty": "产品仍在分阶段推出，公司对明年收入的预测属于管理层预期。性能、兼容性和维护成本需要客户部署后才能验证。",
+      "status": "公司数据",
+      "title": "台积电 9 月营收同比增长 54.6%",
+      "summary": "台积电公布 9 月合并营收约 5118.6 亿新台币，较 2025 年 9 月增长 54.6%，较今年 8 月下降 0.6%。人工智能加速器和先进制程需求继续推高产能利用，第三季度完整财报将在 10 月 15 日公布。",
+      "why": "台积电为英伟达、苹果等公司制造先进芯片，月度营收是观察人工智能硬件需求的重要窗口。同比高速增长也会加大市场对资本支出、产能扩张与毛利率的期待。",
+      "uncertainty": "月度营收无法说明利润、客户结构和未来订单。汇率、产品组合与集中出货都会影响单月数据，投资者还要等待季度财报。",
       "sources": [
-        {"name": "路透社报道", "url": "https://www.marketscreener.com/news/nvidia-backed-upscale-ai-launches-platform-to-connect-chips-from-rival-suppliers-ce785ddfd98eff21"}
+        {"name": "台积电向美国证监会提交的公告", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm"}
+      ]
+    },
+    {
+      "category": "科技",
+      "status": "知情人士消息",
+      "title": "Flock Safety 据报计划裁减约 18% 员工",
+      "summary": "路透社援引知情人士称，人工智能监控摄像头和车牌识别公司 Flock Safety 计划在 10 月底裁减约 270 个岗位，占员工总数约 18%。公司此前推出自愿离职计划，并表示这是为下一阶段增长调整组织。",
+      "why": "Flock 的产品广泛进入美国社区和执法部门，也因隐私、数据共享和误识别风险遭到抵制。裁员把快速扩张的监控技术商业模式与公共信任成本摆到了一起。",
+      "uncertainty": "公司没有确认路透社报道的完整人数和部门分布。裁员原因可能同时包括成本、增长预期和监管压力，现有信息无法为三者分配准确权重。",
+      "sources": [
+        {"name": "路透社报道", "url": "https://www.investing.com/news/economy-news/exclusiveai-surveillance-startup-flock-safety-to-cut-several-hundred-jobs-amid-backlash-sources-say-4940031"},
+        {"name": "TechCrunch 跟进", "url": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/"}
       ]
     },
     {
       "category": "娱乐",
-      "status": "奖项公布",
-      "title": "Anne Carson 获得 2026 年诺贝尔文学奖",
-      "summary": "加拿大诗人、散文家和古典文学翻译者 Anne Carson 获得诺贝尔文学奖。瑞典学院称，她在与古典传统的对话中创造了新的当代文学形式。她的代表作包括《苦甜的爱欲》《红的自传》和《Nox》，写作常把古希腊罗马文学、个人经历、诗歌与散文放在同一部作品中。",
-      "why": "诺奖通常会迅速推动获奖者作品的再版、翻译和销售。Carson 的获奖也让类型边界模糊的写作进入更广泛的公共讨论，对诗歌出版和古典文学传播都有直接影响。",
-      "uncertainty": "奖项带来的短期销量可以观察，长期读者规模仍取决于出版供应和翻译质量。社交平台流传的书单应与出版社目录核对。",
+      "status": "本周片单",
+      "title": "本周流媒体看点落在 Katseye、VisionQuest 与 Tenzing",
+      "summary": "美联社本周推荐包括 Katseye 新专辑、Marvel 剧集《VisionQuest》、Apple TV 传记片《Tenzing》、Judd Apatow 致敬 Norm Macdonald 的纪录片，以及新的《恶魔城》游戏。片单横跨音乐、影视、纪录片和游戏。",
+      "why": "平台正在用跨媒介排期争夺同一批周末时间。Katseye 展现全球化偶像工业，Tenzing 把登山史中的配角推到叙事中心，Norm Macdonald 纪录片则借社交媒体存续的旧片段讨论喜剧遗产。",
+      "uncertainty": "上线时间和可观看平台可能因地区版权不同而变化。推荐反映编辑选择，不能替代个人口味或后续口碑。",
       "sources": [
-        {"name": "美联社诺奖报道", "url": "https://apnews.com/article/nobel-prize-literature-sweden-swedish-academy-05a268ffc76827d273f9d986c5a5a65e"}
-      ]
-    },
-    {
-      "category": "娱乐",
-      "status": "即将上映",
-      "title": "Lisa 纪录片记录她离开传统偶像管理后的独立一年",
-      "summary": "Blackpink 成员 Lisa 的纪录片《Always Lalisa》将于 10 月 12 日限量登陆影院，随后上线 YouTube Premium。影片记录她推出个人专辑、成立管理公司、登上 Coachella 和奥斯卡舞台，并在《白莲花度假村》中开始表演事业。",
-      "why": "K-pop 艺人的个人品牌越来越能跨越音乐、影视和商业管理。影片也提供了一个观察窗口，让观众看到严格的偶像训练体系如何影响艺人成年后的创作选择与控制权。",
-      "uncertainty": "影片由 Sony Music Vision 推出，仍带有艺人授权纪录片的视角。票房、流媒体观看量和公众评价要等上线后再判断。",
-      "sources": [
-        {"name": "美联社专访", "url": "https://apnews.com/article/lisa-blackpink-documentary-always-lalisa-14ba59b03ef44e797b66e70bb2500472"}
-      ]
-    },
-    {
-      "category": "娱乐",
-      "status": "已确认",
-      "title": "印度演员 Nana Patekar 去世，终年 75 岁",
-      "summary": "印度演员和导演 Nana Patekar 周四在果阿家中去世。印度报业托拉斯援引医生称，他疑似因心脏骤停死亡。Patekar 从影近五十年，横跨印地语与马拉地语电影，曾三次获得印度国家电影奖，并获颁莲花士勋章。",
-      "why": "他既出演主流商业电影，也参与关注现实议题的平行电影运动，在印度影坛拥有跨代际影响。消息会引发经典作品回顾，也会重新带出他在 2018 年否认的性骚扰指控。",
-      "uncertainty": "公开报道使用了疑似心脏骤停的表述，完整医学结论尚未公布。对过往争议应区分指控、否认和司法结论。",
-      "sources": [
-        {"name": "美联社讣告", "url": "https://apnews.com/article/a1f8495501327d5c7949173c7a14b55c"}
+        {"name": "美联社流媒体指南", "url": "https://apnews.com/article/00be8937c13825fa70dbf9fe6e212ce5"}
       ]
     }
   ],
   "social": [
     {
       "rank": 1,
-      "topic": "利雅得机场",
-      "where": "Google Trends 美国区，相关搜索超过 5 万",
-      "context": "爆炸、机场疏散和大面积航班取消推动搜索上升。旅行者最需要确认的是航空公司通知与机场运行状态，胡塞武装的责任声明仍需独立核验。",
-      "confidence": "高，航班取消与停飞已有多方确认，袭击细节仍在调查"
+      "topic": "Mike Ditka",
+      "where": "Google Trends 美国区，相关搜索超过 100 万",
+      "context": "芝加哥熊队名宿、职业橄榄球名人堂成员 Mike Ditka 去世，终年 86 岁。他既以球员身份改变近端锋位置，也以教练身份带领 1985 赛季熊队赢得超级碗。家人确认了去世消息。",
+      "confidence": "高，家属声明、职业橄榄球名人堂与美联社相互印证"
     },
     {
       "rank": 2,
-      "topic": "Anne Carson",
-      "where": "Google Trends 美国区，相关搜索超过 2 万",
-      "context": "诺贝尔文学奖公布后，读者集中搜索她的作品和阅读顺序。《红的自传》《苦甜的爱欲》和《Nox》成为讨论较多的入门选择。",
-      "confidence": "高，获奖结果和作品目录均已确认"
+      "topic": "飓风 Isaias",
+      "where": "Google Trends 美国区，相关搜索超过 20 万",
+      "context": "登陆位置、龙卷风警报、风暴潮和断电信息推动搜索上升。社交平台现场视频可帮助了解局部情况，但避险决策应以国家飓风中心和地方应急部门为准。",
+      "confidence": "高，登陆与气象信息有官方和主流媒体确认"
     },
     {
       "rank": 3,
-      "topic": "微软与 H-1B 相关移民项目",
-      "where": "Google Trends 美国区，相关搜索超过 2 万",
-      "context": "美国政府暂停微软参与职业移民绿卡项目，引发技术员工对身份、排期和雇主担保的集中查询。H-1B 签证与永久居留申请是不同程序，社交平台常把两者混为一谈。",
-      "confidence": "高，行政行动已确认，具体适用范围仍待政府说明"
+      "topic": "Navi Pillay 与诺贝尔和平奖",
+      "where": "Google Trends 美国区，相关搜索超过 5 万",
+      "context": "Pillay 的反种族隔离经历、国际法院工作和加沙调查引发集中讨论。支持者把获奖视为对国际法的肯定，反对者则批评她领导的联合国委员会结论。",
+      "confidence": "高，获奖结果确定，各方评价属于公开立场"
     },
     {
       "rank": 4,
-      "topic": "天龙座流星雨",
-      "where": "Google Trends 美国区，meteor shower tonight 搜索超过 1 万",
-      "context": "天龙座流星雨在 10 月 8 日至 9 日夜间达到峰值。国际天文学联合会流星数据中心列出多组活跃流星雨，实际可见数量取决于所在地、云量与光污染。",
-      "confidence": "高，天文机构的活动时间可核对，观测效果不能保证"
+      "topic": "海峡与能源运输",
+      "where": "Google Trends 美国区，Strait of Hormuz 搜索超过 1 万",
+      "context": "利雅得机场袭击、也门战事和高油价让用户重新查询霍尔木兹海峡与曼德海峡。两处通道承担不同航线，社交帖子常把它们混称为同一条运输瓶颈。",
+      "confidence": "中高，搜索热度与新闻周期一致，部分帖子存在地理混淆"
     },
     {
       "rank": 5,
-      "topic": "Cyberleek 与 GTA VI 泄露内容",
+      "topic": "《上古卷轴 6》",
       "where": "Google Trends 美国区，相关搜索超过 1 万",
-      "context": "匿名账号发布约 25 分钟自称来自《GTA VI》的画面，在 Reddit 等社区快速传播。Rockstar 官方页面只应被视为发布日期、预告片与正式素材的可靠基准，未经确认的泄露内容可能包含伪造、旧版本画面和剧情剧透。",
-      "confidence": "中，传播热度明确，视频来源与完整真实性尚未得到官方确认"
+      "context": "游戏名称重新进入趋势，但目前没有足够可靠的新公告解释全部热度。玩家社区混合传播旧采访、开发进度猜测和所谓泄露内容，Bethesda 官方渠道仍是确认发布日期与开发状态的基准。",
+      "confidence": "低到中，热度真实，具体触发事件和传闻真实性不清楚"
     }
   ],
   "watchlist": [
-    "关注飓风 Isaias 的登陆点、风暴潮和美国墨西哥湾油气设施停产范围。",
-    "观察利雅得机场何时恢复稳定运行，以及汉莎航空和印度航司是否延长停飞安排。",
-    "等待微软回应美国政府的欺诈指控，并确认暂停措施覆盖哪些移民申请。",
-    "关注布伦特原油能否守住每桶 100 美元，以及高油价是否继续推高长期国债收益率。",
-    "诺贝尔和平奖将在今天公布，重点核对官方结果，避免提前传播预测市场和社交平台传闻。"
+    "关注飓风 Isaias 造成的人员伤亡、断电、洪水和炼油设施停产评估。",
+    "观察国际刑事法院机构级制裁是否影响银行、云服务和证人保护工作。",
+    "等待利雅得机场恢复稳定运行，以及航空公司是否继续延长停飞安排。",
+    "下周美国银行财报季启动，重点看贷款损失、交易收入和高利率对企业融资的影响。",
+    "台积电将在 10 月 15 日公布季度财报，关注先进制程产能、资本支出和客户集中度。"
   ],
   "deepReads": [
     {
-      "title": "利雅得机场袭击与红海运输风险",
-      "url": "https://apnews.com/article/saudi-arabia-explosions-riyadh-airport-35194542a9d7ae54fca983db5f4f1adb",
-      "reason": "理解机场袭击、也门战事和全球能源运输为何会在同一条风险链上。"
+      "title": "Navi Pillay 与国际司法的现实压力",
+      "url": "https://apnews.com/article/f60744c07df969e50e9e69786fdb7de1",
+      "reason": "了解获奖者经历，以及和平奖为何在制裁国际刑事法院的同一天显得格外敏感。"
     },
     {
-      "title": "美国暂停微软参与职业移民绿卡项目",
-      "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
-      "reason": "分清政府指控、行政措施与科技人才签证之间的关系。"
+      "title": "Google Cloud 的统一 Gemini 企业代理",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?hl=en",
+      "reason": "查看代理如何连接企业数据、执行任务，并由管理员设置权限与成本边界。"
     },
     {
-      "title": "Anne Carson 的文学路径与代表作",
-      "url": "https://apnews.com/article/nobel-prize-literature-sweden-swedish-academy-05a268ffc76827d273f9d986c5a5a65e",
-      "reason": "从作品与古典文学背景理解她为何获得今年的诺贝尔文学奖。"
+      "title": "飓风 Isaias 登陆后的风险",
+      "url": "https://apnews.com/article/919a46d4bd705726b4e57f18ce677ac5",
+      "reason": "掌握风暴潮、内陆降雨、电力中断和炼油设施之间的连锁影响。"
     }
   ]
 }
