@@ -1,141 +1,141 @@
 {
-  "date": "2026-10-13",
-  "updatedAt": "2026-10-13 12:03 CST",
+  "date": "2026-10-14",
+  "updatedAt": "2026-10-14 11:04 CST",
   "edition": "工作日晨报",
   "readMinutes": 20,
   "overview": [
-    "Meta 发布 Muse Wonder 系列，主打能跨多轮对话持续推进任务的个人智能体。它已经向开发者开放，但性能与安全数据仍主要来自 Meta 自己。",
-    "美国股市在纪录高位附近分化，科技股回落，布伦特原油升至每桶 106.65 美元。市场本周将同时检验通胀、消费和银行利润。",
-    "美国经济学家 Robert E. Hall 与 Michael Woodford 获得今年经济学奖，两人的研究把家庭和企业预期纳入宏观政策模型。",
-    "乌克兰称俄罗斯在所谓能源停火后仍攻击能源设施。克里姆林宫只确认双方仍在接触，停火范围和监督机制仍未公开。",
-    "娱乐话题被两件事牵动。纪录片《Musk》将在美国扩大上映，演员 RJ Mitte 去世则引发对残障者银幕代表性的集中回顾。"
+    "苹果推出 HomeView、第四代 Apple TV 4K、第二代 HomePod mini 和一组智能家居配件，开始把 Siri AI、家庭控制和个人内容集中到客厅。",
+    "Character.AI 申请美国破产法第十一章保护，并同意向迪士尼出售部分资产。平台会在出售期间继续运营，能否找到接盘者仍无答案。",
+    "国际货币基金组织把今年全球增长预期微调至 3.1%，同时警告能源冲击、高债务和 AI 投资退潮可能一同考验经济韧性。",
+    "中东航运风险再次上升。研究机构称伊朗正在威胁霍尔木兹海峡附近的船对船石油转运，沙特与胡塞武装也重新交火。",
+    "Greta Gerwig 首次公开 Netflix 版《纳尼亚传奇》片段，影片将先进入 IMAX 院线，再转到流媒体，发行窗口成为行业关注点。"
   ],
   "events": [
     {
       "category": "科技",
       "status": "产品发布",
-      "title": "Meta 推出 Muse Wonder 与 Muse Wonder Full",
-      "summary": "Meta 把 Muse Wonder 系列称为公司目前能力最强的模型，重点放在个人和专业智能体任务，包括理解租约、处理保险理赔、分析财务和编写应用。Muse Wonder 已经通过 Meta Model API 与 Muse Code 提供，Full 版本面向 Muse Code 订阅者。Meta 还强调 Active Memory 和 Active Focus，分别用于跨对话保留关键信息，以及在复杂任务中尝试替代路径、从错误中恢复并继续推进。",
-      "why": "这次发布说明大型模型竞争正在从一次性回答转向长期执行。模型在消息、日历和文档之间工作时，能否稳定守住权限边界并在关键动作前向用户确认，值得持续观察。对于开发者，定价、延迟和工具调用可靠性会决定它能否进入生产环境。",
-      "uncertainty": "当前性能和安全结论大多来自 Meta 的模型卡与发布材料，完整安全评估仍待公布。第三方基准出现了一些积极结果，但真实工作流中的长任务完成率、记忆准确性和隐私表现还需要独立测试。",
+      "title": "苹果用 HomeView 重启智能家居布局",
+      "summary": "苹果发布配备七英寸屏幕的 HomeView，把音乐、FaceTime、家庭摄像头、门锁、照明和自动化控制放在同一台设备上。它可以通过人脸识别切换家庭成员的消息、日历和提醒事项，也能调用 Siri AI。同步亮相的第四代 Apple TV 4K 支持最多四只 HomePod 组成环绕声，并继续充当家庭中枢。",
+      "why": "苹果过去在智能家居市场拥有 HomeKit 和庞大的设备基础，却一直缺少放在公共空间里的主入口。HomeView 试图补上这块屏幕，也把高度敏感的家庭影像、门锁权限和个人内容带到一起。用户接下来需要关注多人识别是否稳定、第三方设备兼容范围以及本地处理的真实边界。",
+      "uncertainty": "目前的功能描述和隐私承诺来自苹果发布材料，实际识别速度、误触发率和不同家庭网络中的可靠性仍待独立评测。部分功能还依赖 iCloud+、兼容摄像头或其他苹果设备。",
       "sources": [
         {
-          "name": "Meta 官方发布",
-          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+          "name": "苹果 HomeView 发布稿",
+          "url": "https://www.apple.com/uk/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
         },
         {
-          "name": "TechCrunch 模型报道",
-          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+          "name": "苹果 Apple TV 4K 发布稿",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/"
         }
       ]
     },
     {
       "category": "科技",
-      "status": "政府采购",
-      "title": "美国空军采购 WindBorne 高空气球数据",
-      "summary": "WindBorne 获得一份最高可达 4900 万美元的美国空军合同，空军将按需要购买特定区域和时段的大气数据，目前已下单约 170 万美元。公司运营约 700 个自主高空气球，并把实测传感数据送入自有 AI 天气模型。合同采用按需订购方式，最高金额并不等于已经确认的收入。",
-      "why": "AI 天气预测的短板经常不在算法，而在全球实时观测数据。政府愿意购买民营公司的传感网络数据，意味着气象基础设施正出现新的公私分工。它也把一个商业问题摆到台前，谁掌握稀缺的实测数据，谁就可能在模型差异缩小时保有护城河。",
-      "uncertainty": "4900 万美元是合同上限，后续订单规模取决于空军需求。公司宣称其模型在部分测试中优于传统数值模型，但极端天气仍需要多种预测方法和人工判断交叉验证。",
+      "status": "功能上线",
+      "title": "Facebook 允许用户用自然语言调整推荐算法",
+      "summary": "Facebook 推出 Your algorithm，用户可以直接写下希望在动态消息和 Reels 中多看或少看的主题。新的反馈入口会在用户选择感兴趣或不感兴趣后继续追问，推荐结果会在同一使用时段内调整。Meta 表示，大语言模型会把这些文字意见与点赞、评论、观看等既有信号结合。",
+      "why": "推荐系统过去主要从行为推断兴趣，用户很难知道一次停留或误点会怎样改变信息流。直接写出偏好让控制方式更清楚，也会产生新的问题。平台如何处理互相矛盾的指令、多久忘记旧偏好，以及广告和政治内容是否同样受控，都关系到功能的实际价值。",
+      "uncertainty": "功能正在分批推出，地区和账户之间可能存在差异。Meta 没有公开自然语言指令在整体排序中的权重，也没有说明用户设定与商业推荐发生冲突时怎样取舍。",
       "sources": [
         {
-          "name": "TechCrunch 合同报道",
-          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
+          "name": "Meta 官方说明",
+          "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/"
         },
         {
-          "name": "WindBorne 新闻汇总",
-          "url": "https://windbornesystems.com/blog"
+          "name": "TechCrunch 功能报道",
+          "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
+        }
+      ]
+    },
+    {
+      "category": "科技与娱乐",
+      "status": "破产重组",
+      "title": "Character.AI 申请破产保护，平台前途未定",
+      "summary": "Character.AI 在成立约五年后申请美国破产法第十一章保护，法院文件所列资产与负债都在 5000 万至 1 亿美元之间。公司同意以 2000 万美元向迪士尼出售部分资产并提供非独家永久技术许可。平台会在法院监督的出售过程中继续运营，预计交易程序持续到十一月底或十二月初。",
+      "why": "Character.AI 曾以高使用时长证明虚拟角色聊天有庞大需求，却也暴露消费级 AI 的成本难题。用户聊得越久，推理支出越高，订阅和广告收入未必同步增长。围绕未成年人安全的诉讼与监管压力又增加了运营成本，这个案例会影响投资者评估陪伴型 AI 的商业模式。",
+      "uncertainty": "公司尚未获得覆盖全部资产的确定报价。管理层希望出售后继续运营，如果没有可执行的竞标方案，平台可能关闭。用户角色、聊天记录和创作者内容最终如何处置也未完全说明。",
+      "sources": [
+        {
+          "name": "TechCrunch 破产报道",
+          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/"
         }
       ]
     },
     {
       "category": "金融",
-      "status": "市场收盘",
-      "title": "美股高位分化，油价与通胀重新压住科技股",
-      "summary": "标普 500 指数周一下跌 0.1%，纳斯达克跌 0.4%，道琼斯指数上涨 0.4%。Micron、AMD、Broadcom 和 Nvidia 均回落，Meta 则上涨 3.4%。布伦特原油上涨 1.8%，收于每桶 106.65 美元。经济学家预计周三公布的美国九月消费者价格指数同比增速可能从 3.4%升至 3.6%。",
-      "why": "市场眼下同时押注两组相互牵制的力量。AI 投资与银行利润仍支持股价，能源成本和顽固通胀则可能推高利率并压缩估值。本周 Citigroup、JPMorgan Chase、Wells Fargo 和 Bank of America 的财报，会帮助判断高利率环境是否继续利好银行。",
-      "uncertainty": "单日指数波动不足以确认趋势。通胀数据、零售销售和企业指引都可能迅速改变降息或加息预期，油价也仍受中东冲突与供应扰动影响。",
+      "status": "经济展望",
+      "title": "IMF 上调增长预期，同时警告 AI 与债务风险",
+      "summary": "国际货币基金组织最新展望预计全球经济今年增长 3.1%，明年增长 3.4%，今年全球通胀约为 4.7%，明年降至 4.1%。美国今明两年增长率均预计为 2.3%。报告认为 AI 投资和部分贸易条件改善仍在支撑增长，能源进口国与低收入经济体承受的压力更重。",
+      "why": "这份展望给出了一个勉强稳定、内部差距扩大的世界经济图景。市场已经把相当多的利润和生产率增长押在 AI 投资上，若相关估值重定价，企业融资、政府债务和股票市场可能同时受压。霍尔木兹海峡恢复通航的时间也直接影响明年增长预测。",
+      "uncertainty": "IMF 的 2027 年预测假设霍尔木兹海峡在明年三月前重新开放，航运到十月恢复到战前状态。战争持续时间、能源价格和 AI 投资回报偏离假设，都会明显改变结果。",
       "sources": [
         {
-          "name": "美联社市场综述",
-          "url": "https://apnews.com/article/a9a26b9706963afe9bdeda1b2eb1f51d"
+          "name": "IMF 世界经济展望发布",
+          "url": "https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3"
+        },
+        {
+          "name": "美联社 IMF 报道",
+          "url": "https://apnews.com/article/23aa01c0c6922fbf0b564a0ff9b2c8e5"
         }
       ]
     },
     {
       "category": "金融",
-      "status": "奖项公布",
-      "title": "Hall 与 Woodford 获经济学奖",
-      "summary": "Robert E. Hall 与 Michael Woodford 因宏观经济稳定政策研究获得今年的瑞典中央银行纪念阿尔弗雷德·诺贝尔经济学奖。Hall 研究家庭如何根据未来收入预期安排消费，Woodford 研究企业如何根据未来利率和成本预期定价。评奖委员会认为，这些工作让政策制定者更能理解能源冲击、通胀与失业同时出现时的应对路径。",
-      "why": "这项研究直接连接当下的政策难题。央行要影响通胀，除了调整利率，还要让家庭和企业相信其未来行动。清晰且可信的沟通因此成为政策工具。眼下油价高企、美国通胀可能回升，奖项背后的理论很快会在现实市场里再次接受检验。",
-      "uncertainty": "模型为政策提供框架，却不能消除战争、供应链和政治决策带来的未知。关于央行前瞻指引应当多详细、供给冲击时应收紧到什么程度，经济学界和政策界仍有分歧。",
+      "status": "财报季",
+      "title": "美国大银行利润上升，管理层仍担心高利率",
+      "summary": "JPMorgan Chase、Citigroup、Wells Fargo 和 Goldman Sachs 公布的第三季度利润均高于去年同期。JPMorgan 净利润为 153 亿美元，高于一年前的 144 亿美元，但每股收益低于分析师预期。银行管理层称消费者仍在按时还款，企业继续投入 AI，同时提醒高利率、高油价和持续通胀可能逐步压低消费与住房需求。",
+      "why": "银行同时观察家庭还款、企业融资、交易活动和坏账，是判断经济压力是否扩散的重要窗口。当前利润仍强，新增房贷利率高于 7%却在压制住房市场。若未来几个季度信用损失上升，市场对经济软着陆和银行估值的判断会改变。",
+      "uncertainty": "一季财报反映的是已经发生的业务，无法直接证明高利率的全部后果。各家银行的贷款结构和拨备不同，利润上升也可能掩盖某些业务收入走弱。",
       "sources": [
         {
-          "name": "美联社经济学奖报道",
-          "url": "https://apnews.com/article/96f32f1aaeff1054e2dd653e6ea86268"
+          "name": "美联社银行财报综述",
+          "url": "https://apnews.com/article/f3e3daf4ebed0e99a744aa7bac5e86ee"
         },
         {
-          "name": "诺贝尔奖公布日程",
-          "url": "https://www.nobelprize.org/prizes/about/prize-announcement-dates/"
+          "name": "美联社市场收盘",
+          "url": "https://apnews.com/article/a2edaf9ec297fb75ff2a4e245063ec08"
         }
       ]
     },
     {
       "category": "国际",
-      "status": "说法冲突",
-      "title": "所谓能源停火尚未在战场上得到验证",
-      "summary": "美国总统特朗普称俄乌双方已同意停止攻击彼此的能源设施。乌克兰总统泽连斯基表示愿意遵守，但称俄罗斯随后仍袭击哈尔科夫一座电厂、天然气生产设施和加油站。克里姆林宫发言人没有确认协议已经生效，只说接触仍在继续。周一俄军无人机袭击基辅住宅楼造成两人死亡，前一天哈尔科夫地区另有三人死亡。",
-      "why": "能源设施关系到冬季供暖、民用供电、燃料出口和战时财政。若停火能够形成书面范围、核验办法和违规处理程序，它可能成为更广泛谈判的入口。若只有各方不同版本的口头声明，企业与居民仍需按持续袭击准备。",
-      "uncertainty": "目前没有双方共同确认的文本，也看不到独立监督机制。袭击的发射时间、目标性质以及是否发生在协议生效后仍需要逐项核实。",
+      "status": "航运风险上升",
+      "title": "霍尔木兹海峡石油转运面临新的威胁",
+      "summary": "战争研究所称，伊朗似乎正把海峡内外进行船对船石油转运的商业船只列为目标，试图干扰能源通过霍尔木兹海峡流动。与此同时，沙特领导的联军空袭胡塞武装控制的也门首都萨那。随后沙特东部一处阿美行政设施遇袭并发生有限火灾，沙特能源部称没有人员受伤。",
+      "why": "船对船转运用于调配原油、规避港口限制和维持出口，一旦保险公司、船东或港口认为风险失控，运输能力会先于实际供应下降。油价、航运费和通胀会受到连锁影响，IMF 的全球增长假设也依赖海峡逐步恢复正常。",
+      "uncertainty": "关于伊朗目标选择的判断来自研究机构分析，伊朗方面没有公开确认。萨那空袭和阿美设施遇袭的具体目标、武器与责任归属仍需要更多独立证据。",
       "sources": [
         {
-          "name": "美联社能源停火报道",
-          "url": "https://apnews.com/article/6fdef6ff4d033b379c74e1d62183d078"
+          "name": "美联社中东局势更新",
+          "url": "https://apnews.com/article/3e6e5f152048c035081eac369f62ed4f"
         }
       ]
     },
     {
       "category": "国际",
-      "status": "抗议升级",
-      "title": "印度青年抗议把选民名册争议推向最高法院",
-      "summary": "印度反对党议员与支持者在新德里游行并向最高法院递交请愿，质疑全国选民名册修订。由年轻人主导的 Cockroach 运动继续动员，警方加强封锁并宣布传统抗议地点 Jantar Mantar 不再用于集会，改由其他地点承接。美联社报道称，去年以来已有超过 1.3 亿个姓名从名册中移除。",
-      "why": "争议触及谁能参加选举这一民主制度的底层问题。若法院要求更透明的复核或恢复机制，影响会波及下一轮选举组织。若抗议持续扩大，莫迪政府将面对罕见的青年政治压力，也可能采取更强的秩序管控。",
-      "uncertainty": "反对者认为修订带有政治目的，执政党和选举委员会否认操纵。被移除姓名中有多少属于重复、迁移、死亡记录或合格选民，目前缺少双方都认可的独立审计。",
+      "status": "抗议持续",
+      "title": "法国高中生抗议进入总统选举议程",
+      "summary": "法国新学年爆发的全国性高中生抗议仍在持续，已经出现数千人被捕、数百人受伤和学校遭纵火。多数示威者保持和平，部分地区发生向警察投掷烟花、警方施放催泪瓦斯的冲突。气候活动人士 Greta Thunberg 周二加入巴黎郊区圣但尼的学生行动。",
+      "why": "抗议已经从校园管理和教育不平等争议扩展到警务方式与青年政治参与。明年法国总统选举临近，左翼候选人提出把投票年龄降至 16 岁，右翼候选人要求扩大警方权限。学生运动正在逼迫各阵营提前表态。",
+      "uncertainty": "全国参加人数、拘捕数字和伤情会随警方与组织方统计变化。纵火与暴力行为集中在少数地点，不能据此概括所有参与者。",
       "sources": [
         {
-          "name": "美联社抗议报道",
-          "url": "https://apnews.com/article/4f8b0557165015b5de99abd55c2eaeaa"
-        },
-        {
-          "name": "美联社现场图片报道",
-          "url": "https://apnews.com/article/9858403e4a62b7e580f84fcd19a4c5e1"
+          "name": "美联社法国学生抗议解读",
+          "url": "https://apnews.com/article/4e3bea86a5be39904c90f15ee96e3a24"
         }
       ]
     },
     {
       "category": "娱乐",
-      "status": "扩大上映",
-      "title": "纪录片《Musk》在广告争议中扩大上映",
-      "summary": "Alex Gibney 执导的近四小时纪录片《Musk》已在纽约和洛杉矶小规模上映，本周五将在美国扩大上映。发行方称，YouTube、Meta、TikTok 与 X 最初都拒绝其付费广告，YouTube 和 Meta 后来以内容曾被归类为政治广告为由改变态度。Musk 没有接受影片采访，并在 X 上多次抨击导演与作品。",
-      "why": "影片本身聚焦二十一世纪科技巨头的权力，广告审核过程又让它成为平台治理案例。纪录片、政治内容和商业广告的边界如何划定，会影响发行方触达观众的能力，也会考验平台规则能否一致适用。",
-      "uncertainty": "拒绝广告的具体审核记录没有完全公开，各平台政策和复核结果也不一致。片中若干争议材料受到 Musk 支持者质疑，观众仍需区分原始记录、影片叙事和外部推断。",
+      "status": "首支片段公开",
+      "title": "Greta Gerwig 公开新版《纳尼亚传奇》首批画面",
+      "summary": "Greta Gerwig 在纽约首次展示 Netflix 电影《纳尼亚传奇 魔法师的外甥》的片段。新人 David McKenna 与 Beatrice Campbell 主演，Daniel Craig、Emma Mackey、Ciarán Hinds 和 Carey Mulligan 参与演出。影片使用较少获批授权的《Stairway to Heaven》，并按超大银幕规格制作。",
+      "why": "Netflix 为影片安排院线和流媒体两段发行，说明大型流媒体仍愿意用 IMAX 放映制造事件感。Gerwig 刚完成《芭比》后的第一部大型奇幻改编，作品能否兼顾原著宗教寓意、家庭观众和全球市场，将影响 Netflix 后续经营经典 IP 的方式。",
+      "uncertainty": "目前公开的是精选片段，无法代表成片质量。具体院线窗口、不同市场的上映规模和流媒体上线后的观看表现仍待公布。",
       "sources": [
         {
-          "name": "美联社《Musk》专访",
-          "url": "https://apnews.com/article/e2ad11bd4f67cac15e199e16a47102fd"
-        }
-      ]
-    },
-    {
-      "category": "娱乐",
-      "status": "人物去世",
-      "title": "《绝命毒师》演员 RJ Mitte 去世",
-      "summary": "演员与残障权益倡导者 RJ Mitte 周一在得克萨斯州去世，终年 34 岁。死因尚未公布，法医将进行尸检。他因在《绝命毒师》中饰演 Walter White Jr. 而广为人知，后来长期参与脑瘫和残障者权益倡导，并推动影视行业扩大真实的残障者代表。",
-      "why": "Mitte 的角色和公共工作让残障经验进入主流电视剧与行业讨论。他的去世引发的不只是剧迷悼念，也重新提醒制作方，真实选角、无障碍工作环境和残障者自主叙事仍是长期议题。",
-      "uncertainty": "死亡原因仍待尸检，社交平台上对原因的猜测没有可靠依据。现阶段应以家属、代表和当地法医后续信息为准。",
-      "sources": [
-        {
-          "name": "美联社 RJ Mitte 讣告",
-          "url": "https://apnews.com/article/7f37c962a98362d95b1fcc7b2c6cf5c5"
+          "name": "美联社《纳尼亚传奇》报道",
+          "url": "https://apnews.com/article/332d7329e51d69d08ec1ca5cce96bf20"
         }
       ]
     }
@@ -143,62 +143,62 @@
   "social": [
     {
       "rank": 1,
-      "topic": "RJ Mitte",
-      "where": "Google Trends 美国区与影视社交圈",
-      "context": "过去二十四小时搜索量超过 200 万，相关查询集中在死因、《绝命毒师》角色和 Bryan Cranston 的悼念。法医尚未公布结论，传播时应避开未经证实的死因说法。",
-      "confidence": "高，Google Trends 显示搜索仍活跃，人物去世已由代表与当地官员确认"
+      "topic": "欧冠比赛日",
+      "where": "Google Trends 美国、英国与印度区",
+      "context": "Galatasaray 对 Barcelona 在美国区过去二十四小时搜索量超过 50 万，Atlético 对 Manchester United、Arsenal 对 LOSC 也进入多国高位。比分、积分榜和球员伤情推动搜索，赛中社交内容变化很快。",
+      "confidence": "高，多个地区的 Google Trends 同时显示搜索活跃"
     },
     {
       "rank": 2,
-      "topic": "Muse Wonder",
-      "where": "Techmeme、X 与 Reddit 人工智能社区",
-      "context": "讨论集中在 Meta 首个前沿模型、长任务能力、模型价格和早期配额体验。官方称模型可持续推进复杂任务，部分早期用户则反馈高强度模式消耗配额较快，个别体验不能代表整体表现。",
-      "confidence": "中高，发布和价格已经确认，用户体验仍是早期小样本"
+      "topic": "Apple HomeView",
+      "where": "Google Trends 美国与英国区、科技社区",
+      "context": "美国区相关搜索超过 20 万，英国区超过 2 万。讨论集中在七英寸家庭屏幕、Siri AI、人脸识别和摄像头隐私，也有人比较它与 Echo Show、Nest Hub 的差异。",
+      "confidence": "高，产品由苹果正式发布，搜索趋势仍处于活跃状态"
     },
     {
       "rank": 3,
-      "topic": "印度 Cockroach 青年抗议",
-      "where": "印度社交平台、短视频与国际新闻讨论区",
-      "context": "警方清场与年轻抗议者拍摄的视频快速传播，焦点从选民名册技术问题转向警务方式和青年政治参与。视频能说明现场片段，无法单独交代冲突前因和全国规模。",
-      "confidence": "中高，抗议与警方行动有多家媒体报道，单条视频的时间地点仍需核验"
+      "topic": "SpaceX 太空水母",
+      "where": "Google Trends 美国区与美国东南部 Reddit 社区",
+      "context": "SpaceX launch 搜索量超过 20 万。清晨执行的 CRS-35 国际空间站补给任务在天空形成发光尾迹，许多目击者把照片发到本地社区询问。该现象来自高空火箭尾气受到日光照亮，并非爆炸或不明飞行物。",
+      "confidence": "高，发射时间和任务由 SpaceX 确认，多地目击画面相互印证"
     },
     {
       "rank": 4,
-      "topic": "尼泊尔山洪",
-      "where": "Google Trends 印度区与南亚新闻社交圈",
-      "context": "相关搜索在印度区进入活跃趋势。Budhi Gandaki 河沿岸山洪造成五人失踪，超过 200 人疏散，多座桥梁和水电施工点受损。早期预警帮助多数居民转移，高风一度中断直升机救援。",
-      "confidence": "高，趋势数据与救援信息均有公开来源，损失统计仍可能更新"
+      "topic": "新版《纳尼亚传奇》",
+      "where": "Google Trends 美国区与影视社区",
+      "context": "相关搜索超过 2 万，讨论围绕 Greta Gerwig、选角、IMAX 放映和《Stairway to Heaven》的使用许可展开。首批画面仍由片方控制，观众反应只能反映预告阶段。",
+      "confidence": "高，片段发布和主创信息已经确认，成片评价仍为时过早"
     },
     {
       "rank": 5,
-      "topic": "《Musk》与平台广告审核",
-      "where": "X、影视媒体与言论自由讨论区",
-      "context": "Musk 对导演的公开攻击、平台最初拒绝付费广告以及影片即将扩大上映共同推高讨论。争论混合了作品评价、商业审核和政治立场，看到删帖或封禁说法时应先区分普通内容分发与付费广告审批。",
-      "confidence": "中高，广告拒绝与部分复核已经确认，各平台内部判断过程并未完全公开"
+      "topic": "Lucian Piane",
+      "where": "Google Trends 美国与英国区、Drag Race 社区",
+      "context": "《RuPaul's Drag Race》音乐制作人 Lucian Piane 去世的消息推动搜索，美国区超过 2 万。洛杉矶县法医记录和媒体报道显示他在交通事故后去世，社交平台同时出现大量悼念和对其近况的猜测。",
+      "confidence": "中高，死亡与事故有公开记录，涉及个人健康和生前状态的传言不宜转述"
     }
   ],
   "watchlist": [
-    "关注 Meta 是否发布 Muse Wonder 完整安全报告，以及第三方对长任务、记忆与隐私的独立测试。",
-    "等待美国九月消费者价格指数、零售销售和主要银行财报，观察油价能否继续推高利率预期。",
-    "留意俄乌能源停火是否出现双方共同文本、明确生效时间、核验办法和违规处理程序。",
-    "观察印度最高法院是否受理选民名册请愿，以及选举委员会会否公布可独立复核的删除记录。",
-    "跟进 RJ Mitte 的正式尸检结果，同时留意《Musk》扩大上映后的票房与平台广告政策说明。"
+    "观察 Apple HomeView 的售价、首发地区、第三方设备兼容清单和独立隐私测试。",
+    "关注 Character.AI 破产出售是否出现覆盖平台运营的竞标者，以及用户聊天记录和角色内容的处理方案。",
+    "等待美国九月消费者价格指数，检验 IMF 与银行管理层对通胀和高利率的担忧。",
+    "跟进霍尔木兹海峡商业船只遇袭证据、航运保险费率和沙特与胡塞武装是否继续互袭。",
+    "观察法国学生抗议是否在学校假期前扩大，以及主要总统候选人的教育和警务政策会否调整。"
   ],
   "deepReads": [
     {
-      "title": "Muse Wonder 官方说明",
-      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
-      "reason": "适合核对模型能力、开放范围和安全承诺，也能看出 Meta 如何把竞争重点从聊天转向长期智能体。"
+      "title": "IMF 十月世界经济展望发布",
+      "url": "https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3",
+      "reason": "可以直接核对增长、通胀和地区差异，也能看清预测依赖哪些战争与航运假设。"
     },
     {
-      "title": "Hall 与 Woodford 的宏观政策贡献",
-      "url": "https://apnews.com/article/96f32f1aaeff1054e2dd653e6ea86268",
-      "reason": "用消费、定价和预期三个入口解释获奖研究，能帮助理解本周通胀数据为何会影响央行沟通和市场估值。"
+      "title": "Character.AI 破产与出售安排",
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "reason": "把诉讼、推理成本、融资和平台存续放在一起，适合判断陪伴型 AI 为什么难以把高使用时长变成可持续收入。"
     },
     {
-      "title": "俄乌能源停火说法与现场袭击",
-      "url": "https://apnews.com/article/6fdef6ff4d033b379c74e1d62183d078",
-      "reason": "把美国、乌克兰、俄罗斯和欧盟的公开说法放在同一时间线上，便于判断停火目前到底缺少哪些可执行条件。"
+      "title": "法国高中生抗议全景",
+      "url": "https://apnews.com/article/4e3bea86a5be39904c90f15ee96e3a24",
+      "reason": "梳理运动起点、警民冲突和各总统候选人的立场，便于区分全国诉求与少数地点的暴力事件。"
     }
   ]
 }
