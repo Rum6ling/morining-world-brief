@@ -1,157 +1,161 @@
 {
-  "date": "2026-10-21",
-  "updatedAt": "2026-10-21 10:24 CST",
+  "date": "2026-10-22",
+  "updatedAt": "2026-10-22 14:33 CST",
   "edition": "全球晨报",
   "readMinutes": 20,
   "overview": [
-    "美国政府发布针对联邦机构使用 DeepSeek 的限制令。适用范围是联邦系统与采购，不能解读为对所有美国用户的禁令。",
-    "SpaceX 披露第三季度营收 146 亿美元、净利润 44 亿美元。马斯克称相关委员会讨论与特斯拉合并的可能性，交易尚未确定。",
-    "Netflix 第三季度营收约 128.7 亿美元，增长约 12%。业绩超过部分预期，但广告业务指引令投资者失望，盘后股价承压。",
-    "国际油价高位波动，美股主要指数涨跌分化。能源价格与财报仍是短期市场情绪的主轴。",
-    "联合国框架下的军事人工智能论坛即将举行；俄乌战事中的预警与电力供应问题也需持续关注。"
+    "PHP 维护者发布针对严重漏洞的安全更新。部分机构暂时关闭网站进行修补，网站下线并不自动意味着已经遭到入侵。",
+    "特斯拉第三季度净利润同比下降约 44%，但自由现金流为正。投资者同时审视资本开支变化与潜在的 SpaceX 合并。",
+    "英伟达在柏林推出模块化 AI 数据中心设计，宣称可缩短现场部署时间；目前主要还是面向 2027 年的交付计划。",
+    "英国 9 月消费者价格指数同比上涨 3.5%，燃油推动涨幅。APEC 财长会议则通过联合声明及数字基础设施融资政策声明。",
+    "沙特东部机场遇袭造成死伤，地区安全风险继续影响航班和能源预期。娱乐方面，多莉·帕顿纪念演出与 Netflix 内容管理层调整引发讨论。"
   ],
   "events": [
     {
-      "category": "科技与政策",
-      "status": "已发布的政府措施",
-      "title": "美国限制联邦机构使用 DeepSeek",
-      "summary": "美国国土安全部发布有关 DeepSeek 的联邦措施，要求相关民用机构从系统中移除该服务，并限制采购部分采用其技术的产品。文件于 10 月 20 日公开。中国方面表示反对。",
-      "why": "这直接影响政府采购与承包商的合规判断，也显示人工智能竞争正在进入具体的网络安全和供应链规则。阅读标题时要注意适用边界，联邦机构限制并不等于全国性消费者禁令。",
-      "uncertainty": "实施细节和对第三方产品的具体影响仍要以机构执行文件为准。",
+      "category": "科技与安全",
+      "status": "补丁已发布，影响仍在排查",
+      "title": "PHP 严重漏洞触发跨国网站紧急修补",
+      "summary": "PHP 维护者于 10 月 21 日发布安全更新。美国联邦调查局警告，相关漏洞可能让攻击者远程执行代码；芬兰政府等网站曾暂时全部或部分下线以便处理。PHP 基金会公布修复说明，OpenAI 与研究伙伴介绍了 AI 辅助发现及协调披露的经过。",
+      "why": "PHP 是大量网站依赖的服务器端语言。对于运营者，最实际的事是核对版本、按维护者指引升级，并确认托管商是否已处理。对普通用户，某网站暂时不可访问可能只是预防性下线，不能据此断言数据泄露。",
+      "uncertainty": "受影响范围因版本与部署方式而异。有关是否已经出现大规模利用，现有公开材料不足以一概而论；OpenAI 对发现经过的描述属于当事方披露。",
       "sources": [
         {
-          "name": "美国联邦公报原始文件",
-          "url": "https://public-inspection.federalregister.gov/2026-21447.pdf"
+          "name": "PHP 基金会安全发布说明",
+          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
         },
         {
-          "name": "美联社报道",
-          "url": "https://apnews.com/article/2bffa5b0131808735280b2c0e6f0d856"
+          "name": "美联社现场报道",
+          "url": "https://apnews.com/article/php-websites-fbi-europe-vulnerability-a0af9576808a0963efca8df14d4b5183"
+        },
+        {
+          "name": "OpenAI 协调披露说明",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
         }
       ]
     },
     {
       "category": "科技与商业",
-      "status": "公司披露与高管表态",
-      "title": "SpaceX 季度营收大增，合并讨论仍停留在可能性",
-      "summary": "SpaceX 向监管机构披露，第三季度营收 146 亿美元，同比增长 161%，净利润 44 亿美元。人工智能业务按营收成为最大板块，星链仍是最大利润来源。马斯克另称 SpaceX 与特斯拉的相关委员会正在讨论可能合并。",
-      "why": "这组数据改变外界对 SpaceX 业务结构的想象。若合并真的推进，资本结构、估值和监管审查都会成为焦点，目前不能把讨论当成既定交易。",
-      "uncertainty": "营收和利润来自公司申报；关于合并只有讨论中的公开表态，没有确定的交易条款或完成时间。",
+      "status": "产品设计已公布，交付待验证",
+      "title": "英伟达在欧洲推出模块化 AI 数据中心方案",
+      "summary": "英伟达在柏林介绍 DSX POD，计划让合作伙伴预先集成 Vera Rubin 计算系统、供电和液冷等设备，再运至已经准备好的场地。公司称现场部署可由约六个月缩短至最快 14 天，并把全球合作伙伴交付时间指向 2027 年初。",
+      "why": "AI 算力竞争越来越受电力、冷却、施工和融资约束。预制设备若真能减少现场工作，运营商可能更早开始提供算力服务。不过准备好电力和土地仍是前提，不能把 14 天理解为从零建成整个数据中心。",
+      "uncertainty": "时间缩短属于公司对特定条件下的预期，尚非大规模商用结果。",
       "sources": [
         {
-          "name": "美国证券交易委员会申报",
-          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+          "name": "英伟达产品公告",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment"
         },
         {
-          "name": "美联社报道",
-          "url": "https://apnews.com/article/67064446bf0afdf529db55bdec82af69"
+          "name": "美联社柏林报道",
+          "url": "https://apnews.com/article/a320db64110d99297381912605ebdc57"
         }
       ]
     },
     {
-      "category": "国际与科技",
-      "status": "即将举行的会议",
-      "title": "军事人工智能治理进入联合国讨论节点",
-      "summary": "联合国裁军事务研究所公布，首届相关论坛将于 10 月 22 日举行，议题涉及军事人工智能的风险、治理与各国政策协调。会议日程已经公开，但它尚未产生新的国际条约。",
-      "why": "自主系统、目标识别和责任归属等问题正从原则讨论走向更具体的外交议程。对各国政策保持跟踪，比把单次会议当成监管落地更有用。",
-      "uncertainty": "各国能否形成共同立场，以及是否出现具有约束力的成果，须等待会议后文件。",
+      "category": "金融与科技",
+      "status": "财报已公布，合并仍属讨论",
+      "title": "特斯拉利润下滑，现金流和投资节奏成焦点",
+      "summary": "特斯拉第三季度营收约 280.46 亿美元，与上年同期基本持平；归属普通股股东的净利润为 7.87 亿美元，同比下降约 44%。自由现金流约 15 亿美元。公司把全年资本开支预期由 250 亿美元下调至 200 亿美元。马斯克此前表示，两家公司特别委员会正讨论特斯拉与 SpaceX 可能的合并，但没有宣布交易。",
+      "why": "利润下滑与正自由现金流同时出现，说明读财报不能只看单一数字。削减计划支出可能改善短期现金，却也使投资者追问长期项目的进度。合并若继续推进，还涉及两家公司的股东、估值与监管问题。",
+      "uncertainty": "财务数字来自公司未经审计的季度更新；合并目前只是讨论，没有确定条款或完成时间。",
       "sources": [
         {
-          "name": "联合国裁军事务研究所活动安排",
-          "url": "https://unidir.org/first-committee-and-unidir-side-events/"
+          "name": "特斯拉第三季度更新",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf"
         },
         {
-          "name": "美联社报道",
-          "url": "https://apnews.com/article/e0a3c48c91a9de89cab72609d185f658"
+          "name": "美联社财报报道",
+          "url": "https://apnews.com/article/tesla-quarterly-earning-musk-spacex-merger-cfe0453f6bf0d08d22150022128492fa"
         }
       ]
     },
     {
-      "category": "娱乐与商业",
-      "status": "已公布的季度业绩",
-      "title": "Netflix 增长延续，广告预期成为争议点",
-      "summary": "Netflix 公布第三季度营收 128.74 亿美元，同比增长 11.8%，净利润 36.64 亿美元，每股收益 0.87 美元。公司预计第四季度营收 134.42 亿美元。美联社报道，盈利超过分析师预期，但广告收入指引低于市场期待，股价随后下跌。",
-      "why": "流媒体的关键问题已从单纯扩张订阅量转向广告变现与利润质量。一次盈利超预期仍可能因未来指引偏弱而受到市场惩罚。",
-      "uncertainty": "股价反应不等于长期业务趋势；下一季度的广告兑现情况仍待观察。",
+      "category": "金融与宏观",
+      "status": "官方统计已公布",
+      "title": "英国通胀升至 3.5%，能源价格冲击进入日常消费",
+      "summary": "英国国家统计局公布，9 月消费者价格指数同比上涨 3.5%，高于 8 月的 3.1%，也略高于市场普遍预期。交通相关价格是重要推手，汽油等车用燃料的年度涨幅明显扩大。市场因此提高了对英国央行 11 月加息的预期。",
+      "why": "油价上涨已经反映到通勤与运输成本，可能继续影响家庭预算和企业定价。3.5% 是总体物价的同比变化，不表示每种商品都上涨相同幅度；央行是否加息仍取决于后续判断。",
+      "uncertainty": "加息属于市场预期，尚非英国央行决定。通胀数据代表截至 9 月的价格，不是今天的实时油价。",
       "sources": [
         {
-          "name": "Netflix 致股东信",
-          "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf"
+          "name": "英国国家统计局 9 月通胀发布页",
+          "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026"
         },
         {
-          "name": "美联社报道",
-          "url": "https://apnews.com/article/332fc9ae36c9ecc788cb163a70e655ed"
-        }
-      ]
-    },
-    {
-      "category": "金融市场",
-      "status": "已收盘的市场数据",
-      "title": "油价高企之际美股涨跌分化",
-      "summary": "10 月 20 日美国交易日，标普 500 指数上涨约 0.3%，道琼斯工业平均指数上涨约 1%，纳斯达克指数小幅回落。布伦特原油收在每桶约 108.79 美元，此前盘中一度接近 112 美元。个别公司财报推动板块分化，亚洲市场中的韩国股市也承压。",
-      "why": "能源成本可能传导到通胀预期、企业利润和利率判断，但单日指数不能说明经济趋势已经转向。看市场时需要把油价、财报与宏观数据分开。",
-      "uncertainty": "不同市场的收盘时点和报价口径不同；价格仍会快速变化，文中数据只对应当日交易。",
-      "sources": [
-        {
-          "name": "美联社市场报道",
-          "url": "https://apnews.com/article/b972b64127db5412a2b02c35ecf95c88"
-        },
-        {
-          "name": "美联社指数收盘数据",
-          "url": "https://apnews.com/article/0a5ea168499c6ae617c49e10bf48f9c6"
+          "name": "美联社经济报道",
+          "url": "https://apnews.com/article/britain-inflation-interest-rates-energy-f390b0105bf3cb9b35f6a42761e96233"
         }
       ]
     },
     {
       "category": "金融与国际",
-      "status": "会议进行中",
-      "title": "APEC 财长会议在香港举行",
-      "summary": "亚太经合组织财长会议于 10 月 20 日在香港开幕，议程延续至 21 日。官方信息显示，讨论重点包括财政政策、数字基础设施与金融普惠。当前应把开幕讲话与后续联合成果文件区分开。",
-      "why": "亚太经济体对数字基建和财政韧性的措辞，可能影响跨境投资和政策预期。真正值得比对的是会后的共同声明与各方承诺。",
-      "uncertainty": "截至本期整理时会议仍在进行，尚不能预判最终共识。",
+      "status": "联合文件已发布",
+      "title": "APEC 财长会通过联合声明及数字基建融资政策声明",
+      "summary": "在香港举行的两天会议于 10 月 21 日结束。APEC 财长联合声明聚焦家庭支持、数字基础设施融资、金融服务可及性和年轻金融人才交流；各方还认可一份关于亚太数字基础设施融资的政策声明。",
+      "why": "与前一天的开幕发言相比，正式联合文件更能看出各经济体愿意共同写下什么。数字基础设施需要长期资本，政策声明提供合作方向，但其中做法以自愿为主，不能视为各成员已承诺相同金额的投资。",
+      "uncertainty": "共同措辞不等于具体项目获批，后续仍要看各经济体的预算、融资工具与执行情况。",
       "sources": [
         {
-          "name": "香港特别行政区政府新闻公报",
-          "url": "https://www.info.gov.hk/gia/general/202610/20/P2026102000247.htm"
+          "name": "APEC 官方新闻稿",
+          "url": "https://www.apec.org/press/news-releases/2026/1021_FMM_MA"
         },
         {
-          "name": "APEC 官方会议页",
-          "url": "https://www.apec.org/engage-with-us/events-calendar/2026/finance-ministerial-meeting-fmm-2026"
+          "name": "香港特区政府闭幕通报",
+          "url": "https://www.info.gov.hk/gia/general/202610/21/P2026102100550p.htm"
         }
       ]
     },
     {
-      "category": "娱乐",
-      "status": "单日票房报道",
-      "title": "纪录片在周一北美单日票房超过商业大片",
-      "summary": "业内媒体报道，A24 纪录片《You Can See Everything》在 10 月 19 日周一从 855 家影院取得约 257 万美元，超过同日《Street Fighter》约 200 万美元的单日票房。报道于 20 日传播后引发讨论。",
-      "why": "一部纪录片在工作日超过大制作影片，说明单日排片、核心粉丝动员和口碑传播能造成令人意外的局部结果，也让发行策略成为话题。",
-      "uncertainty": "这只是周一单日数据，不能写成总票房或整个档期的胜负；后续走势需继续看。",
+      "category": "国际与安全",
+      "status": "伤亡由沙特官方报告，袭击者未确认",
+      "title": "沙特东部机场遇袭，航班改道",
+      "summary": "沙特民航部门称，达曼的法赫德国王国际机场在当地周三晚遭袭，造成 1 人死亡、8 人受伤，并出现设施损坏。航班追踪服务称部分航班改道。美国随后要求部分驻沙特外交人员及家属离境，背景是该地区近期连续发生袭击。",
+      "why": "机场与能源设施遇袭会直接影响旅客安全，也可能改变航空与油市风险预期。把事件归入地区冲突背景可以帮助理解风险，却不能据此确定这次袭击的责任方。",
+      "uncertainty": "沙特当局在首轮通报中没有确认袭击者；伤亡和航班恢复情况可能更新。",
       "sources": [
         {
-          "name": "TheWrap 票房报道",
-          "url": "https://www.thewrap.com/creative-content/movies/you-can-see-everything-tops-monday-box-office/"
+          "name": "美联社机场袭击报道",
+          "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
         },
         {
-          "name": "Deadline 票房报道",
-          "url": "https://deadline.com/2026/10/you-can-see-everything-clayface-box-office-1237168607/"
+          "name": "美联社美国人员撤离报道",
+          "url": "https://apnews.com/article/fa9a4806bff404a23a16a8c209afbd2b"
         }
       ]
     },
     {
-      "category": "国际",
-      "status": "交战各方表态与已报道影响",
-      "title": "乌克兰称美国导弹预警恢复，袭击影响多地供电",
-      "summary": "乌克兰总统泽连斯基在与美国国务卿鲁比奥通话后称，相关导弹预警已恢复。鲁比奥否认美国有意中断该系统。与此同时，俄罗斯袭击导致乌克兰平民伤亡，并令多个地区电力供应受影响。",
-      "why": "预警与能源设施直接关系到民众安全。双方对预警中断原因的说法并不相同，应该分别记录，不能把某一方解释当成已经查明的技术原因。",
-      "uncertainty": "预警此前发生了什么、为何出现问题，公开信息尚不足以独立确认；伤亡与断电数据可能继续更新。",
+      "category": "娱乐与文化",
+      "status": "纪念演出已播出",
+      "title": "多莉·帕顿纪念演出在美国直播",
+      "summary": "美国乡村音乐协会主办的两小时特别节目于当地 10 月 21 日晚在 ABC 与 Disney+ 直播，来自乡村音乐和影视界的多名表演者参与，节目还安排了影像资料和回忆。帕顿于今年 8 月去世。",
+      "why": "节目让音乐作品与帕顿长期参与的公益事业再次成为话题。社交平台上的表演评价各不相同，适合当作观众反应阅读，不宜把单个热帖说成整体口碑。",
+      "uncertainty": "直播后的收视数据和长期播放表现尚未公布。",
       "sources": [
         {
-          "name": "乌克兰总统府通报",
-          "url": "https://www.president.gov.ua/en/news/v-oslo-prezident-ukrayini-proviv-zustrichi-z-premyer-ministr-106981"
+          "name": "迪士尼节目资料",
+          "url": "https://thewaltdisneycompany.com/news/dolly-parton-legacy/"
         },
         {
-          "name": "美联社报道",
-          "url": "https://apnews.com/article/140895c6c0a1682c46f4fe197e056996"
+          "name": "美联社本周流媒体节目介绍",
+          "url": "https://apnews.com/article/4d6ff25ef006c824bf124a9c9a6bcdb5"
+        }
+      ]
+    },
+    {
+      "category": "娱乐与商业",
+      "status": "管理调整已宣布，效果未显现",
+      "title": "Netflix 新内容负责人即将上任，萨兰多斯解释调整",
+      "summary": "Netflix 此前宣布任命彼得·赖斯为首席内容官，10 月 26 日生效。联合首席执行官泰德·萨兰多斯在近期财报电话会上谈到更换内容管理团队，表示公司还可以做得更好。业内报道把这与用户观看时长、热门作品供给及创作者关系放在一起讨论。",
+      "why": "平台的内容投入规模仍大，但真正决定订阅者是否留下的是持续有吸引力的作品。新管理层能否改善选片和制作决策，需要几轮新片表现才能检验，短期股价无法直接说明创作质量。",
+      "uncertainty": "高管任命和表态可核实；对改革动机与未来效果的解释是业内分析，尚无结果数据。",
+      "sources": [
+        {
+          "name": "Netflix 任命公告",
+          "url": "https://about.netflix.com/en/news/peter-rice-named-netflix-chief-content-officer"
+        },
+        {
+          "name": "Variety 对财报电话会的报道",
+          "url": "https://au.variety.com/2026/tv/news/ted-sarandos-addresses-netflix-content-exec-purge-41637/"
         }
       ]
     }
@@ -159,61 +163,62 @@
   "social": [
     {
       "rank": 1,
-      "topic": "SpaceX 与特斯拉会合并吗",
-      "where": "Reddit 的 SpaceX 与投资讨论区",
-      "context": "用户围绕马斯克所说的委员会讨论推演估值、监管和股东利益。热议焦点是可能性，尚无已宣布的合并协议。参考讨论 https://www.reddit.com/r/spacex/comments/1xb6t2j/musk_says_teslaspacex_merger_being_considered/",
-      "confidence": "讨论帖可核对；热度仅代表所观察社区，不代表全网排名。"
+      "topic": "PHP 漏洞与网站临时下线",
+      "where": "Reddit 的新闻、PHP 与网络安全讨论区",
+      "context": "运维人员讨论补丁覆盖和更新时机，一般用户询问网站下线是否代表入侵。相关讨论 https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/ 与 https://www.reddit.com/r/news/comments/1xbxekw/urgent_security_fix_issued_for_code_vital_to/。官方修复说明比评论更适合判断自身风险。",
+      "confidence": "帖子与互动可见；个别自称遭攻击的留言未获独立核实，不能代表普遍情况。"
     },
     {
       "rank": 2,
-      "topic": "DeepSeek 联邦限制的实际边界",
-      "where": "Reddit 新闻讨论区",
-      "context": "讨论集中在政府系统安全、采购连带影响，以及标题是否容易误导普通用户。以联邦公报为准，个人使用并未被这份措施普遍禁止。参考讨论 https://www.reddit.com/r/news/comments/1xalc9r/us_bans_deepseek_from_government_agency_systems/",
-      "confidence": "政策文本可核对；用户评论属于观点。"
+      "topic": "特斯拉财报与 SpaceX 合并猜测",
+      "where": "Reddit 的特斯拉和股票社区",
+      "context": "讨论分成利润下滑、正自由现金流、自动驾驶订阅及两家公司可能合并几条线。相关讨论 https://www.reddit.com/r/teslamotors/comments/1xbycdz/tesla_releases_its_q3_2026_shareholder_update_fsd/。预测估值与交易完成时间都属于用户推测。",
+      "confidence": "财报数字可由公司文件核对；合并没有已公布协议。"
     },
     {
       "rank": 3,
-      "topic": "Netflix 盈利超预期为何股价下跌",
-      "where": "Reddit 股票讨论区",
-      "context": "投资者将已实现的季度利润与广告业务的后续指引对照。帖内股价预测只是个人判断。参考讨论 https://www.reddit.com/r/StockMarket/comments/1xb3wmp/netflix_stock_sinks_after_announcing_q3_earnings/",
-      "confidence": "公司财报可核对；市场解释存在分歧。"
+      "topic": "Spotify 的 5000 万首 AI 与垃圾音轨争议",
+      "where": "Reddit 音乐和流媒体社区",
+      "context": "Spotify 说今年已把超过 5000 万首被认定为低质或垃圾的音轨移出推荐，同时另有违规音轨被从平台下架。相关讨论 https://www.reddit.com/r/SunoAI/comments/1xb1opg/spotify_has_removed_50_million_ai_slop_tracks/。用户争论平台是否充分保护真人音乐人，尤其要区分移出推荐与删除作品。",
+      "confidence": "数字来自 Spotify 自述；评论对算法成效的评价尚无独立统一结论。"
     },
     {
       "rank": 4,
-      "topic": "纪录片周一票房胜出",
-      "where": "Reddit 北美票房讨论区",
-      "context": "影迷讨论上映节奏和粉丝动员，容易将周一单日结果误读为累计票房领先。参考讨论 https://www.reddit.com/r/boxoffice/comments/1xax4kk/you_can_see_everything_wins_monday_box_office/",
-      "confidence": "单日票房有业内媒体交叉报道；后续成绩未定。"
+      "topic": "Netflix 换帅能否减少剧集烂尾",
+      "where": "Reddit 电视社区",
+      "context": "围绕萨兰多斯解释内容调整的帖子出现了对剧集取消、续订和观看时长的争论。相关讨论 https://www.reddit.com/r/television/comments/1xbouk0/ted_sarandos_addresses_netflix_content_exec_purge/。这些是观众体验和判断，不等于已证实的公司决策依据。",
+      "confidence": "帖子可核对；社区样本不代表全体订阅者。"
     },
     {
       "rank": 5,
-      "topic": "乌克兰导弹预警与供电担忧",
-      "where": "Reddit 乌克兰相关讨论区",
-      "context": "讨论围绕预警中断原因与民众安全。交战各方说法不同，帖内未经核实的技术推测不应转述为事实。参考讨论 https://www.reddit.com/r/ukraine/comments/1xalt84/zelensky_rubio_discuss_critical_military_systems/",
-      "confidence": "官方表态与报道可核对；故障原因仍未证实。"
+      "topic": "英国通胀与家庭开支",
+      "where": "Reddit 英国社区",
+      "context": "用户把官方 3.5% 通胀率同燃油、食品、房贷和工资体验对照。相关讨论 https://www.reddit.com/r/unitedkingdom/comments/1xbfvyn/uk_inflation_rises_by_more_than_expected_to_35_as/。不同家庭消费结构不同，个人账单涨幅不能直接替代全国统计。",
+      "confidence": "官方 CPI 有统计依据；帖内私人花费未独立核实。"
     }
   ],
   "watchlist": [
-    "10 月 21 日 APEC 财长会议闭幕后是否发布联合声明，尤其留意数字基础设施与财政合作的具体措辞。",
-    "10 月 22 日军事人工智能论坛会否形成可执行的后续工作安排，以及是否出现国家间明显分歧。",
-    "Netflix 的第四季度广告与营收指引如何在下一轮财报中兑现，避免只按盘后股价判断业务。",
-    "国际油价是否继续高位波动，并观察能源成本对主要市场通胀预期和企业业绩的影响。"
+    "PHP 安全更新推出后，关注维护者是否补充受影响版本和缓解建议；运营网站者应依官方公告核对自己的部署。",
+    "英国央行 11 月 5 日利率会议如何回应 3.5% 的 9 月通胀，尤其关注能源价格对后续月份的影响。",
+    "特斯拉与 SpaceX 委员会是否公布任何正式交易文件；在此之前不要把合并当成既成事实。",
+    "沙特机场航班恢复、袭击责任调查及后续安全措施，留意官方新通报。",
+    "Netflix 新首席内容官于 10 月 26 日上任后是否公布具体的内容与发行调整。"
   ],
   "deepReads": [
     {
-      "title": "美国联邦公报中的 DeepSeek 措施原文",
-      "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
-      "reason": "核对限制对象、适用范围与执行措辞，避免把联邦政策误读为全民禁令。"
+      "title": "PHP 基金会关于 10 月 21 日安全更新的说明",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "reason": "核对漏洞修补路径及披露过程，区分紧急升级和未经核实的入侵传闻。"
     },
     {
-      "title": "SpaceX 向美国证监会提交的季度文件",
-      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
-      "reason": "直接看营收结构、盈利与风险披露，再对照合并讨论的新闻报道。"
+      "title": "特斯拉第三季度投资者更新",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+      "reason": "直接比较营收、净利润、自由现金流和资本支出，理解财报里的相反信号。"
     },
     {
-      "title": "Netflix 第三季度致股东信",
-      "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
-      "reason": "从公司原始披露理解业绩与下一季度指引的差距。"
+      "title": "APEC 财长联合声明新闻稿",
+      "url": "https://www.apec.org/press/news-releases/2026/1021_FMM_MA",
+      "reason": "阅读各经济体真正共同公布的内容，以及数字基建融资安排的自愿性质。"
     }
   ]
 }
