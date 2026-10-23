@@ -1,161 +1,131 @@
 {
-  "date": "2026-10-22",
-  "updatedAt": "2026-10-22 14:33 CST",
+  "date": "2026-10-23",
+  "updatedAt": "2026-10-23 14:36 CST",
   "edition": "全球晨报",
   "readMinutes": 20,
   "overview": [
-    "PHP 维护者发布针对严重漏洞的安全更新。部分机构暂时关闭网站进行修补，网站下线并不自动意味着已经遭到入侵。",
-    "特斯拉第三季度净利润同比下降约 44%，但自由现金流为正。投资者同时审视资本开支变化与潜在的 SpaceX 合并。",
-    "英伟达在柏林推出模块化 AI 数据中心设计，宣称可缩短现场部署时间；目前主要还是面向 2027 年的交付计划。",
-    "英国 9 月消费者价格指数同比上涨 3.5%，燃油推动涨幅。APEC 财长会议则通过联合声明及数字基础设施融资政策声明。",
-    "沙特东部机场遇袭造成死伤，地区安全风险继续影响航班和能源预期。娱乐方面，多莉·帕顿纪念演出与 Netflix 内容管理层调整引发讨论。"
+    "美国财政部提出扩大对外投资审查，涉及人工智能、超算、生物技术等领域；这仍是征求意见的拟议规则。",
+    "西藏那曲附近发生约 7 级地震，已有人员伤亡和房屋倒塌；救援仍在进行，数字可能变化。",
+    "霍尔木兹海峡多艘油轮受损，油价上涨。全球股市中的 AI 相关股票承压，美股标普 500 创下数月来最大单日跌幅。",
+    "Meta 财报显示营收增长，但巨额 AI 投资和新的无投票权股票计划让市场继续争论回报与融资。",
+    "娱乐热点集中在《泥面人》上映和《现代战争4》正式发售；早期口碑与社交热度不能代替票房或销量。"
   ],
   "events": [
     {
-      "category": "科技与安全",
-      "status": "补丁已发布，影响仍在排查",
-      "title": "PHP 严重漏洞触发跨国网站紧急修补",
-      "summary": "PHP 维护者于 10 月 21 日发布安全更新。美国联邦调查局警告，相关漏洞可能让攻击者远程执行代码；芬兰政府等网站曾暂时全部或部分下线以便处理。PHP 基金会公布修复说明，OpenAI 与研究伙伴介绍了 AI 辅助发现及协调披露的经过。",
-      "why": "PHP 是大量网站依赖的服务器端语言。对于运营者，最实际的事是核对版本、按维护者指引升级，并确认托管商是否已处理。对普通用户，某网站暂时不可访问可能只是预防性下线，不能据此断言数据泄露。",
-      "uncertainty": "受影响范围因版本与部署方式而异。有关是否已经出现大规模利用，现有公开材料不足以一概而论；OpenAI 对发现经过的描述属于当事方披露。",
+      "category": "科技与政策",
+      "status": "拟议规则，尚未生效",
+      "title": "美国财政部拟扩大对外高科技投资限制",
+      "summary": "美国财政部 10 月 22 日发布拟议规则，拟更新美国人对受关注国家相关企业投资时的申报与禁止要求。涉及半导体、人工智能、量子信息、高性能计算和高超音速系统，并拟加入生物技术。现阶段会收集公众意见，最终文本及生效日期尚待公布。",
+      "why": "跨境投资者和科技企业要核对交易对象、技术范围与尽调义务。标题里的“限制”尚不能理解为所有相关交易现在都被禁止；不同类别可能只要求申报。",
+      "uncertainty": "最终适用范围、豁免和执行时间都可能因意见征集而变化。",
       "sources": [
         {
-          "name": "PHP 基金会安全发布说明",
-          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+          "name": "美国财政部公告",
+          "url": "https://home.treasury.gov/news/press-releases/sb0667"
         },
         {
-          "name": "美联社现场报道",
-          "url": "https://apnews.com/article/php-websites-fbi-europe-vulnerability-a0af9576808a0963efca8df14d4b5183"
-        },
-        {
-          "name": "OpenAI 协调披露说明",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+          "name": "美联社报道",
+          "url": "https://apnews.com/article/b742c292ff8eb19e6a4c8cf03d4d66b9"
         }
       ]
     },
     {
-      "category": "科技与商业",
-      "status": "产品设计已公布，交付待验证",
-      "title": "英伟达在欧洲推出模块化 AI 数据中心方案",
-      "summary": "英伟达在柏林介绍 DSX POD，计划让合作伙伴预先集成 Vera Rubin 计算系统、供电和液冷等设备，再运至已经准备好的场地。公司称现场部署可由约六个月缩短至最快 14 天，并把全球合作伙伴交付时间指向 2027 年初。",
-      "why": "AI 算力竞争越来越受电力、冷却、施工和融资约束。预制设备若真能减少现场工作，运营商可能更早开始提供算力服务。不过准备好电力和土地仍是前提，不能把 14 天理解为从零建成整个数据中心。",
-      "uncertainty": "时间缩短属于公司对特定条件下的预期，尚非大规模商用结果。",
+      "category": "国际与灾害",
+      "status": "持续救援中",
+      "title": "西藏那曲附近地震造成伤亡和房屋倒塌",
+      "summary": "据官方媒体转述的地方通报，10 月 22 日晚西藏那曲附近发生约 7 级地震，初报至少 16 人死亡、54 人受伤，数百间房屋倒塌。美国地质调查局记录到多次余震。救援人员已进入灾区，部分道路和通信受影响。",
+      "why": "高海拔地区的交通、通信和天气会影响搜救，初期数据特别容易更新。对外转发时应保留通报时间，避免把滚动伤亡数字当成最终结论。",
+      "uncertainty": "死亡、受伤与受损规模仍在统计，震级也可能因机构口径和复核有所差异。",
       "sources": [
         {
-          "name": "英伟达产品公告",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment"
-        },
-        {
-          "name": "美联社柏林报道",
-          "url": "https://apnews.com/article/a320db64110d99297381912605ebdc57"
+          "name": "美联社报道及官方通报汇总",
+          "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8"
         }
       ]
     },
     {
-      "category": "金融与科技",
-      "status": "财报已公布，合并仍属讨论",
-      "title": "特斯拉利润下滑，现金流和投资节奏成焦点",
-      "summary": "特斯拉第三季度营收约 280.46 亿美元，与上年同期基本持平；归属普通股股东的净利润为 7.87 亿美元，同比下降约 44%。自由现金流约 15 亿美元。公司把全年资本开支预期由 250 亿美元下调至 200 亿美元。马斯克此前表示，两家公司特别委员会正讨论特斯拉与 SpaceX 可能的合并，但没有宣布交易。",
-      "why": "利润下滑与正自由现金流同时出现，说明读财报不能只看单一数字。削减计划支出可能改善短期现金，却也使投资者追问长期项目的进度。合并若继续推进，还涉及两家公司的股东、估值与监管问题。",
-      "uncertainty": "财务数字来自公司未经审计的季度更新；合并目前只是讨论，没有确定条款或完成时间。",
+      "category": "国际与能源",
+      "status": "袭击与责任细节仍待核验",
+      "title": "霍尔木兹海峡多艘油轮受损",
+      "summary": "伊朗方面称 10 月 22 日夜间有 7 艘油轮在霍尔木兹海峡遭袭或触雷并起火、受损。美联社指出，近期商业船舶遇袭报告增加，海峡安全担忧推高了能源市场风险。有关每艘船的受损原因和责任归属，仍需独立核实。",
+      "why": "该航道关系到全球石油运输，船舶风险会影响运费、保险费和油价预期。市场价格变化可以观察，却不能直接证明某一方对全部事件负责。",
+      "uncertainty": "7 艘为伊朗方面说法，船只清单、伤亡及起因可能在后续调查中修正。",
       "sources": [
         {
-          "name": "特斯拉第三季度更新",
-          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf"
+          "name": "美联社海峡报道",
+          "url": "https://apnews.com/article/2abebce2fca2c085e0e0ee717e42cf28"
+        }
+      ]
+    },
+    {
+      "category": "金融市场",
+      "status": "已收盘与当日交易数据",
+      "title": "AI 股票下挫，油价上行压低市场风险偏好",
+      "summary": "10 月 22 日美国股市中，AI 相关股票的下跌拖累主要指数，标普 500 录得自 7 月以来最差单日表现。与此同时，油价因中东航运风险上扬。亚洲市场在 23 日继续受到科技股抛售影响。",
+      "why": "投资者同时衡量 AI 基建投入能否兑现收益，以及能源成本会否推高通胀和借贷成本。指数下跌并不表示所有股票都跌，美联社指出当天美股多数成分股实际上涨。",
+      "uncertainty": "这里描述的是特定交易日与次日亚洲盘中情况，价格会变化；市场原因是分析，不是可单独证明的因果。",
+      "sources": [
+        {
+          "name": "美联社美国市场报道",
+          "url": "https://apnews.com/article/33767691a4a0730b96d6f0c5100ea9b2"
+        },
+        {
+          "name": "美联社亚洲市场更新",
+          "url": "https://apnews.com/article/7b47ef3b037bfba4e34f685329b9b963"
+        }
+      ]
+    },
+    {
+      "category": "科技与金融",
+      "status": "季度数据已公布，投资回报待观察",
+      "title": "Meta 营收增长与 AI 巨额投入同时受到审视",
+      "summary": "Meta 第三季度营收约 646 亿美元，同比增长约 26%。公司称其 AI 助手 Muse 在美国和加拿大有逾 1000 万注册账户，并把 2026 年资本开支预期收窄至 1350 亿至 1450 亿美元。公司还批准设立无投票权 C 类股票，以增加融资灵活性。",
+      "why": "广告业务仍在增长，但算力建设消耗大量资金。投资者关注投入何时变成稳定收入，以及新股安排对融资和投票权结构的影响。注册账户数也不等于每天使用人数。",
+      "uncertainty": "用户与产品数据来自公司披露，未来效率、盈利和融资安排尚未兑现。",
+      "sources": [
+        {
+          "name": "Meta 投资者季度资料",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
         },
         {
           "name": "美联社财报报道",
-          "url": "https://apnews.com/article/tesla-quarterly-earning-musk-spacex-merger-cfe0453f6bf0d08d22150022128492fa"
+          "url": "https://apnews.com/article/13ecd6c459e39a3602f302bcc2412fe9"
         }
       ]
     },
     {
-      "category": "金融与宏观",
-      "status": "官方统计已公布",
-      "title": "英国通胀升至 3.5%，能源价格冲击进入日常消费",
-      "summary": "英国国家统计局公布，9 月消费者价格指数同比上涨 3.5%，高于 8 月的 3.1%，也略高于市场普遍预期。交通相关价格是重要推手，汽油等车用燃料的年度涨幅明显扩大。市场因此提高了对英国央行 11 月加息的预期。",
-      "why": "油价上涨已经反映到通勤与运输成本，可能继续影响家庭预算和企业定价。3.5% 是总体物价的同比变化，不表示每种商品都上涨相同幅度；央行是否加息仍取决于后续判断。",
-      "uncertainty": "加息属于市场预期，尚非英国央行决定。通胀数据代表截至 9 月的价格，不是今天的实时油价。",
+      "category": "娱乐与影视",
+      "status": "上映初期，票房尚无完整结果",
+      "title": "《泥面人》上映引发恐怖片与漫画改编讨论",
+      "summary": "DC 电影《泥面人》在部分市场先行上映，并于 10 月 23 日进入更广范围的院线发行。影迷社区把它作为恐怖片和漫画改编片讨论，早期影评评价并不一致。",
+      "why": "它的表现会让制片方观察，较小众的类型片能否借助熟悉的漫画角色触达更广观众。眼下的社交声量和影评样本，只能说明期待与初期反馈，不能当成最终票房。",
+      "uncertainty": "院线档期和票房以各地区官方排片和后续统计为准；帖子里的分数随样本增加会变化。",
       "sources": [
         {
-          "name": "英国国家统计局 9 月通胀发布页",
-          "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026"
+          "name": "美联社秋季电影档期",
+          "url": "https://apnews.com/article/67fa24354122565d0b7642d93d24f7fd"
         },
         {
-          "name": "美联社经济报道",
-          "url": "https://apnews.com/article/britain-inflation-interest-rates-energy-f390b0105bf3cb9b35f6a42761e96233"
+          "name": "Reddit 观众讨论页",
+          "url": "https://www.reddit.com/r/movies/comments/1xd1efx/official_discussion_clayface_spoilers/"
         }
       ]
     },
     {
-      "category": "金融与国际",
-      "status": "联合文件已发布",
-      "title": "APEC 财长会通过联合声明及数字基建融资政策声明",
-      "summary": "在香港举行的两天会议于 10 月 21 日结束。APEC 财长联合声明聚焦家庭支持、数字基础设施融资、金融服务可及性和年轻金融人才交流；各方还认可一份关于亚太数字基础设施融资的政策声明。",
-      "why": "与前一天的开幕发言相比，正式联合文件更能看出各经济体愿意共同写下什么。数字基础设施需要长期资本，政策声明提供合作方向，但其中做法以自愿为主，不能视为各成员已承诺相同金额的投资。",
-      "uncertainty": "共同措辞不等于具体项目获批，后续仍要看各经济体的预算、融资工具与执行情况。",
+      "category": "娱乐与游戏",
+      "status": "正式发售日，表现待观察",
+      "title": "《现代战争4》于 10 月 23 日发售",
+      "summary": "动视公布，《现代战争4》在 10 月 23 日登陆主流现役主机与 PC，并提供 Nintendo Switch 2 版本。部分预购玩家此前已可提前体验战役。公司明确称本作首发不加入 Game Pass，需要单独购买。",
+      "why": "发行安排会影响玩家实际花费，也会成为观察大型游戏与订阅服务关系的例子。首发日和预购热度无法说明后续留存或商业成绩。",
+      "uncertainty": "各地区解锁时间可能不同，服务器稳定性、销量和评价仍需等正式发售后的数据。",
       "sources": [
         {
-          "name": "APEC 官方新闻稿",
-          "url": "https://www.apec.org/press/news-releases/2026/1021_FMM_MA"
+          "name": "《使命召唤》官方发售说明",
+          "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass/"
         },
         {
-          "name": "香港特区政府闭幕通报",
-          "url": "https://www.info.gov.hk/gia/general/202610/21/P2026102100550p.htm"
-        }
-      ]
-    },
-    {
-      "category": "国际与安全",
-      "status": "伤亡由沙特官方报告，袭击者未确认",
-      "title": "沙特东部机场遇袭，航班改道",
-      "summary": "沙特民航部门称，达曼的法赫德国王国际机场在当地周三晚遭袭，造成 1 人死亡、8 人受伤，并出现设施损坏。航班追踪服务称部分航班改道。美国随后要求部分驻沙特外交人员及家属离境，背景是该地区近期连续发生袭击。",
-      "why": "机场与能源设施遇袭会直接影响旅客安全，也可能改变航空与油市风险预期。把事件归入地区冲突背景可以帮助理解风险，却不能据此确定这次袭击的责任方。",
-      "uncertainty": "沙特当局在首轮通报中没有确认袭击者；伤亡和航班恢复情况可能更新。",
-      "sources": [
-        {
-          "name": "美联社机场袭击报道",
-          "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
-        },
-        {
-          "name": "美联社美国人员撤离报道",
-          "url": "https://apnews.com/article/fa9a4806bff404a23a16a8c209afbd2b"
-        }
-      ]
-    },
-    {
-      "category": "娱乐与文化",
-      "status": "纪念演出已播出",
-      "title": "多莉·帕顿纪念演出在美国直播",
-      "summary": "美国乡村音乐协会主办的两小时特别节目于当地 10 月 21 日晚在 ABC 与 Disney+ 直播，来自乡村音乐和影视界的多名表演者参与，节目还安排了影像资料和回忆。帕顿于今年 8 月去世。",
-      "why": "节目让音乐作品与帕顿长期参与的公益事业再次成为话题。社交平台上的表演评价各不相同，适合当作观众反应阅读，不宜把单个热帖说成整体口碑。",
-      "uncertainty": "直播后的收视数据和长期播放表现尚未公布。",
-      "sources": [
-        {
-          "name": "迪士尼节目资料",
-          "url": "https://thewaltdisneycompany.com/news/dolly-parton-legacy/"
-        },
-        {
-          "name": "美联社本周流媒体节目介绍",
+          "name": "美联社本周娱乐上新介绍",
           "url": "https://apnews.com/article/4d6ff25ef006c824bf124a9c9a6bcdb5"
-        }
-      ]
-    },
-    {
-      "category": "娱乐与商业",
-      "status": "管理调整已宣布，效果未显现",
-      "title": "Netflix 新内容负责人即将上任，萨兰多斯解释调整",
-      "summary": "Netflix 此前宣布任命彼得·赖斯为首席内容官，10 月 26 日生效。联合首席执行官泰德·萨兰多斯在近期财报电话会上谈到更换内容管理团队，表示公司还可以做得更好。业内报道把这与用户观看时长、热门作品供给及创作者关系放在一起讨论。",
-      "why": "平台的内容投入规模仍大，但真正决定订阅者是否留下的是持续有吸引力的作品。新管理层能否改善选片和制作决策，需要几轮新片表现才能检验，短期股价无法直接说明创作质量。",
-      "uncertainty": "高管任命和表态可核实；对改革动机与未来效果的解释是业内分析，尚无结果数据。",
-      "sources": [
-        {
-          "name": "Netflix 任命公告",
-          "url": "https://about.netflix.com/en/news/peter-rice-named-netflix-chief-content-officer"
-        },
-        {
-          "name": "Variety 对财报电话会的报道",
-          "url": "https://au.variety.com/2026/tv/news/ted-sarandos-addresses-netflix-content-exec-purge-41637/"
         }
       ]
     }
@@ -163,62 +133,62 @@
   "social": [
     {
       "rank": 1,
-      "topic": "PHP 漏洞与网站临时下线",
-      "where": "Reddit 的新闻、PHP 与网络安全讨论区",
-      "context": "运维人员讨论补丁覆盖和更新时机，一般用户询问网站下线是否代表入侵。相关讨论 https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/ 与 https://www.reddit.com/r/news/comments/1xbxekw/urgent_security_fix_issued_for_code_vital_to/。官方修复说明比评论更适合判断自身风险。",
-      "confidence": "帖子与互动可见；个别自称遭攻击的留言未获独立核实，不能代表普遍情况。"
+      "topic": "《泥面人》上映后的类型片口碑",
+      "where": "Reddit 电影与 DC 社区",
+      "context": "观众讨论其恐怖元素、节奏和改编方向。参考 https://www.reddit.com/r/DC_Cinematic/comments/1xctnom/megathread_clayface_2026_spoiler_discussion_wide/。提前观影者与普通观众并非随机样本。",
+      "confidence": "有真实讨论帖，口碑仍在变化。"
     },
     {
       "rank": 2,
-      "topic": "特斯拉财报与 SpaceX 合并猜测",
-      "where": "Reddit 的特斯拉和股票社区",
-      "context": "讨论分成利润下滑、正自由现金流、自动驾驶订阅及两家公司可能合并几条线。相关讨论 https://www.reddit.com/r/teslamotors/comments/1xbycdz/tesla_releases_its_q3_2026_shareholder_update_fsd/。预测估值与交易完成时间都属于用户推测。",
-      "confidence": "财报数字可由公司文件核对；合并没有已公布协议。"
+      "topic": "AI 股票下跌后该如何看待投入",
+      "where": "Reddit 投资社区",
+      "context": "讨论 Meta 等公司的资本开支与收入增长，也有人把单日跌幅解释成行业见顶。参考 https://www.reddit.com/r/ValueInvesting/comments/1xcy4gq/how_can_alphabet_not_tank_after_earnings/。该类帖子为个人分析，不构成投资建议。",
+      "confidence": "市场价格可核实，未来走势无法由讨论帖验证。"
     },
     {
       "rank": 3,
-      "topic": "Spotify 的 5000 万首 AI 与垃圾音轨争议",
-      "where": "Reddit 音乐和流媒体社区",
-      "context": "Spotify 说今年已把超过 5000 万首被认定为低质或垃圾的音轨移出推荐，同时另有违规音轨被从平台下架。相关讨论 https://www.reddit.com/r/SunoAI/comments/1xb1opg/spotify_has_removed_50_million_ai_slop_tracks/。用户争论平台是否充分保护真人音乐人，尤其要区分移出推荐与删除作品。",
-      "confidence": "数字来自 Spotify 自述；评论对算法成效的评价尚无独立统一结论。"
+      "topic": "BioWare 关闭后的《质量效应》粉丝反应",
+      "where": "Reddit《质量效应》社区",
+      "context": "玩家回顾工作室作品并讨论系列后续。参考 https://www.reddit.com/r/masseffect/comments/1xbt37j/its_over_bioware_is_officially_closing_and/。事件本身已有媒体报道，社区对未来版权使用的推测尚无官方决定。",
+      "confidence": "工作室关闭有媒体报道；后续计划未确认。"
     },
     {
       "rank": 4,
-      "topic": "Netflix 换帅能否减少剧集烂尾",
-      "where": "Reddit 电视社区",
-      "context": "围绕萨兰多斯解释内容调整的帖子出现了对剧集取消、续订和观看时长的争论。相关讨论 https://www.reddit.com/r/television/comments/1xbouk0/ted_sarandos_addresses_netflix_content_exec_purge/。这些是观众体验和判断，不等于已证实的公司决策依据。",
-      "confidence": "帖子可核对；社区样本不代表全体订阅者。"
+      "topic": "Meta 股价与 AI 业务的反差",
+      "where": "Reddit 股票社区",
+      "context": "投资者关注较好的季度营收为何未能消除支出焦虑。参考 https://www.reddit.com/r/VisualStockResearch/comments/1xcis34/can_someone_explain_how_meta_went_from_5/。盘前与开盘后的价格口径不同。",
+      "confidence": "财报可核，帖子中的归因是观点。"
     },
     {
       "rank": 5,
-      "topic": "英国通胀与家庭开支",
-      "where": "Reddit 英国社区",
-      "context": "用户把官方 3.5% 通胀率同燃油、食品、房贷和工资体验对照。相关讨论 https://www.reddit.com/r/unitedkingdom/comments/1xbfvyn/uk_inflation_rises_by_more_than_expected_to_35_as/。不同家庭消费结构不同，个人账单涨幅不能直接替代全国统计。",
-      "confidence": "官方 CPI 有统计依据；帖内私人花费未独立核实。"
+      "topic": "油价与能源股的不同步",
+      "where": "Reddit 石油投资讨论区",
+      "context": "部分用户注意到油价走高时个别能源股并未同步上涨。参考 https://www.reddit.com/r/oil/comments/1xceez4/daily_oil_price_opinions_october_22_2026_all/。单只股票还受财报和市场情绪影响。",
+      "confidence": "仅代表所观察社区，不能称为全网热度排行。"
     }
   ],
   "watchlist": [
-    "PHP 安全更新推出后，关注维护者是否补充受影响版本和缓解建议；运营网站者应依官方公告核对自己的部署。",
-    "英国央行 11 月 5 日利率会议如何回应 3.5% 的 9 月通胀，尤其关注能源价格对后续月份的影响。",
-    "特斯拉与 SpaceX 委员会是否公布任何正式交易文件；在此之前不要把合并当成既成事实。",
-    "沙特机场航班恢复、袭击责任调查及后续安全措施，留意官方新通报。",
-    "Netflix 新首席内容官于 10 月 26 日上任后是否公布具体的内容与发行调整。"
+    "西藏地震后续救援、余震与伤亡更新，以救援和地震机构的新通报为准。",
+    "霍尔木兹海峡受损船舶的核实清单，以及航运、保险与油价的后续变化。",
+    "美国财政部对外投资拟议规则的意见期限、正式文本与生效时间。",
+    "Meta 后续如何解释 AI 资本开支的回报，以及无投票权股票的具体实施安排。",
+    "《泥面人》首周末票房与《现代战争4》正式发售后的服务器和玩家反馈。"
   ],
   "deepReads": [
     {
-      "title": "PHP 基金会关于 10 月 21 日安全更新的说明",
-      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-      "reason": "核对漏洞修补路径及披露过程，区分紧急升级和未经核实的入侵传闻。"
+      "title": "美国财政部对外投资拟议规则说明",
+      "url": "https://home.treasury.gov/news/press-releases/sb0667",
+      "reason": "核对禁止与申报的区别，确认政策仍处于征求意见阶段。"
     },
     {
-      "title": "特斯拉第三季度投资者更新",
-      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
-      "reason": "直接比较营收、净利润、自由现金流和资本支出，理解财报里的相反信号。"
+      "title": "Meta 第三季度投资者披露",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "reason": "比较营收、支出与资本开支，理解市场争论的数字基础。"
     },
     {
-      "title": "APEC 财长联合声明新闻稿",
-      "url": "https://www.apec.org/press/news-releases/2026/1021_FMM_MA",
-      "reason": "阅读各经济体真正共同公布的内容，以及数字基建融资安排的自愿性质。"
+      "title": "西藏地震报道与滚动信息",
+      "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8",
+      "reason": "跟踪救援和受损规模，阅读时注意各项数字的发布时间。"
     }
   ]
 }
