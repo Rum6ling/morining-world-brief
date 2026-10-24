@@ -1,131 +1,157 @@
 {
-  "date": "2026-10-23",
-  "updatedAt": "2026-10-23 14:36 CST",
+  "date": "2026-10-24",
+  "updatedAt": "2026-10-24 11:14 CST",
   "edition": "全球晨报",
   "readMinutes": 20,
   "overview": [
-    "美国财政部提出扩大对外投资审查，涉及人工智能、超算、生物技术等领域；这仍是征求意见的拟议规则。",
-    "西藏那曲附近发生约 7 级地震，已有人员伤亡和房屋倒塌；救援仍在进行，数字可能变化。",
-    "霍尔木兹海峡多艘油轮受损，油价上涨。全球股市中的 AI 相关股票承压，美股标普 500 创下数月来最大单日跌幅。",
-    "Meta 财报显示营收增长，但巨额 AI 投资和新的无投票权股票计划让市场继续争论回报与融资。",
-    "娱乐热点集中在《泥面人》上映和《现代战争4》正式发售；早期口碑与社交热度不能代替票房或销量。"
+    "中国公布面向人工智能时代的就业政策，提出对岗位替代风险进行评估，并加强转岗培训和劳动者权益保障。",
+    "苹果首款折叠 iPhone Duo 于 10 月 23 日开售。首批体验讨论热烈，耐用性、相机取舍和供货情况仍需更长时间观察。",
+    "中国证监会就私募投资母基金规则征求意见；美国 10 月消费者信心终值为 48.0，接近 9 月水平。",
+    "布伦特原油周五收于每桶 116.72 美元，美国主要股指再跌。中东供应风险和 AI 基建投资回报同时牵动市场。",
+    "白宫宣布俄乌就奥莱什基人道停火达成安排，但启动日说法有差异。西藏巴青地震救援仍在继续。"
   ],
   "events": [
     {
-      "category": "科技与政策",
-      "status": "拟议规则，尚未生效",
-      "title": "美国财政部拟扩大对外高科技投资限制",
-      "summary": "美国财政部 10 月 22 日发布拟议规则，拟更新美国人对受关注国家相关企业投资时的申报与禁止要求。涉及半导体、人工智能、量子信息、高性能计算和高超音速系统，并拟加入生物技术。现阶段会收集公众意见，最终文本及生效日期尚待公布。",
-      "why": "跨境投资者和科技企业要核对交易对象、技术范围与尽调义务。标题里的“限制”尚不能理解为所有相关交易现在都被禁止；不同类别可能只要求申报。",
-      "uncertainty": "最终适用范围、豁免和执行时间都可能因意见征集而变化。",
+      "category": "科技与就业",
+      "status": "政策已公布，落实待观察",
+      "title": "中国发布人工智能与就业政策，提出评估岗位替代风险",
+      "summary": "国务院办公厅 10 月 23 日公开《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》。文件提出增加 AI 相关职业和培训，鼓励企业在大规模应用 AI 前告知受影响员工、提供转岗支持，并对可能造成较大就业冲击的应用场景开展风险评估。它还提及治理招聘算法歧视及完善灵活就业保障。",
+      "why": "政策把注意力从新增 AI 岗位延伸到原有岗位会怎样变化。对企业来说，技术部署还要考虑员工通知、培训和劳动关系；对劳动者来说，眼下最实际的是能否获得可用的转岗支持。各地如何执行，仍要看后续细则与投入。",
+      "uncertainty": "文件提出的安排不等于所有企业马上适用同一套强制程序；实施效果尚无数据。",
       "sources": [
         {
-          "name": "美国财政部公告",
-          "url": "https://home.treasury.gov/news/press-releases/sb0667"
+          "name": "国务院办公厅政策全文",
+          "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/content/202610/content_7084107.htm"
         },
         {
-          "name": "美联社报道",
-          "url": "https://apnews.com/article/b742c292ff8eb19e6a4c8cf03d4d66b9"
+          "name": "新华社政策概述",
+          "url": "https://english.www.gov.cn/policies/latestreleases/202610/23/content_WS6adb4e53c6d00ca5f9a0deb7.html"
         }
       ]
     },
     {
-      "category": "国际与灾害",
-      "status": "持续救援中",
-      "title": "西藏那曲附近地震造成伤亡和房屋倒塌",
-      "summary": "据官方媒体转述的地方通报，10 月 22 日晚西藏那曲附近发生约 7 级地震，初报至少 16 人死亡、54 人受伤，数百间房屋倒塌。美国地质调查局记录到多次余震。救援人员已进入灾区，部分道路和通信受影响。",
-      "why": "高海拔地区的交通、通信和天气会影响搜救，初期数据特别容易更新。对外转发时应保留通报时间，避免把滚动伤亡数字当成最终结论。",
-      "uncertainty": "死亡、受伤与受损规模仍在统计，震级也可能因机构口径和复核有所差异。",
+      "category": "科技与消费",
+      "status": "产品已开售，长期表现待验证",
+      "title": "iPhone Duo 开售，折叠屏进入苹果零售渠道",
+      "summary": "苹果称首款折叠 iPhone Duo 10 月 23 日在 Apple Store 开始销售，并提供到店体验。官方产品资料列出 5.4 英寸外屏、展开后的大屏和针对折叠形态调整的 iOS 27。首日讨论集中在多任务体验、相机配置、重量和折痕。个别社交平台的晒单与故障帖说明有人遇到这些情况，却不足以测算总体故障率。",
+      "why": "苹果进入折叠手机市场会改变应用适配、配件和竞争对手的产品比较。是否值得购买取决于大屏需求和相机、价格、耐用性的个人取舍，不能靠首发排队照片判断销量。",
+      "uncertainty": "首批供货和用户反馈会变化，苹果尚未发布这一机型的实际销售与长期可靠性数据。",
       "sources": [
         {
-          "name": "美联社报道及官方通报汇总",
-          "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8"
+          "name": "苹果开售说明",
+          "url": "https://www.apple.com/newsroom/2026/10/iphone-duo-arrives-at-apple-store-locations-worldwide/"
+        },
+        {
+          "name": "苹果产品介绍",
+          "url": "https://www.apple.com/newsroom/2026/10/open-up-to-new-possibilities-with-iphone-duo/"
         }
       ]
     },
     {
-      "category": "国际与能源",
-      "status": "袭击与责任细节仍待核验",
-      "title": "霍尔木兹海峡多艘油轮受损",
-      "summary": "伊朗方面称 10 月 22 日夜间有 7 艘油轮在霍尔木兹海峡遭袭或触雷并起火、受损。美联社指出，近期商业船舶遇袭报告增加，海峡安全担忧推高了能源市场风险。有关每艘船的受损原因和责任归属，仍需独立核实。",
-      "why": "该航道关系到全球石油运输，船舶风险会影响运费、保险费和油价预期。市场价格变化可以观察，却不能直接证明某一方对全部事件负责。",
-      "uncertainty": "7 艘为伊朗方面说法，船只清单、伤亡及起因可能在后续调查中修正。",
+      "category": "金融与监管",
+      "status": "征求意见，尚非最终规定",
+      "title": "证监会拟细化私募投资母基金规则",
+      "summary": "中国证监会 10 月 23 日公布《私募投资母基金管理规定》征求意见稿，共 23 条。草案明确母基金分类和分散投资要求，对长期资金设置差异化投资比例要求，并拟将符合条件的母基金豁免计入一层投资层级，同时要求管理人做好投后跟踪、穿透管理和利益冲突防范。",
+      "why": "母基金通过投资多只基金分散配置，规则会影响社保、保险等长期资金参与私募市场的路径，也关系到基金管理人的合规成本。豁免层级不意味着监管放松到可以无限嵌套。",
+      "uncertainty": "具体比例、适用条件和正式实施时间仍可能根据反馈调整。",
       "sources": [
         {
-          "name": "美联社海峡报道",
-          "url": "https://apnews.com/article/2abebce2fca2c085e0e0ee717e42cf28"
+          "name": "中国证监会征求意见公告",
+          "url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml"
+        },
+        {
+          "name": "上海证券报当日头版",
+          "url": "https://paper.cnstock.com/html/2026-10/24/node_700.htm"
         }
       ]
     },
     {
       "category": "金融市场",
-      "status": "已收盘与当日交易数据",
-      "title": "AI 股票下挫，油价上行压低市场风险偏好",
-      "summary": "10 月 22 日美国股市中，AI 相关股票的下跌拖累主要指数，标普 500 录得自 7 月以来最差单日表现。与此同时，油价因中东航运风险上扬。亚洲市场在 23 日继续受到科技股抛售影响。",
-      "why": "投资者同时衡量 AI 基建投入能否兑现收益，以及能源成本会否推高通胀和借贷成本。指数下跌并不表示所有股票都跌，美联社指出当天美股多数成分股实际上涨。",
-      "uncertainty": "这里描述的是特定交易日与次日亚洲盘中情况，价格会变化；市场原因是分析，不是可单独证明的因果。",
+      "status": "10 月 23 日收盘数据",
+      "title": "布伦特原油升至 116.72 美元，美股主要指数收低",
+      "summary": "美联社汇总的周五收盘数据显示，布伦特原油上涨 3.1%，收于每桶 116.72 美元；标普 500 跌 0.5%，道指跌 1.2%，纳斯达克指数跌 0.2%。中东能源供应风险是油价走高的重要背景，市场也继续衡量 AI 基建投入的资金成本与回报。科技股并非同步下跌，部分半导体及软件股当天上涨。",
+      "why": "能源成本上行会增加运输和生产费用，并可能影响通胀预期；股市同时面临高油价和科技资本支出的压力。单日价格不能作为下一交易日趋势预测，也不构成个人投资建议。",
+      "uncertainty": "新闻报道对涨跌原因的归纳属于分析，未来供应与政策变化仍会改变价格。",
       "sources": [
         {
-          "name": "美联社美国市场报道",
-          "url": "https://apnews.com/article/33767691a4a0730b96d6f0c5100ea9b2"
+          "name": "美联社市场收盘报道",
+          "url": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963"
         },
         {
-          "name": "美联社亚洲市场更新",
-          "url": "https://apnews.com/article/7b47ef3b037bfba4e34f685329b9b963"
+          "name": "路透社能源市场报道",
+          "url": "https://www.marketscreener.com/news/brent-crude-hits-more-than-five-month-high-on-concern-over-middle-east-escalation-ce785cded18bf321"
         }
       ]
     },
     {
-      "category": "科技与金融",
-      "status": "季度数据已公布，投资回报待观察",
-      "title": "Meta 营收增长与 AI 巨额投入同时受到审视",
-      "summary": "Meta 第三季度营收约 646 亿美元，同比增长约 26%。公司称其 AI 助手 Muse 在美国和加拿大有逾 1000 万注册账户，并把 2026 年资本开支预期收窄至 1350 亿至 1450 亿美元。公司还批准设立无投票权 C 类股票，以增加融资灵活性。",
-      "why": "广告业务仍在增长，但算力建设消耗大量资金。投资者关注投入何时变成稳定收入，以及新股安排对融资和投票权结构的影响。注册账户数也不等于每天使用人数。",
-      "uncertainty": "用户与产品数据来自公司披露，未来效率、盈利和融资安排尚未兑现。",
+      "category": "金融与经济",
+      "status": "调查终值已发布",
+      "title": "美国 10 月消费者信心终值为 48.0",
+      "summary": "密歇根大学消费者调查的 10 月终值为 48.0，9 月为 48.1。现况分项从 50.9 降至 46.7，预期分项则从 46.3 升至 48.8。调查负责人指出，耐用品购买条件明显转弱，受访者更在意高利率和购买力；未来一年通胀预期从上月的 4.6% 升到 4.7%。",
+      "why": "消费信心反映家庭对价格和收入的感受，可帮助理解为什么金融市场和日常消费体验会出现落差。它是问卷指标，不等于实际消费额，也不能单凭一个月的读数判断经济衰退。",
+      "uncertainty": "调查结果有样本和统计口径限制；未来消费与通胀仍需结合实际数据观察。",
       "sources": [
         {
-          "name": "Meta 投资者季度资料",
-          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+          "name": "密歇根大学消费者调查终值",
+          "url": "https://www.sca.isr.umich.edu/"
         },
         {
-          "name": "美联社财报报道",
-          "url": "https://apnews.com/article/13ecd6c459e39a3602f302bcc2412fe9"
+          "name": "美国银行家协会数据解读",
+          "url": "https://bankingjournal.aba.com/2026/10/final-consumer-sentiment-decreased-slightly-in-october/"
         }
       ]
     },
     {
-      "category": "娱乐与影视",
-      "status": "上映初期，票房尚无完整结果",
-      "title": "《泥面人》上映引发恐怖片与漫画改编讨论",
-      "summary": "DC 电影《泥面人》在部分市场先行上映，并于 10 月 23 日进入更广范围的院线发行。影迷社区把它作为恐怖片和漫画改编片讨论，早期影评评价并不一致。",
-      "why": "它的表现会让制片方观察，较小众的类型片能否借助熟悉的漫画角色触达更广观众。眼下的社交声量和影评样本，只能说明期待与初期反馈，不能当成最终票房。",
-      "uncertainty": "院线档期和票房以各地区官方排片和后续统计为准；帖子里的分数随样本增加会变化。",
+      "category": "国际与人道",
+      "status": "已宣布安排，尚未开始执行",
+      "title": "俄乌奥莱什基局部人道停火达成安排，启动日说法不同",
+      "summary": "白宫 10 月 23 日宣布俄乌就乌克兰南部奥莱什基的局部停火达成安排，以便运送救援物资并疏散平民。白宫公告写明 10 月 29 日开始；美联社采访的乌方谈判代表和俄方军方说，停火将更早于 10 月 27 日启动。各方对范围和具体执行的表述也有区别。",
+      "why": "当地长期缺乏食物、药品和安全通道，清理地雷、保障车队通行及允许居民自主离开，才是人道行动能否实现的关键。局部安排不能被解读为俄乌战争全面停火。",
+      "uncertainty": "起始日期、适用地域和监督机制仍需各方进一步说清；截至本期撰写时行动尚未执行。",
       "sources": [
         {
-          "name": "美联社秋季电影档期",
-          "url": "https://apnews.com/article/67fa24354122565d0b7642d93d24f7fd"
+          "name": "白宫公告",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
         },
         {
-          "name": "Reddit 观众讨论页",
-          "url": "https://www.reddit.com/r/movies/comments/1xd1efx/official_discussion_clayface_spoilers/"
+          "name": "美联社对乌俄说法的核对",
+          "url": "https://apnews.com/article/russia-ukraine-war-ceasefire-oleshky-melania-trump-60167627316e0e2f62fc359cf78f317d"
         }
       ]
     },
     {
-      "category": "娱乐与游戏",
-      "status": "正式发售日，表现待观察",
-      "title": "《现代战争4》于 10 月 23 日发售",
-      "summary": "动视公布，《现代战争4》在 10 月 23 日登陆主流现役主机与 PC，并提供 Nintendo Switch 2 版本。部分预购玩家此前已可提前体验战役。公司明确称本作首发不加入 Game Pass，需要单独购买。",
-      "why": "发行安排会影响玩家实际花费，也会成为观察大型游戏与订阅服务关系的例子。首发日和预购热度无法说明后续留存或商业成绩。",
-      "uncertainty": "各地区解锁时间可能不同，服务器稳定性、销量和评价仍需等正式发售后的数据。",
+      "category": "国际与灾害",
+      "status": "持续救援，数字会更新",
+      "title": "西藏巴青地震救援进入排查和安置阶段",
+      "summary": "那曲市巴青县 10 月 22 日晚发生 7.0 级地震。当地新闻发布会截至 23 日 13 时的统计为 16 人遇难、76 人受伤，339 户房屋倒塌受损。应急管理部表示，第一轮搜救后将继续排查，并增调帐篷、棉大衣及折叠床等物资。高海拔和余震增加救援难度。",
+      "why": "这不是仅靠最初伤亡数字就能概括的灾害。随后还要核实房屋安全、道路通信和供电，并保障居民保暖与临时安置。转发求助信息时宜使用官方渠道，避免挤占救援资源。",
+      "uncertainty": "伤亡、房屋受损及安置人数仍在滚动核实，以上数据有明确的 23 日 13 时截止时间。",
       "sources": [
         {
-          "name": "《使命召唤》官方发售说明",
-          "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass/"
+          "name": "西藏自治区科技厅转述新闻发布会",
+          "url": "https://sti.xizang.gov.cn/xwdt/kjdt/202610/t20261023_563816.html"
         },
         {
-          "name": "美联社本周娱乐上新介绍",
-          "url": "https://apnews.com/article/4d6ff25ef006c824bf124a9c9a6bcdb5"
+          "name": "应急管理部救援部署",
+          "url": "https://www.mem.gov.cn/xw/yjyw/202610/t20261023_736817.shtml"
+        }
+      ]
+    },
+    {
+      "category": "娱乐与音乐",
+      "status": "新专辑已发行",
+      "title": "希尔迪·古德纳多蒂尔推出管弦乐新专辑",
+      "summary": "德意志留声机宣布，作曲家兼大提琴家 Hildur Guðnadóttir 于 10 月 23 日发行《This Will Be Us》。专辑把她早期个人作品中的八首曲目改写为管弦乐版本，并加入两首新作，由柏林德意志交响乐团与她共同演奏。她曾为《小丑》和《切尔诺贝利》创作配乐。",
+      "why": "新唱片让影视配乐听众有机会听到她作为独奏音乐人的早期作品，也展示同一旋律从小编制到交响编制后的不同声音。发行公告能核实曲目和阵容，艺术评价则留给听众。",
+      "uncertainty": "播放量、榜单表现和公众评价尚无可靠完整统计。",
+      "sources": [
+        {
+          "name": "德意志留声机发行公告",
+          "url": "https://www.deutschegrammophon.com/en/artists/hildur-gudnadottir/news/hildur-gunadottir-brings-two-decades-of-music-to-full-orchestral-life-on-this-will-be-us-out-now-281121"
+        },
+        {
+          "name": "美联社本周娱乐上新",
+          "url": "https://apnews.com/article/386a371d5be49be209b4253b52881454"
         }
       ]
     }
@@ -133,62 +159,62 @@
   "social": [
     {
       "rank": 1,
-      "topic": "《泥面人》上映后的类型片口碑",
-      "where": "Reddit 电影与 DC 社区",
-      "context": "观众讨论其恐怖元素、节奏和改编方向。参考 https://www.reddit.com/r/DC_Cinematic/comments/1xctnom/megathread_clayface_2026_spoiler_discussion_wide/。提前观影者与普通观众并非随机样本。",
-      "confidence": "有真实讨论帖，口碑仍在变化。"
+      "topic": "西藏地震救援进展",
+      "where": "抖音公开热榜，10 月 24 日上午快照",
+      "context": "热榜同时出现伤亡与救援两项相关话题。当地 23 日 13 时通报为 16 人遇难、76 人受伤。榜单快照见 https://china.com.tw/ ，正式数字以当地通报为准。",
+      "confidence": "热榜出现可观察；灾情数字仍会更新。"
     },
     {
       "rank": 2,
-      "topic": "AI 股票下跌后该如何看待投入",
-      "where": "Reddit 投资社区",
-      "context": "讨论 Meta 等公司的资本开支与收入增长，也有人把单日跌幅解释成行业见顶。参考 https://www.reddit.com/r/ValueInvesting/comments/1xcy4gq/how_can_alphabet_not_tank_after_earnings/。该类帖子为个人分析，不构成投资建议。",
-      "confidence": "市场价格可核实，未来走势无法由讨论帖验证。"
+      "topic": "英雄联盟全球总决赛瑞士轮首轮",
+      "where": "抖音热榜及 Reddit 赛事讨论",
+      "context": "多条 LPL 队伍比赛话题进入抖音榜单，海外社区也有逐场赛后讨论。赛程由赛事方公布，具体赛果应以赛事记录为准。快照 https://china.com.tw/ ，赛程 https://lolesports.com/en-GB/news/worlds-2026-primer 。",
+      "confidence": "平台讨论活跃；不能由单时段榜单推断整体观众规模。"
     },
     {
       "rank": 3,
-      "topic": "BioWare 关闭后的《质量效应》粉丝反应",
-      "where": "Reddit《质量效应》社区",
-      "context": "玩家回顾工作室作品并讨论系列后续。参考 https://www.reddit.com/r/masseffect/comments/1xbt37j/its_over_bioware_is_officially_closing_and/。事件本身已有媒体报道，社区对未来版权使用的推测尚无官方决定。",
-      "confidence": "工作室关闭有媒体报道；后续计划未确认。"
+      "topic": "国内金价与黄金消费讨论",
+      "where": "抖音公开热榜，10 月 24 日上午快照",
+      "context": "“国内黄金克价跌破860元”进入榜单。门店、品牌、工费和投资金条报价口径不同，不能把热搜标题当作全国统一成交价。快照 https://china.com.tw/ 。",
+      "confidence": "榜单话题可见；具体价格须逐一核对报价时间与品类。"
     },
     {
       "rank": 4,
-      "topic": "Meta 股价与 AI 业务的反差",
-      "where": "Reddit 股票社区",
-      "context": "投资者关注较好的季度营收为何未能消除支出焦虑。参考 https://www.reddit.com/r/VisualStockResearch/comments/1xcis34/can_someone_explain_how_meta_went_from_5/。盘前与开盘后的价格口径不同。",
-      "confidence": "财报可核，帖子中的归因是观点。"
+      "topic": "VOGUE 时尚之力盛会红毯",
+      "where": "抖音娱乐话题",
+      "context": "刘亦菲、迪丽热巴及红毯造型相关词条同时上榜。榜单反映平台用户关注造型与出场，不证明网传出场顺序或商业数据。快照 https://china.com.tw/ 。",
+      "confidence": "多条相关热词可核；未经主办方确认的细节不采信。"
     },
     {
       "rank": 5,
-      "topic": "油价与能源股的不同步",
-      "where": "Reddit 石油投资讨论区",
-      "context": "部分用户注意到油价走高时个别能源股并未同步上涨。参考 https://www.reddit.com/r/oil/comments/1xceez4/daily_oil_price_opinions_october_22_2026_all/。单只股票还受财报和市场情绪影响。",
-      "confidence": "仅代表所观察社区，不能称为全网热度排行。"
+      "topic": "iPhone Duo 首批用户晒单与质量争议",
+      "where": "抖音热榜及 Reddit 手机社区",
+      "context": "抖音出现使用体验话题，Reddit 有正面晒单，也有个别损坏报告。参见 https://china.com.tw/ 与 https://www.reddit.com/r/iPhoneDuo/comments/1xdtiga/16_hours_in_this_is_honestly_amazing/ 。个案不能算故障率。",
+      "confidence": "讨论帖真实存在；整体耐用性暂无充分证据。"
     }
   ],
   "watchlist": [
-    "西藏地震后续救援、余震与伤亡更新，以救援和地震机构的新通报为准。",
-    "霍尔木兹海峡受损船舶的核实清单，以及航运、保险与油价的后续变化。",
-    "美国财政部对外投资拟议规则的意见期限、正式文本与生效时间。",
-    "Meta 后续如何解释 AI 资本开支的回报，以及无投票权股票的具体实施安排。",
-    "《泥面人》首周末票房与《现代战争4》正式发售后的服务器和玩家反馈。"
+    "奥莱什基停火究竟从哪天、在什么范围内生效，以及地雷清除、物资进入和居民疏散能否落实。",
+    "巴青地震最新伤亡、余震、安置和房屋安全通报，注意每次统计的截止时间。",
+    "下周大型科技公司财报能否说明 AI 基建投入带来的收入与现金流，避免仅凭单日股价下判断。",
+    "证监会母基金征求意见后的正式文本，特别是长期资金投资比例与层级豁免的条件。",
+    "iPhone Duo 的实际供货、应用适配与持续使用反馈，区分首发晒单和可靠性数据。"
   ],
   "deepReads": [
     {
-      "title": "美国财政部对外投资拟议规则说明",
-      "url": "https://home.treasury.gov/news/press-releases/sb0667",
-      "reason": "核对禁止与申报的区别，确认政策仍处于征求意见阶段。"
+      "title": "国务院办公厅关于人工智能与就业的意见",
+      "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/content/202610/content_7084107.htm",
+      "reason": "看政策对转岗支持、就业风险评估与劳动者权益分别提出了什么要求。"
     },
     {
-      "title": "Meta 第三季度投资者披露",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "reason": "比较营收、支出与资本开支，理解市场争论的数字基础。"
+      "title": "密歇根大学 10 月消费者调查终值",
+      "url": "https://www.sca.isr.umich.edu/",
+      "reason": "比较总体信心、现况与预期分项，避免只读一个总指数。"
     },
     {
-      "title": "西藏地震报道与滚动信息",
-      "url": "https://apnews.com/article/be27a2db79ada1c6309914d173b983a8",
-      "reason": "跟踪救援和受损规模，阅读时注意各项数字的发布时间。"
+      "title": "奥莱什基人道停火的多方说法",
+      "url": "https://apnews.com/article/russia-ukraine-war-ceasefire-oleshky-melania-trump-60167627316e0e2f62fc359cf78f317d",
+      "reason": "核对启动日期分歧，以及援助车队和撤离安排真正要解决的难题。"
     }
   ]
 }
