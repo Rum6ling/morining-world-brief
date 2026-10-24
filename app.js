@@ -1,4 +1,4 @@
-const state = { data: null, filter: "全部" };
+const state = { data: null, filter: "全部", dates: [], latestDate: null, requestId: 0 };
 
 const $ = (selector) => document.querySelector(selector);
 const create = (tag, className, text) => {
@@ -15,6 +15,18 @@ function formatDate(value) {
     month: new Intl.DateTimeFormat("zh-CN", { month: "long" }).format(date),
     day: new Intl.DateTimeFormat("zh-CN", { day: "2-digit" }).format(date),
   };
+}
+
+function shanghaiToday() {
+  return new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(new Date());
+}
+
+function oldestVisibleDate() {
+  const cutoff = new Date(`${shanghaiToday()}T00:00:00Z`);
+  cutoff.setUTCDate(cutoff.getUTCDate() - 29);
+  return cutoff.toISOString().slice(0, 10);
 }
 
 function renderOverview(items = []) {
@@ -87,7 +99,9 @@ function renderReads(items = []) {
 
 function applyFilter() {
   document.querySelectorAll(".event-card").forEach((card) => {
-    const matches = state.filter === "全部" || card.dataset.category === state.filter;
+    const category = card.dataset.category || "";
+    const matches = state.filter === "全部" ||
+      (state.filter === "世界" ? /世界|国际/.test(category) : category.includes(state.filter));
     card.hidden = !matches;
   });
 }
@@ -100,6 +114,10 @@ function render(data) {
   $("#readTime").textContent = `${data.readMinutes || 20} 分钟阅读`;
   $("#edition").textContent = data.edition || "每日晨报";
   $("#updatedAt").textContent = `更新于 ${data.updatedAt}`;
+  $("#page-title").textContent = data.date === shanghaiToday()
+    ? "今天，先读这 20 分钟"
+    : `${data.date} 的世界晨报`;
+  document.title = `${data.date} · 晨界世界晨报`;
   renderOverview(data.overview);
   renderEvents(data.events);
   renderSocial(data.social);
@@ -119,13 +137,77 @@ document.querySelectorAll(".filter").forEach((button) => {
   });
 });
 
-fetch(`./briefing.json?v=${Date.now()}`, { cache: "no-store" })
-  .then((response) => {
-    if (!response.ok) throw new Error("briefing unavailable");
-    return response.json();
-  })
-  .then(render)
-  .catch(() => {
-    $("#updatedAt").textContent = "内容暂时无法读取";
-    $("#eventsGrid").replaceChildren(create("p", "empty-note", "请稍后刷新页面。"));
-  });
+async function fetchJson(url) {
+  const response = await fetch(`${url}?v=${Date.now()}`, { cache: "no-store" });
+  if (!response.ok) throw new Error(`无法读取 ${url}`);
+  return response.json();
+}
+
+async function selectDate(date) {
+  const requestId = ++state.requestId;
+  const selector = $("#historyDateSelect");
+  selector.disabled = true;
+  $("#archiveStatus").textContent = "";
+  try {
+    const data = await fetchJson(`./history/${date}.json`);
+    if (requestId !== state.requestId) return;
+    if (data.date !== date) throw new Error("所选日期与晨报内容不符");
+    render(data);
+    selector.value = date;
+    const url = new URL(window.location.href);
+    url.searchParams.set("date", date);
+    window.history.replaceState(null, "", url);
+  } catch {
+    if (requestId === state.requestId) {
+      $("#archiveStatus").textContent = "这一天的晨报暂时无法读取，请稍后重试。";
+      if (!state.data) $("#eventsGrid").replaceChildren(create("p", "empty-note", "请稍后刷新页面。"));
+    }
+  } finally {
+    if (requestId === state.requestId) selector.disabled = false;
+  }
+}
+
+async function initializeHistory() {
+  const selector = $("#historyDateSelect");
+  try {
+    const manifest = await fetchJson("./history/index.json");
+    const today = shanghaiToday();
+    const cutoff = oldestVisibleDate();
+    const dates = Array.isArray(manifest.dates) ? manifest.dates.filter((date) =>
+      /^\d{4}-\d{2}-\d{2}$/.test(date) && date >= cutoff && date <= today) : [];
+    if (!dates.length) throw new Error("暂无历史晨报");
+    state.dates = [...new Set(dates)].sort().reverse();
+    state.latestDate = state.dates[0];
+    selector.replaceChildren(...state.dates.map((date) => {
+      const option = create("option", "", date === state.latestDate ? `${date} · 最新` : date);
+      option.value = date;
+      return option;
+    }));
+    const requested = new URLSearchParams(window.location.search).get("date");
+    await selectDate(state.dates.includes(requested) ? requested : state.latestDate);
+  } catch {
+    try {
+      const current = await fetchJson("./briefing.json");
+      state.latestDate = current.date;
+      state.dates = [current.date];
+      const option = create("option", "", `${current.date} · 最新`);
+      option.value = current.date;
+      selector.replaceChildren(option);
+      render(current);
+      $("#archiveStatus").textContent = "历史目录暂时无法读取，目前仅显示最新一期。";
+    } catch {
+      $("#updatedAt").textContent = "内容暂时无法读取";
+      $("#eventsGrid").replaceChildren(create("p", "empty-note", "请稍后刷新页面。"));
+      $("#archiveStatus").textContent = "晨报内容暂时无法读取。";
+    }
+  } finally {
+    selector.disabled = false;
+  }
+}
+
+$("#historyDateSelect").addEventListener("change", (event) => {
+  const date = event.target.value;
+  if (state.dates.includes(date)) selectDate(date);
+});
+
+initializeHistory();

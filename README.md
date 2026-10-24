@@ -1,13 +1,17 @@
 # 晨界 · 每日世界晨报
 
-这是 GitHub Pages 版本的静态晨报站点。网页内容位于 `briefing.json`，页面由 `index.html`、`styles.css` 和 `app.js` 渲染。
+这是 GitHub Pages 版本的静态晨报站点。最新一期位于 `briefing.json`，页面由 `index.html`、`styles.css` 和 `app.js` 渲染。页面的日期选择器读取 `history/index.json`，展示最近 30 个北京时间自然日内实际保存的晨报。
 
 ## 发布
 
-推送到 `main` 分支后，GitHub Actions 会自动部署 GitHub Pages。
+当前只维护本地文件，用户自行决定何时发布。网页目录中的 `history/` 需要和 `briefing.json`、网页文件一起上传，日期选择器才能看到往期内容。
 
 ## 每日更新
 
-每天北京时间上午 9 点更新 `briefing.json` 并推送到 `main`。每期内容约 20 分钟阅读，重点覆盖科技、金融、娱乐以及必要的全球重大事件与社交网络热点。
+每天北京时间上午 9 点更新 `briefing.json`，10 点、11 点、12 点静默补查。每期内容约 20 分钟阅读，重点覆盖科技、金融、娱乐以及必要的全球重大事件与社交网络热点。不要运行 Git 命令或自动上传。
+
+更新之前和更新之后各运行一次 `node sync-history.mjs`。该脚本会把当时的 `briefing.json` 永久保存到网页目录外的 `../morning-brief-archive/YYYY-MM-DD/`，同一天每次内容变更都生成一个独立快照；同时将该日期的最新版本写入网页目录的 `history/YYYY-MM-DD.json`，维护 `history/index.json`，并删除网页目录里超过最近 30 个北京时间自然日的旧版。永久归档不会被此脚本删除。
+
+已能确认的完整历史版从 2026 年 10 月 24 日开始。更早的正式日报没有独立存档，不能从当前 `briefing.json` 恢复。
 
 重大事实优先采用一手来源，并用可靠媒体交叉核验。页面和仓库中不得保存凭据。

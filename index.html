@@ -36,6 +36,20 @@
         </div>
       </section>
 
+      <section class="archive-nav" aria-label="选择历史晨报">
+        <div>
+          <p class="archive-kicker">往期晨报</p>
+          <p class="archive-description">网页可回看最近 30 天。本地归档按日期永久保存。</p>
+        </div>
+        <label class="archive-picker" for="historyDateSelect">
+          <span>阅读日期</span>
+          <select id="historyDateSelect" disabled aria-describedby="archiveStatus">
+            <option>正在加载日期</option>
+          </select>
+        </label>
+        <p id="archiveStatus" class="archive-status" role="status" aria-live="polite"></p>
+      </section>
+
       <nav class="filters" aria-label="筛选晨报内容">
         <button class="filter is-active" type="button" data-filter="全部" aria-pressed="true">全部</button>
         <button class="filter" type="button" data-filter="科技" aria-pressed="false">科技</button>
