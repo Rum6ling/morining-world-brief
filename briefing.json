@@ -1,153 +1,161 @@
 {
-  "date": "2026-10-25",
-  "updatedAt": "2026-10-25 15:57 CST",
+  "date": "2026-10-30",
+  "updatedAt": "2026-10-30 17:14 CST",
   "edition": "全球晨报",
   "readMinutes": 20,
   "overview": [
-    "巴西总统选举第二轮今天投票；前一天卢拉阵营举行大型集会，但造势人数不能代替正式票数。",
-    "法国周六再现大规模示威，政府和工会的人数估计相差约一倍，教育、生活成本与警务是争议核心。",
-    "乌克兰国防部称 Starlink／Starshield 移动使用速度已恢复；长期稳定性仍待观察。",
-    "Skydance 巨额并购后的债务和岗位压力、Sam Fender 巡演票价争议，折射娱乐业两种成本问题。",
-    "亚美尼亚选手 Naré 凭《BOO!》赢得 2026 年欧洲青少年歌唱大赛，官方名次与社交平台热度须区分。"
+    "币安披露安全事件，称受影响资产估计约63亿美元、约30亿美元已冻结；入金和提现暂停，攻击路径及责任方仍待完整调查。",
+    "亚马逊第三季度AWS收入达460亿美元、同比增长约39%，但巨额AI投入令自由现金流承压，市场聚焦增长能否转化为投资回报。",
+    "日本央行维持隔夜拆借利率约1.25%，同时决定从2027年起提高ETF年度出售节奏；欧洲央行维持三项政策利率不变。",
+    "美国第三季度GDP初值年化增长3.4%，而9月PCE价格指数同比上涨3.6%；增长、通胀和利率预期需要放在一起看。",
+    "环球音乐第三季度收入同比增长12.3%；霍尔木兹海峡再有油轮遇袭报告，也门塔伊兹的人道危机继续恶化。"
   ],
   "events": [
     {
-      "category": "国际与金融观察",
-      "status": "投票日程已确认；结果未出",
-      "title": "巴西总统选举进入第二轮",
-      "summary": "巴西最高选举法院确认，总统选举第二轮于当地时间 10 月 25 日举行，投票时间为巴西利亚时间 8 时至 17 时。前一天，卢拉支持者在里约热内卢举行大型集会。集会规模显示组织动员，却不能预测最终得票；北京时间今天下午，投票仍在进行。",
-      "why": "巴西是拉美主要经济体，选举可能改变财政、能源和贸易方向。周末多数主要股票市场休市，资产价格反应还需等正式结果和开盘。",
-      "uncertainty": "结果、投票率及后续政策均未确认；报道对集会规模的初步估计不一致。",
+      "category": "科技与金融安全",
+      "status": "安全事件已确认；损失和归因仍在调查",
+      "title": "币安称安全事件影响约63亿美元，约30亿美元资产已冻结",
+      "summary": "币安10月30日通报，其初步调查指向一名运维工程师的笔记本可能被入侵，攻击者随后接触服务容器并提交未经授权的提现交易。公司估算受影响资产约63亿美元，与链上合作方冻结约30亿美元，并暂停充值和提现以核查安全。链上分析公司TRM将攻击归因于朝鲜相关组织，但这属于该机构的判断，尚非执法机关定论。美联社也指出，事件涉及资产规模、实际不可追回损失和用户赔付需要区别。",
+      "why": "这是交易所托管、内部权限、稳定币冻结机制和用户风险保障的一次压力测试。资产流出、冻结和最终损失不是同一数字；对于用户，最重要的是核对官方服务状态、防范冒充客服的钓鱼消息。",
+      "uncertainty": "攻击入口只是币安初步调查；归因尚未获得独立司法确认。币安称会覆盖损失，但兑现和恢复服务仍待后续核验。",
       "sources": [
         {
-          "name": "巴西最高选举法院｜2026 年选举安排",
-          "url": "https://www.tse.jus.br/eleicoes/cde-2026"
+          "name": "币安官方安全事件通报",
+          "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
         },
         {
-          "name": "卫报｜选前集会",
-          "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro"
+          "name": "美联社现场核查",
+          "url": "https://apnews.com/article/39cda8ceb8095e036334a18549d3d20d"
+        },
+        {
+          "name": "TRM链上分析",
+          "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history"
         }
       ]
     },
     {
-      "category": "国际",
-      "status": "示威属实；人数口径不一",
-      "title": "法国示威延续，教育与警务争议交织",
-      "summary": "法国周六多地发生游行。政府估计全国至少 40 万人参加，工会估计约为其两倍。巴黎主体游行大体和平，但结束时部分人群与警方发生冲突。诉求从校舍维修、教师短缺扩展到生活成本、示威路线限制与警务方式。单段冲突视频不能代表全部参与者。",
-      "why": "连续数周的动员考验政府的政策回应能力，也可能影响预算与市场信心；不过周末游行不能直接解释尚未开市的市场涨跌。",
-      "uncertainty": "人数、伤者和拘捕统计可能修订；有关执法是否过当仍需调查。",
+      "category": "科技与公司财报",
+      "status": "公司财报已发布；前瞻指引不等于兑现",
+      "title": "亚马逊AWS强劲增长，AI资本开支继续扩大",
+      "summary": "亚马逊10月29日公布第三季度营收2019亿美元、同比增长12%，AWS收入460亿美元、同比增约39%，AWS营业利润178亿美元。公司称过去12个月自由现金流转为约424亿美元净流出，主要与资本支出增加有关，并预计2026年现金资本开支约2200亿美元。财报同时披露云业务扩容及AI服务进展。市场的关键争论不是云业务有无增长，而是增长速度能否覆盖基础设施、芯片和能源投入的成本。",
+      "why": "AWS是全球云与AI基础设施的重要风向标。收入和利润创纪录并不自动意味着现金回收已改善；应把营收、营业利润、资本开支及自由现金流一同看。",
+      "uncertainty": "2027—2028年云收入增长预期和资本开支属于公司指引，受客户需求、供应和能源价格影响；短期股价反应不能代替业务长期结论。",
       "sources": [
         {
-          "name": "卫报｜法国现场报道",
-          "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing"
+          "name": "亚马逊第三季度业绩公告",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
         },
         {
-          "name": "卫报｜欧洲示威直播核对",
-          "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news"
+          "name": "美联社财报报道",
+          "url": "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7"
         }
       ]
     },
     {
-      "category": "科技与国际安全",
-      "status": "乌方已发布监测结论",
-      "title": "乌克兰称 Starlink／Starshield 限速解除",
-      "summary": "乌克兰国防部 10 月 24 日表示，其监测系统记录到 Starlink／Starshield 移动使用速度恢复，超过每小时 400 公里的移动状态下连接仍稳定。总统泽连斯基说服务已回到限制前所需水平。此前围绕限速由谁决定，美方、SpaceX 和乌方说法存在分歧；本次可确认的是乌方公布了恢复数据。",
-      "why": "卫星通信已是前线无人机、防空、后勤的重要基础设施；商业网络能否稳定使用，同时受技术、合同与政府政策影响。",
-      "uncertainty": "乌方监测不代表全部地区和设备长期无故障；限速责任归属仍未独立厘清。",
+      "category": "金融与日本货币政策",
+      "status": "央行决议已公布",
+      "title": "日本央行维持1.25%利率，计划提高ETF出售节奏",
+      "summary": "日本央行10月30日以8比1通过利率决议，继续引导无担保隔夜拆借利率在约1.25%。同时决定从2027年1月起，将其持有ETF的年出售节奏由账面价值约3300亿日元提高至约8600亿日元；文件强调可按市场状况临时调整。反对维持利率的委员主张提高到约1.5%。这是一项利率维持与资产负债表调整并行的决策，并非宣布全面转向宽松或紧缩。",
+      "why": "日元、日债和日本股票都可能受到不同方向的影响。ETF出售按账面价值衡量，与市场价值不同，不能直接等同于当日卖盘。",
+      "uncertainty": "新的ETF出售节奏尚未开始执行，未来市场冲击取决于成交量、操作安排和政策后续变化。",
       "sources": [
         {
-          "name": "乌克兰国防部｜速度恢复",
-          "url": "https://mod.gov.ua/en/news/starlink-and-starshield-speed-restored-in-ukraine"
+          "name": "日本央行10月30日货币政策声明",
+          "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf"
         },
         {
-          "name": "乌克兰总统府｜讲话",
-          "url": "https://www.president.gov.ua/en/videos/vidnovili-robotu-starlinku-starshildu-na-shvidkosti-yaka-bul-8949"
-        },
-        {
-          "name": "卫报｜背景核验",
-          "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions"
+          "name": "日本央行2026年决议索引",
+          "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/"
         }
       ]
     },
     {
-      "category": "国际",
-      "status": "官方更新伤亡；调查未完",
-      "title": "约旦教堂枪击案死亡人数升至九人",
-      "summary": "约旦南部卡拉克地区一座教堂在 10 月 23 日葬礼期间遭枪击。公共安全部门经佩特拉通讯社于 24 日通报，一名伤者不治，死亡人数升至九人。早先报道所说七人或八人是不同时间点的数字。约旦已宣布哀悼；袭击者人数、身份与作案动机仍待调查。",
-      "why": "袭击针对宗教场所和悼念活动，具有重大人道与社会影响。报道应跟随官方伤亡更新，避免过早指认未经证实的组织。",
-      "uncertainty": "现场视频与证人叙述存在差异，警方尚未公布完整调查。",
+      "category": "金融与欧洲货币政策",
+      "status": "官方决定已发布",
+      "title": "欧洲央行维持三项利率不变，警惕能源冲击",
+      "summary": "欧洲央行10月29日维持三项关键政策利率不变。声明称能源价格持续上升，对通胀构成上行风险、对增长构成下行风险；核心通胀暂时大体稳定，工资尚未明显跟随，但能源冲击持续时间和二轮传导仍需观察。央行强调逐次会议、依数据作决定，不预设固定利率路径。",
+      "why": "这使欧洲市场同时面对通胀与增长两端压力。仅看‘不加息’容易忽视央行对能源成本、融资条件和经济活动的条件判断。",
+      "uncertainty": "能源价格传导和工资反应尚未充分显现；下一步利率方向并未被央行锁定。",
       "sources": [
         {
-          "name": "约旦佩特拉通讯社｜最新伤亡",
-          "url": "https://pt1.petra.gov.jo/index.php/en/news/death-toll-in-karak-church-terrorist-attack-rises-to-9"
+          "name": "欧洲央行货币政策决定",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.mt.html"
         },
         {
-          "name": "美联社｜事发经过",
-          "url": "https://apnews.com/article/19599ce75b9ab6749a1e1bf2ff66f2ab"
+          "name": "欧洲央行行长新闻发布会声明",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.sl.html"
         }
       ]
     },
     {
-      "category": "金融与娱乐产业",
-      "status": "交易已完成；重组方案待定",
-      "title": "Skydance 并购后债务与岗位压力浮现",
-      "summary": "卫报采访 Skydance 员工，描述 Paramount 与 Warner Bros Discovery 合并后的重组担忧。报道指出，约 1100 亿美元的交易已完成，新集团承受高债务，管理层设有数年内削减成本的目标。已经完成的交易、提出的节省目标和尚未宣布的具体裁员计划，必须分开看。",
-      "why": "这次整合牵动电影、电视、流媒体与新闻业务，也是资本结构问题。关键是现金流、债务削减、作品供应与就业承诺如何相互约束。",
-      "uncertainty": "裁员规模、频道处置和流媒体安排尚未正式确定；匿名员工感受不能替代公司决议。",
+      "category": "金融与美国经济",
+      "status": "初值已发布；后续会修订",
+      "title": "美国第三季度GDP初值增长3.4%，通胀仍高于目标",
+      "summary": "美国经济分析局10月29日公布，第三季度实际GDP环比折年率增长3.4%，高于第二季度的2.2%。投资、消费和政府开支增加推动增长，出口回落构成拖累；进口增加在GDP核算中是减项。该机构公布的9月个人消费支出价格指数同比上涨3.6%。这些数据共同显示经济保持扩张，但不能简单推出通胀压力已经解除。",
+      "why": "增长韧性与价格压力并存，会影响利率预期及股债市场定价。GDP初值需注意后续修订，PCE同比与季度GDP年化增速是不同指标。",
+      "uncertainty": "GDP是初步估计；价格数据本身不决定美联储下次行动，仍需结合就业、能源和核心通胀。",
       "sources": [
         {
-          "name": "卫报｜并购后调查",
-          "url": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles"
+          "name": "美国经济分析局第三季度GDP初值",
+          "url": "https://www.bea.gov/index.php/news/2026/gdp-advance-estimate-3rd-quarter-2026"
         },
         {
-          "name": "卫报｜交易背景",
-          "url": "https://www.theguardian.com/business/2026/oct/06/paramount-warner-bros-skydance-merger"
+          "name": "美国经济分析局PCE价格指数",
+          "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index/"
         }
       ]
     },
     {
-      "category": "科技与娱乐",
-      "status": "授权合作已报道；效果待验证",
-      "title": "球员 AI“数字分身”引发肖像权讨论",
-      "summary": "澳大利亚足球运动员 Cristian Volpato 授权一家公司制作并经营其 AI 形象，相关演示视频在社交平台传播。卫报采访公司联合创办人和行业人士，描述品牌广告、跨语言内容及球迷互动等用途。协议签于此前，过去一天的新信息是这种模式被更广泛报道；不能误写成 24 日才签约。",
-      "why": "创作者可能先明确许可范围，再让合成形象进入商业传播。技术能增加内容产量，但标注、审核、撤销与收益分配比画面逼真更关键。",
-      "uncertainty": "部分用途仍是试点或设想；品牌是否付费、未授权深伪能否有效制止，没有成熟答案。",
+      "category": "娱乐与音乐产业",
+      "status": "公司财报已发布",
+      "title": "环球音乐收入增长12.3%，订阅和实体唱片共同拉动",
+      "summary": "环球音乐集团10月29日公布第三季度收入33.94亿欧元，同比增长12.3%；按固定汇率、剔除Downtown并购影响后，增长5.3%。录制音乐订阅收入按固定汇率增长19.2%，剔除并购影响后增9.5%；实体唱片收入增17.4%。公司列出的畅销艺人包括Mrs. Green Apple、Olivia Rodrigo、Stray Kids、Ariana Grande和披头士。并购带来的增量与核心业务增长应分开看。",
+      "why": "这份财报能观察流媒体提价、付费用户增长和实体收藏需求如何共同影响音乐公司，而不只是看某一首歌是否上榜。",
+      "uncertainty": "公司公布的调整后利润及固定汇率指标是特定口径；艺人榜单来自公司，不等于全行业销量排名。",
       "sources": [
         {
-          "name": "卫报｜球员与公司采访",
-          "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone"
-        }
-      ]
-    },
-    {
-      "category": "娱乐与消费者",
-      "status": "歌手已回应；新价格未公布",
-      "title": "Sam Fender 承诺调整巡演高票价",
-      "summary": "Sam Fender 在社交平台回应粉丝对 2027 年体育场巡演票价的批评，称价格高于预期，会做调整，并质疑把站票分成前后两档。媒体列出的温布利部分票价约 99 至 131 英镑，是当时页面所见，并非最终销售价格。预售和正式发售尚未开始。",
-      "why": "粉丝分享票价截图后促成歌手公开回应，显示社交反馈可能影响定价；真正的检验是票务页面的最终变化。",
-      "uncertainty": "降价幅度、覆盖城市和已购票者安排尚未公布。",
-      "sources": [
-        {
-          "name": "卫报｜社交平台回应与票价",
-          "url": "https://www.theguardian.com/music/2026/oct/24/sam-fender-fans-high-ticket-prices-proper-massive-tour-getting-changed"
-        }
-      ]
-    },
-    {
-      "category": "娱乐",
-      "status": "主办方已确认赛果",
-      "title": "亚美尼亚赢得欧洲青少年歌唱大赛",
-      "summary": "欧洲广播联盟确认，亚美尼亚选手 Naré 凭《BOO!》赢得 10 月 24 日在马耳他举行的第 24 届欧洲青少年歌唱大赛。西班牙媒体交叉报道亚美尼亚夺冠、西班牙第二。评审票、线上观众票和社交平台讨论是不同指标，不能把其中一个当作全部受众的偏好。",
-      "why": "现场演出、线上投票和短视频二次传播，让区域性少儿音乐赛事进入跨国讨论。官方结果与社群评价各有信息价值。",
-      "uncertainty": "名次已确认；各平台播放和讨论热度会变化，不能由赛果推断长期商业表现。",
-      "sources": [
-        {
-          "name": "欧洲广播联盟｜官方赛果",
-          "url": "https://www.ebu.ch/news/2026/10/junior-eurovision-song-contest-2026-winner"
+          "name": "环球音乐集团第三季度业绩",
+          "url": "https://www.universalmusic.com/universal-music-group-n-v-reports-financial-results-for-the-third-quarter-and-nine-months-ended-september-30-2026/"
         },
         {
-          "name": "国家报｜赛果交叉报道",
-          "url": "https://elpais.com/television/2026-10-24/armenia-gana-eurovision-junior-2026-y-espana-queda-segunda-con-lucas-paulano-y-cuore-bello-te-quiero-te-quiero.html"
+          "name": "RTTNews财报简讯",
+          "url": "https://www.rttnews.com/content/IndustryNews.aspx?Industry=Entertainment"
+        }
+      ]
+    },
+    {
+      "category": "国际与能源航运",
+      "status": "油轮遇袭报告可信；施袭者与多船说法待证实",
+      "title": "霍尔木兹海峡油轮遇不明物体击中",
+      "summary": "英国海事贸易行动办公室10月29日接获船舶保安人员报告，一艘出海的油轮在霍尔木兹海峡被不明物体击中，初报没有船员受伤或环境影响；另有船只起火的独立报告。伊朗方面称有三艘油轮触雷，但美联社尚无法独立证实这一说法，也无法将不同报告认定为同一事件。已有证据足以显示航道安全风险上升，但不能把攻击数量、方式和责任方写成定论。",
+      "why": "这一海峡是关键能源运输通道，航运保险、油价和供应链可能受到风险溢价影响；市场价格变化还需要结合实际流量与官方调查。",
+      "uncertainty": "不明物体的性质、攻击者身份以及是否有多艘油轮触雷均未核实。",
+      "sources": [
+        {
+          "name": "UKMTO航运安全通报入口",
+          "url": "https://www.ukmto.org/"
+        },
+        {
+          "name": "美联社中东局势核查",
+          "url": "https://apnews.com/article/c11dac838a072af25ba8d0eb81d01035"
+        }
+      ]
+    },
+    {
+      "category": "国际与人道局势",
+      "status": "粮援受阻已获联合国确认；死亡数字待核",
+      "title": "也门塔伊兹围困加剧，粮援和供水告急",
+      "summary": "世界粮食计划署称，塔伊兹超过60万依靠援助的居民无法得到其机构及伙伴的帮助，当地面粉库存接近耗尽。10月29日，塔伊兹地方官员称城市已陷入饥荒；美联社报道，胡塞武装控制的卫生部门称沙特空袭至少造成13人死亡。‘已发生饥荒’是地方官员表述，不等同于正式的国际粮食安全阶段分类认定；伤亡数字亦应随核查更新。",
+      "why": "围困影响食物、水、燃料和医院供应，民众承受的代价比战场态势更直接。人道通道能否恢复是最值得追踪的指标。",
+      "uncertainty": "空袭责任与死伤数字仍需独立核验；正式饥荒分类尚未由所引来源确认。",
+      "sources": [
+        {
+          "name": "世界粮食计划署塔伊兹援助警报",
+          "url": "https://groups.wfp.org/news/wfp-warns-escalating-yemen-conflict-cutting-life-saving-assistance-city-taiz"
+        },
+        {
+          "name": "美联社塔伊兹现场报道",
+          "url": "https://apnews.com/article/172666b6c90fc3f0ed8a161f2457be2c"
         }
       ]
     }
@@ -155,62 +163,55 @@
   "social": [
     {
       "rank": 1,
-      "topic": "Sam Fender 票价截图与回应",
-      "where": "Instagram、英国娱乐媒体",
-      "context": "粉丝发布不同站票区间价格，歌手公开承诺调整。可确认回应与当时定价；最终价格待票务方更新。排序按新闻价值，并非全网热搜名次。",
-      "confidence": "回应已核实，跨平台热度未量化。"
+      "topic": "币安事件与“资金安全”争论",
+      "where": "币安官方公告、X、加密货币社群",
+      "context": "官方称受影响资产约63亿美元、已冻结约30亿美元，同时承诺用保障基金和公司资金覆盖损失。社交平台围绕‘受影响’是否等于最终损失、何时恢复提现及攻击归因展开讨论；不要点击自称补偿登记的陌生链接。",
+      "confidence": "官方通报可核；社交讨论热度未统一量化，攻击归因仍属分析判断。"
     },
     {
       "rank": 2,
-      "topic": "巴西选前集会与线上动员",
-      "where": "竞选社群、现场报道",
-      "context": "卢拉阵营大型集会引起讨论。现场支持者数量和社交群声量均不能替代全国投票；以选举机关正式计票为准。",
-      "confidence": "集会和投票安排可核，社交声量不可当民调。"
+      "topic": "科技巨头AI投入能否回本",
+      "where": "投资者社群、X、财经媒体评论",
+      "context": "亚马逊AWS增长和自由现金流转负并列出现，叠加其他巨头财报后的股价波动，让‘AI算力投入何时兑现’再次成为讨论焦点。财报数字是事实，股价目标和‘泡沫’判断属于观点。",
+      "confidence": "财报与市场反应可核；平台讨论不代表投资共识。"
     },
     {
       "rank": 3,
-      "topic": "法国示威影像",
-      "where": "街头视频、媒体直播",
-      "context": "和平游行与局部冲突画面同时流传。脱离时间地点转发单段影像容易误导；政府和工会的人数口径也不同。",
-      "confidence": "示威属实，单条视频不能代表全国现场。"
+      "topic": "万圣节变装“加载中”揭晓视频",
+      "where": "TikTok、Instagram Reels、YouTube Shorts",
+      "context": "趋势追踪机构Virlo截至10月29日观察到更多创作者使用万圣节服装加载进度、最终揭晓的短视频模板。它是节日前的内容形式热点，不代表所有地区的全网第一。",
+      "confidence": "有第三方样本追踪，非平台官方全量榜单。"
     },
     {
       "rank": 4,
-      "topic": "青少年欧歌赛夺冠讨论",
-      "where": "赛事官网、歌迷社群",
-      "context": "Naré 夺冠获主办方确认。舞台、歌曲与投票评价属于观点，不能混同官方名次。",
-      "confidence": "赛果确定，平台热度榜未统一核验。"
-    },
-    {
-      "rank": 5,
-      "topic": "球星 AI 数字分身展示",
-      "where": "球员授权视频、体育科技讨论",
-      "context": "获得本人授权的合成形象引出许可、标注、撤回等讨论。演示视频不能证明商业模式已成熟。",
-      "confidence": "授权合作有采访佐证，收入规模未知。"
+      "topic": "LISA《Tarantino》舞蹈与造型模仿",
+      "where": "TikTok歌迷与舞蹈视频",
+      "context": "短视频趋势观察将歌曲相关手势和造型模仿列为持续扩散的内容。个人作品是否真正爆红需逐条看原帖数据，不应把样本观察写成官方热榜。",
+      "confidence": "趋势观察可见；缺少TikTok官方全平台排名。"
     }
   ],
   "watchlist": [
-    "巴西第二轮投票在当地时间 25 日 17 时结束；只看最高选举法院正式数据，不提前宣布赢家。",
-    "美联储 10 月 27—28 日议息；周末没有新的美股正式收盘价，勿将社交平台报价当作交易所收盘。",
-    "法国示威人数、伤情和调查结果可能修订，继续关注教育政策与警务回应。",
-    "乌克兰继续监测 Starlink／Starshield 稳定性；速度恢复不等于长期服务条件已解决。",
-    "Skydance 是否正式公布岗位、资产与债务削减安排；Sam Fender 新票价是否落实。"
+    "继续看币安何时恢复充值与提现、发布完整技术复盘和更新储备证明；谨防冒充官方的退款或验证链接。",
+    "观察亚马逊后续季度AWS增长、AI资本开支及自由现金流的组合变化，不以单日股价代替经营趋势。",
+    "日本央行新的ETF出售节奏将在2027年1月开始，留意操作细节；欧洲央行继续关注能源成本向价格与工资的传导。",
+    "美国GDP初值未来会修订，下一轮PCE与就业数据可能改变市场对利率的判断。",
+    "霍尔木兹海峡船舶事件等待UKMTO更新；塔伊兹人道通道与联合国粮援可达性是更关键的实质进展。"
   ],
   "deepReads": [
     {
-      "title": "巴西最高选举法院：第二轮投票安排",
-      "url": "https://www.tse.jus.br/eleicoes/cde-2026",
-      "reason": "选举时间、职位和正式结果入口以主管机关为准。"
+      "title": "币安安全事件官方通报与待核问题",
+      "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7",
+      "reason": "区分公司已确认的行动、初步推测和仍待公布的技术复盘。"
     },
     {
-      "title": "乌克兰国防部：Starlink／Starshield 速度恢复说明",
-      "url": "https://mod.gov.ua/en/news/starlink-and-starshield-speed-restored-in-ukraine",
-      "reason": "直接核对乌方监测到了什么，以及尚未证明什么。"
+      "title": "日本央行10月30日政策声明",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+      "reason": "直接核对利率投票、ETF出售节奏和生效时间。"
     },
     {
-      "title": "Skydance 并购后的债务与员工压力",
-      "url": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
-      "reason": "理解娱乐业巨额并购如何转化为内容、就业和现金流问题。"
+      "title": "世界粮食计划署：塔伊兹粮援受阻",
+      "url": "https://groups.wfp.org/news/wfp-warns-escalating-yemen-conflict-cutting-life-saving-assistance-city-taiz",
+      "reason": "了解人道危机的规模、粮食库存和援助通道，而不只看战事标题。"
     }
   ]
 }
