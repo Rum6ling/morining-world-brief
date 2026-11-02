@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-02",
+  "updatedAt": "2026-11-02 10:31 CST",
+  "edition": "全球晨报",
+  "readMinutes": 20,
+  "overview": [
+    "OPEC+七个主要产油国正式决定维持12月生产目标，沿用9月的要求产量；中东冲突仍使实际出货与纸面配额存在落差。",
+    "币安在遭遇约63亿美元盗窃后分阶段恢复提币。Reuters称恢复服务后的客户提款超过36亿美元，交易所流动性和储备证明仍是观察重点。",
+    "亚洲股市周一承压，投资者继续评估AI巨额资本开支的回报；苹果即将公布财报，美国中期选举和就业数据也将影响本周市场。",
+    "卡塔尔斡旋下的伊朗谈判继续，阿联酋呼吁外交解决；台湾与中国海警船在南海争议海域发生对峙，各方说法需分别核对。",
+    "娱乐与体育方面，纪录片《You Can See Everything》以约1,060万美元周末预估票房微幅领先《Clayface》；金州Valkyries在WNBA总决赛第七场夺冠。"
+  ],
+  "events": [
+    {
+      "category": "金融｜能源",
+      "status": "OPEC正式公报已确认；执行仍待观察",
+      "title": "OPEC+七国维持12月原油生产目标",
+      "summary": "OPEC在11月1日公报中说，沙特阿拉伯、俄罗斯、伊拉克、科威特、哈萨克斯坦、阿尔及利亚和阿曼决定，12月沿用2026年9月的要求产量；七国下次会议定于11月29日。此前Reuters援引知情人士预测会维持不变，现在已有正式决议。需要注意，‘配额不变’指政策目标，不等于每国实际产量、出口船货或海峡通行量都保持稳定。",
+      "why": "能源市场同时受产量政策与中东航运风险制约。若受冲突影响的原油难以运出，名义配额即使稳定，也未必能压低现货价格；反过来，航运恢复也可能改变供需预期。",
+      "uncertainty": "实际产量、装船量、库存及油价反应尚待后续数据，不能用公报预测确定的价格方向。",
+      "sources": [
+        {
+          "name": "OPEC：11月1日七国会议公报",
+          "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+        },
+        {
+          "name": "Reuters：会前与供给背景",
+          "url": "https://live.euronext.com/en/financial-news/opec-set-keep-oil-output-targets-steady-sources-say"
+        }
+      ]
+    },
+    {
+      "category": "金融与科技｜加密安全",
+      "status": "服务恢复已获媒体报道；储备数据仍需核验",
+      "title": "币安分阶段恢复提币，客户提款和储备证明成下一关",
+      "summary": "币安11月1日公告称将分阶段恢复提币，优先开放经过安全检查的资产与网络。CBS/AFP报道，比特币和以太坊等主要资产的提款服务已恢复。Reuters后续称，客户在服务重开后提取超过36亿美元资产。此前币安称已经动用公司资金补足约90%的受影响资产，美国FBI将盗窃归因于朝鲜关联的TraderTraitor。‘公司补足’与‘赃款追回’并非同一件事。",
+      "why": "真正检验交易所韧性的是提款高峰中的流动性、剩余资产支持情况和公开储备证明。普通用户应在官方App或网站核对所持资产的网络状态，不点击社交私信里的‘赔付认证’。",
+      "uncertainty": "超过36亿美元为媒体报道的提款规模，并非净资产流失或最终损失；所有服务完全恢复的时间仍取决于后续公告。",
+      "sources": [
+        {
+          "name": "币安：分阶段恢复提币公告",
+          "url": "https://www.binance.com/en-GB/support/announcement/security-incident-recovery-update-4-withdrawals-resume-in-phases-2026-11-01-73911fb819b240f88b88256bdd318eda"
+        },
+        {
+          "name": "Reuters：恢复服务后客户提款",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/binance-users-withdraw-billions-record-002636522.html"
+        },
+        {
+          "name": "FBI：盗窃归因公告",
+          "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+        }
+      ]
+    },
+    {
+      "category": "科技与金融｜AI市场",
+      "status": "亚洲交易时段报道；苹果财报尚未发布",
+      "title": "亚洲股市延续AI支出疑虑，市场等待苹果财报",
+      "summary": "11月2日亚洲交易时段，Reuters报道称区域股市下滑，投资者担忧大型科技公司投入数据中心与AI基础设施的速度超过可见回报。高油价进一步限制债券作为避险资产的吸引力。苹果财报、美国中期选举与本周就业数据成为下一组观察节点。这是早盘/盘中市场报道，不能写成亚洲各市场已收盘，也不能提前填入苹果尚未公布的业绩。",
+      "why": "韩国出口显示芯片订单仍强，而股价反映的是未来利润和现金流预期。需求强与估值承压可以并存。读者应把企业实际财报、资本开支和自由现金流放在同一张账上比较。",
+      "uncertainty": "盘中行情可能逆转；苹果业绩与管理层指引在公告前均属预期。",
+      "sources": [
+        {
+          "name": "Reuters：亚洲股市与AI支出疑虑",
+          "url": "https://live.euronext.com/en/financial-news/asia-shares-bend-under-ai-stress-apple-earnings-loom"
+        },
+        {
+          "name": "Reuters：本周财报与经济日程",
+          "url": "https://ca.investing.com/news/economy-news/midterm-us-elections-earnings-jobs-data-loom-for-aiwary-stock-market-4920345"
+        }
+      ]
+    },
+    {
+      "category": "国际｜中东外交",
+      "status": "接触与公开表态已报道；协议未达成",
+      "title": "卡塔尔斡旋伊朗谈判继续，阿联酋呼吁外交突破",
+      "summary": "Reuters称，伊朗谈判人员11月1日连续第三天在多哈与卡塔尔调解方接触，寻求为美国、以色列与伊朗之间的冲突寻找外交出口。阿联酋总统顾问Anwar Gargash同日在巴林安全论坛表示，希望卡塔尔主导的斡旋取得突破，军事方案没有快速退路。持续接触是事实，但尚无已签署的和平协议或停火新安排。",
+      "why": "谈判走向关系霍尔木兹航运、海湾安全与能源价格。尤其在美国中期选举临近之际，外交表态与军事威慑并行，不能只看其中一种信号。",
+      "uncertainty": "谈判条款、参与方授权及最终结果尚未公开；匿名消息来源与正式政府公告应分别看待。",
+      "sources": [
+        {
+          "name": "Reuters：多哈谈判进展",
+          "url": "https://ca.marketscreener.com/news/iranian-negotiators-in-doha-to-continue-talks-to-end-the-us-iran-war-official-says-ce785fd8da81f221"
+        },
+        {
+          "name": "AP：阿联酋顾问呼吁外交解决",
+          "url": "https://apnews.com/article/470d52d5df78eeb6bf9b9fb15a37d0e6"
+        }
+      ]
+    },
+    {
+      "category": "国际｜东亚安全",
+      "status": "对峙已报道；双方对海域性质有争议",
+      "title": "台湾与中国海警船在南海争议海域发生对峙",
+      "summary": "AP报道，台湾海巡机构指控一艘中国海警船进入台湾管理的一处南海珊瑚岛附近限制水域，双方船只出现对峙。台湾方面把事件称为骚扰；这是其官方立场，不能直接视为所有涉事方同意的法律定性。现有报道需要与海警记录、船位资料及各方正式说明持续交叉核验。",
+      "why": "海上近距离接触存在误判风险，而海域主权与管理权本身就有争议。就事论事记录发生了什么，比把一次对峙推演为必然升级更有帮助。",
+      "uncertainty": "对峙持续时间、具体距离和后续处置可能随官方资料补充而变化。",
+      "sources": [
+        {
+          "name": "AP：南海海警船对峙",
+          "url": "https://apnews.com/article/dfc441591994cb435e55eb8f3dc6aeda"
+        }
+      ]
+    },
+    {
+      "category": "国际｜美国政治",
+      "status": "竞选活动已发生；选举结果未知",
+      "title": "美国中期选举进入最后冲刺，国会控制权仍待投票决定",
+      "summary": "11月3日美国中期选举前，特朗普在爱荷华和堪萨斯州为共和党候选人助选，民主党也在关键州动员。AP报道两党争夺众议院和参议院控制权。竞选集会、民调与提前投票数据都不等于最终计票；直到投票结束、票数核实和必要的复核完成前，不能断言哪一党已赢得国会。",
+      "why": "国会格局将影响预算、监管、科技政策和外交拨款，因此金融市场与科技企业都密切关注。不同选区的投票规则和计票速度也可能使结果分批出现。",
+      "uncertainty": "选举前预测不具决定性；本文不根据竞选现场气氛推断席位。",
+      "sources": [
+        {
+          "name": "AP：中期选举最后周末竞选",
+          "url": "https://apnews.com/article/d66c92d2c171cf4dc434078c64cf2cd1"
+        },
+        {
+          "name": "AP：选举专题",
+          "url": "https://apnews.com/hub/elections"
+        }
+      ]
+    },
+    {
+      "category": "娱乐｜电影",
+      "status": "周末票房为周日预估",
+      "title": "纪录片《You Can See Everything》在清淡万圣节周末微幅领跑北美票房",
+      "summary": "AP根据周日行业估算报道，《You Can See Everything》在上映第三周取得约1,060万美元周末票房，微幅领先《Clayface》。万圣节恰逢周六，假日活动分流影院观众，整体市场显得清淡。这一结果体现纪录片的持续吸引力，但周日公布的是估算值，最终票房需等发行和统计机构更新。",
+      "why": "类型片和纪录片在同一周末接近票房榜首，说明没有大型新片主导时，口碑和持续放映也能影响排名。数字只反映北美特定周末，不代表全球票房或影片总收益。",
+      "uncertainty": "估算票房可能修订，微小领先也可能随正式数字改变。",
+      "sources": [
+        {
+          "name": "AP：万圣节周末北美票房",
+          "url": "https://apnews.com/article/89ac3be8852d4162962a85b80dcaa251"
+        }
+      ]
+    },
+    {
+      "category": "娱乐与体育｜WNBA",
+      "status": "联盟及球队赛果已确认",
+      "title": "金州Valkyries成立第二年即夺WNBA总冠军",
+      "summary": "金州Valkyries在10月31日的WNBA总决赛第七场以68比63击败亚特兰大Dream，拿到队史首冠。球队和联盟官方均确认结果；Gabby Williams拿下30分。夺冠时间略早于本期严格24小时窗口，但11月1日的庆祝、赛后报道和社交讨论仍在继续，因此作为延续热点收录，并明确原始比赛日期。",
+      "why": "新球队在成立第二年夺冠，成为联盟扩张与女篮关注度的醒目案例。赛场结果可核实，但‘史上最受欢迎决赛’一类社交说法需要独立收视或流量数据。",
+      "uncertainty": "冠军与比分确定，后续商业影响和观众规模仍待数据。",
+      "sources": [
+        {
+          "name": "WNBA球队：Valkyries夺冠公告",
+          "url": "https://valkyries.wnba.com/news/golden-state-valkyries-win-2026-wnba-championship-20261031"
+        },
+        {
+          "name": "AP：总决赛第七场报道",
+          "url": "https://apnews.com/article/189aa4b8ecb1d1fd8ddfacde3a9d6ac4"
+        }
+      ]
+    }
+  ],
+  "social": [
+    {
+      "rank": 1,
+      "topic": "币安恢复提款后的用户反馈与安全提醒",
+      "where": "币安官方公告、加密资产社群",
+      "context": "讨论集中在不同币种和网络的开放进度，以及储备证明何时能独立核对。超过36亿美元提款是Reuters报道，不等于全部客户资金撤离；谨防假客服私信。",
+      "confidence": "公告和媒体报道可核实；个别用户截图需核对"
+    },
+    {
+      "rank": 2,
+      "topic": "AI投入回报与苹果财报前的市场争论",
+      "where": "财经社群、科技投资讨论",
+      "context": "亚洲盘中跌势使AI基础设施支出、芯片需求和自由现金流再成焦点。苹果财报尚未发布，不应传播所谓‘提前泄露’数字。",
+      "confidence": "市场背景已核实；讨论热度未做跨平台排名"
+    },
+    {
+      "rank": 3,
+      "topic": "万圣节周末电影票房的纪录片逆袭讨论",
+      "where": "影迷社群、票房讨论区",
+      "context": "《You Can See Everything》周日估算微幅领先《Clayface》，引发口碑与类型片表现讨论。正式票房公布前须保留‘估算’字样。",
+      "confidence": "AP估算可核实；线上帖文排名未核实"
+    },
+    {
+      "rank": 4,
+      "topic": "Valkyries夺冠与Gabby Williams关键表现",
+      "where": "WNBA官方账号、篮球社群",
+      "context": "球迷分享第七场片段、冠军庆祝和30分表现；赛事发生于10月31日，社交讨论延续至11月。",
+      "confidence": "比赛结果有联盟与球队一手来源"
+    },
+    {
+      "rank": 5,
+      "topic": "美国中期选举的最后动员与投票信息",
+      "where": "候选人公开账号、新闻评论区",
+      "context": "党派宣传、民调图和投票指南密集出现。浏览时应把竞选主张、预测和官方选举信息分开，避免转发未经核实的‘已计票结果’。",
+      "confidence": "竞选活动可核实；社交平台热度未量化"
+    }
+  ],
+  "watchlist": [
+    "11月3日美国中期选举：只以州与地方选务机构正式结果及可靠媒体核验为准，留意不同选区计票时间。",
+    "苹果财报与科技股：观察实际营收、AI产品收入、资本开支和现金流，盘中价格可能随业绩公告剧烈变化。",
+    "币安后续：核对各资产/网络的提币状态、储备证明和剩余补足安排，不通过私信提供凭据。",
+    "OPEC+执行与中东谈判：配额决议、真实装船量、霍尔木兹航运及外交进展需分别跟踪。",
+    "北美票房：等待周末正式数字确认纪录片与《Clayface》的最终排名。"
+  ],
+  "deepReads": [
+    {
+      "title": "OPEC：七国11月1日关于12月生产目标的正式公报",
+      "url": "https://www.opec.org/pr-detail/620-1-november-2026.html",
+      "reason": "直接核对政策决定，而非依赖会前匿名消息。"
+    },
+    {
+      "title": "Reuters：亚洲股市与AI投资回报疑虑",
+      "url": "https://live.euronext.com/en/financial-news/asia-shares-bend-under-ai-stress-apple-earnings-loom",
+      "reason": "了解科技股、油价与本周财报如何共同影响市场。"
+    },
+    {
+      "title": "AP：万圣节周末北美电影票房",
+      "url": "https://apnews.com/article/89ac3be8852d4162962a85b80dcaa251",
+      "reason": "看清纪录片领跑的估算数据及假日档背景。"
+    }
+  ]
+}
