@@ -1,157 +1,161 @@
 {
-  "date": "2026-11-03",
-  "updatedAt": "2026-11-03 17:28 CST",
+  "date": "2026-11-04",
+  "updatedAt": "2026-11-04 12:51 CST",
   "edition": "全球晨报",
   "readMinutes": 20,
   "overview": [
-    "美国中期选举于当地11月3日投票，国会控制权待定；任何实时预测都不是正式结果。",
-    "美国官员称已对霍尔木兹海峡附近伊朗目标实施“防御性”打击；袭击范围、损失及外交后果仍在核实。",
-    "Marvell与Lumentum宣布价值约1150亿美元的全股票合并交易，AI互连赛道整合升温，但交割尚须审批。",
-    "亚洲科技股承压，市场重新计算AI投资、融资和回报的关系；短期行情不等于产业需求已经逆转。",
-    "流媒体平台Roku披露第三季度营收同比增长约24%；日本动漫业公布新的Nippon Anime Awards，首届颁奖计划于2027年。"
+    "美国中期选举计票显示民主党在多个关键选区取得进展；两院控制权以选务机关和可靠媒体最新确认结果为准。",
+    "AMD第三季度营收达134亿美元、同比增长45%，数据中心收入同比增长97%；第四季度170亿美元营收指引仍属预测。",
+    "Netflix开始在美国部分英语电视端测试AI Discover，让用户按心情和主题找片；尚未全面上线。",
+    "亚洲科技股11月4日下挫，日本、韩国等市场承压；美国选举与AI投资回报问题叠加影响情绪。",
+    "沙特阿美公布第三季度财报，调整后净利润312亿美元；霍尔木兹航运与中东局势仍是能源市场焦点。"
   ],
   "events": [
     {
-      "category": "国际｜安全",
-      "status": "美国官员说法已获多家媒体报道；战损与法律争议未定",
-      "title": "美军称在霍尔木兹海峡附近打击伊朗目标，谈判前景再受考验",
-      "summary": "AP、Reuters等媒体报道，美国官员11月3日称，美方对伊朗格什姆岛一带目标实施了所谓“防御性”打击。此时华盛顿与德黑兰仍有外交接触，美国中期选举也正在进行。报道可确认的是美方承认采取军事行动；具体目标、伤亡、伊朗方面的独立核实以及双方对行动合法性的解释不能混为一谈。部分报道把行动与海峡航运安全联系起来，但是否导致长期通行中断，尚无足够证据。",
-      "why": "霍尔木兹海峡是全球重要能源通道。即便实际供给暂未明显下降，船舶风险溢价、保险与油价预期也可能迅速变化；外交措辞与军事行动并行，增加了判断难度。",
-      "uncertainty": "美方“防御性”是其定性，并非独立法律结论；不采信未经证实的伤亡图片或即将全面开战的社媒传言。",
+      "category": "国际｜美国政治",
+      "status": "选区结果陆续由媒体判定；两院最终席次仍在变化",
+      "title": "美国中期选举出现民主党关键胜场，国会控制权接近明朗",
+      "summary": "美国11月3日中期选举进入计票阶段。AP报道，民主党在多个关键众议院选区获胜，并在参议院席位上取得净增；其选情综述称民主党接近取得两院控制权。AP已分别判定弗吉尼亚州Mark Warner连任、得克萨斯州James Talarico获胜等个别比赛，但各州仍有选票未清点。不同媒体对“赢得多数”的宣布时间可能不同，选务机关认证又晚于媒体预测；本报不把实时计票或出口民调写成官方最终结果。",
+      "why": "国会多数将影响预算谈判、行政监督、科技监管与对外政策；无论哪一方掌握议程，立法仍受总统签署或否决等机制制约。",
+      "uncertainty": "截至编写时仍应把个别胜场、媒体预测的席位控制权和选务机关认证三者分开。邮寄票和争议选区可能改变具体席次。",
       "sources": [
         {
-          "name": "AP：美国官员称实施打击",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?oc=5"
-        },
-        {
-          "name": "Reuters：格什姆岛行动报道",
-          "url": "https://www.msn.com/en-us/news/other/us-carries-out-defensive-strikes-on-irans-qeshm-island-officials-say/ar-AA2gCYAb"
-        }
-      ]
-    },
-    {
-      "category": "国际｜政治",
-      "status": "投票进行中；计票结果未出",
-      "title": "美国中期选举进入投票日，国会两院控制权仍是悬念",
-      "summary": "11月3日是美国中期选举投票日。众议院全部席位及部分参议院、州长和地方职位接受选民裁决。AP报道，物价压力与伊朗战争是竞选讨论的重要背景，提前投票规模受到关注。由于美国跨越多个时区，不同州关票、计票与认证时间不同；即便某些媒体率先“宣布胜者”，也要区分专业机构预测与选务机关的正式结果。截止本报编写时，不把任何席位控制权写成既成事实。",
-      "why": "国会构成影响预算、监管、外交授权及科技行业政策。市场会对结果和政策前景快速定价，但选举当日的短线行情不宜被解释为某一政策必然落地。",
-      "uncertainty": "投票率、尚未清点的邮寄选票和争议诉讼都可能改变个别选区的初步领先；不转发未标明来源的“最终席位图”。",
-      "sources": [
-        {
-          "name": "AP：中期选举投票日",
+          "name": "AP：民主党接近取得国会控制权",
           "url": "https://apnews.com/article/f126e12e05b579a327b98481c0ae2226"
         },
         {
-          "name": "Reuters：国会控制权前景",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdDB1dTZqNnNFMEVTVXdSakNoMWVxcVROQjdqUTN3ZnJFdk9CWThaQW9UMWZzbWx1ZGltd2NKaXlGcE9oOTdtXzhqZTBzbmZKWTUyN05HNk8ySWpPMGpJUkJMN1c0Yjh0VnVFRl9uOHp6NTBTdHNXQTFKc2oyM2Z4WTVDbUY5bVp3SFNMRFd5NHNFVzI2MzNBbXdqdFVRS0pCUEE?oc=5"
+          "name": "AP：何时能确定两院多数",
+          "url": "https://apnews.com/article/9dae62cdd7d776a20a26eab6fbd9b12c"
+        },
+        {
+          "name": "AP：得州参议员选举结果",
+          "url": "https://apnews.com/article/a83aaba344fe45c59299da1ee30c8b7f"
         }
       ]
     },
     {
-      "category": "科技｜并购",
-      "status": "公司公告已确认；交易未交割",
-      "title": "Marvell拟以股票收购Lumentum，押注AI数据中心互连",
-      "summary": "两家公司11月2日通过联合公告宣布合并，披露交易价值约1150亿美元，支付方式为股票。Lumentum的光学器件与Marvell的芯片及网络连接业务结合，指向数据中心内部与数据中心之间越来越高的带宽需求。公告代表董事会层面的交易安排，并不意味着股东与监管机构已经批准，更不意味着预期的协同收入已经兑现。Reuters还记录了交易引发的估值与融资担忧。",
-      "why": "AI投资讨论从算力芯片延伸到光模块、网络、能源与融资。巨额股票交易可能改变竞争格局，也可能稀释现有股东权益，后续应看交换比例、审批进度和整合成本。",
-      "uncertainty": "1150亿美元为公告口径的交易估值，受股价变化影响；未来收入和协同属于公司预测，不能当作已实现业绩。",
+      "category": "科技｜半导体",
+      "status": "公司财报已公布；第四季度为前瞻指引",
+      "title": "AMD第三季度收入创新高，数据中心业务同比接近翻倍",
+      "summary": "AMD 11月3日披露第三季度营收133.77亿美元，按约数为134亿美元，同比增长45%；数据中心业务收入85亿美元，同比增长97%，主要由EPYC处理器和Instinct加速器需求推动。公司同时给出第四季度营收约170亿美元、上下浮动3%的预测。财报显示AI基础设施仍在拉动部分芯片供应商收入，但不能据此推断全部AI项目都已盈利；公司使用的非GAAP指标也需与法定GAAP指标区分。",
+      "why": "市场前几周持续质疑AI资本开支能否转成现金流。AMD已实现的收入与未来指引为观察真实需求提供了两个不同刻度，尤其值得对照云厂商采购、供货节奏与毛利率。",
+      "uncertainty": "第四季度指引不是已实现业绩；数据中心同比高增亦受比较基数、产品周期和客户集中度影响。",
       "sources": [
         {
-          "name": "Marvell与Lumentum联合公告",
-          "url": "https://www.businesswire.com/news/home/20261102374788/en/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity"
+          "name": "AMD：第三季度财务结果原文",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
         },
         {
-          "name": "Reuters：交易与风险",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5"
+          "name": "Reuters：AMD业绩与AI支出预期",
+          "url": "https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/"
+        }
+      ]
+    },
+    {
+      "category": "科技｜自动驾驶",
+      "status": "产品发布已获报道；实际安全效益待验证",
+      "title": "百度推出Apollo World仿真系统，用虚拟道路训练自动驾驶车",
+      "summary": "Reuters11月3日报道，百度发布Apollo World，用AI模拟道路环境和交通状态变化，供Robotaxi在虚拟场景中训练。模拟器的一项潜在价值，是让车辆反复面对现实道路上罕见、却代价很高的突发情形。百度称其技术可帮助降低开发成本和提升跨区域适应性，但模拟成绩不等于真实公共道路的安全记录；不同城市的交通规则、天气、行人行为与监管许可仍需单独验证。",
+      "why": "自动驾驶竞争从单车传感器扩展到训练数据、仿真世界模型和大规模运营效率。投资者与乘客最该看的不是演示片段，而是公开的接管、事故、运营区域及安全审查数据。",
+      "uncertainty": "系统性能与商业节省暂主要来自企业介绍，尚不能据此估算其减少事故或实现无人运营的幅度。",
+      "sources": [
+        {
+          "name": "Reuters：百度Apollo World发布",
+          "url": "https://www.reuters.com/technology/chinas-baidu-launches-ai-model-simulating-road-environment-robotaxis-2026-11-03/"
+        },
+        {
+          "name": "SCMP：罕见道路风险训练背景",
+          "url": "https://www.scmp.com/tech/big-tech/article/3373173/baidus-new-ai-simulator-gives-robotaxis-crash-course-rare-road-hazards"
         }
       ]
     },
     {
       "category": "金融｜市场",
-      "status": "已发生的交易与媒体分析；风险情景并非预测事实",
-      "title": "亚洲科技股疲弱，AI巨额投资的融资压力进入定价",
-      "summary": "AP在11月3日的亚洲市场报道中指出，区域股市涨跌互现，韩国与台湾等科技权重较高市场的股票承压。前一交易日美股科技板块也出现波动。Reuters分析聚焦于AI基础设施投资规模、集中度及债务融资：如果利润增长落后于支出，估值和信用市场可能同时受挤压。这属于风险分析，不等于AI需求、芯片订单或所有相关公司业绩已经转弱。",
-      "why": "观察AI产业时，只看模型发布或GPU销量不足以判断投资可持续性；资本成本、现金流、折旧和债券供给可能成为下一阶段的重要变量。",
-      "uncertainty": "市场价格会随选举、地缘政治、利率等多因素变化，不能把单日下跌全部归因于AI；“泡沫破裂”是观点而非已证实事件。",
+      "status": "盘中行情已报道；收盘数字与归因需后续核对",
+      "title": "亚洲科技股普遍回落，选举结果与AI估值共同牵动市场",
+      "summary": "AP 11月4日报道，亚洲股市下跌，报道时日本日经指数跌约3.6%，韩国Kospi跌约3.2%，台湾加权指数跌约2.3%，多只半导体和AI相关股票承压。美国中期选举计票、前期科技股估值上涨以及资本开支回收周期共同影响交易情绪。以上是特定报道时点的盘中数据，不能当作最终收盘数字，也不能把所有跌幅归因于某一场选举或一份财报。",
+      "why": "科技股与资本市场融资条件互相影响。若估值调整持续，巨额AI投资所需的股票和债券融资成本可能改变；但AMD等企业仍有强劲已实现收入，产业内部并非同涨同跌。",
+      "uncertainty": "盘中价格会变，市场因果往往无法单独识别；关注最终收盘、成交量和后续企业财报。",
       "sources": [
         {
-          "name": "AP：11月3日亚洲市场",
-          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef"
+          "name": "AP：11月4日亚洲市场盘中报道",
+          "url": "https://apnews.com/article/4d12764c0b3ce38ffde3077712811182"
         },
         {
-          "name": "Reuters：AI投资与市场脆弱性分析",
-          "url": "https://www.msn.com/en-in/news/other/global-markets-were-already-fragile-big-ai-bets-could-break-them/ar-AA2gDFNf"
+          "name": "Reuters：美国股市前一交易日AI板块反弹",
+          "url": "https://www.reuters.com/business/retail-consumer/us-stock-futures-mixed-apple-slides-midterms-loom-2026-11-03/"
+        }
+      ]
+    },
+    {
+      "category": "国际｜中东",
+      "status": "美方行动与伊方外交表态可报道；后果未定",
+      "title": "美军打击伊朗海峡目标后，霍尔木兹安全与谈判仍不明朗",
+      "summary": "AP报道，美军在霍尔木兹海峡附近对伊朗目标实施其所称“防御性”打击后，伊朗谈判代表要求美方采取行动防止战争再度扩大。海峡周边的军事行动、商船风险和外交接触同时存在，不能将“仍在接触”解释为已达成停火，也不能把军事行动直接推断为全面战争。有关油轮碰雷或起火的说法，过去已有相互矛盾的官方叙述，具体船只、时间及损失需逐一核验。",
+      "why": "霍尔木兹关系到国际原油运输，冲突会通过船舶保险、绕行成本和价格预期传导；但油价和实际供给仍要看可观察的航运数据。",
+      "uncertainty": "具体打击目标、伤亡、海峡通行范围和谈判条件仍有争议；不采用未验证的旧视频或单方战果。",
+      "sources": [
+        {
+          "name": "AP：打击后的局势分析",
+          "url": "https://apnews.com/article/183b3d32d9bf5241f744abb917e6713e"
+        },
+        {
+          "name": "AP：伊朗谈判代表表态",
+          "url": "https://apnews.com/article/9ae5cec3d1f9cde02652f52f7f80fbce"
         }
       ]
     },
     {
       "category": "金融｜能源",
-      "status": "价格报道可核；后市仍高度不确定",
-      "title": "伊朗局势推高油价风险溢价，黄金未呈现单向避险走势",
-      "summary": "Reuters11月3日报道，美方打击伊朗格什姆岛后，市场重新评估霍尔木兹航运风险，油价回升。另一篇市场报道则显示，黄金并未简单地因冲突而持续上涨，通胀与利率预期也在影响定价。OPEC+此前决定维持12月部分产油国目标，但政策配额、实际出口量与船舶能否安全通行是不同指标。读者应把“风险溢价上升”与“已经发生供应中断”分开。",
-      "why": "能源价格能沿运输、通胀和企业利润传导到股债市场。真正值得追踪的是海峡船舶通行、保险费率、库存和官方谈判进展，而不是只根据盘中报价推断战事规模。",
-      "uncertainty": "盘中油价和黄金价格可能迅速反转；尚缺少可以证明持久供应缺口的独立数据。",
+      "status": "公司业绩已发布；市场背景经媒体核验",
+      "title": "沙特阿美公布季度业绩，利润上升与出口弹性并存",
+      "summary": "沙特阿美11月3日发布第三季度业绩，调整后净利润312亿美元，去年同期为286亿美元；经营活动现金流为387亿美元。AP另以其法定净利润口径报道同比增长35%，并指出油价上涨以及出售马来西亚炼化业务权益的影响。两种利润口径不同，不应混写。公司称东西向输油管道继续为出口提供灵活性，反映海峡航运受扰时替代路线的重要性，但不意味着所有地区的能源供应风险消失。",
+      "why": "在地缘风险背景下，能源企业的利润、股息与运输能力并不完全同步；财务报表可以帮助区分油价收益、一次性交易和真实运营现金流。",
+      "uncertainty": "调整后与法定利润的差异需要参照财报附注；未来油价、出口通道与设施安全均不确定。",
       "sources": [
         {
-          "name": "Reuters：格什姆岛后油价反应",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTFpzbEJURFlBbkE1RzNfclduVWpDY29HaWY3dnZJNUFuTHFsckZXSU5iTGJHdUFzQkVmeVhvdk9IME9Hdkxwc0NQZzg4dFFzckltYVlzcGdWY2xhYmJWMWlMVmFyNml3YmFoSDBZMGdPZWlpU25IM3UtMW5iR3d1dGZrMGF4SzQ2MklEeG5lWU1iRUZjVDd5Nnhjc0dQamdDdEtUc3NMcFZDMTQ?oc=5"
+          "name": "沙特阿美：第三季度业绩公告",
+          "url": "https://www.aramco.com/en/news-media/news/2026/aramco-announces-third-quarter-2026-results"
         },
         {
-          "name": "OPEC：11月1日七国会议公报",
-          "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+          "name": "AP：利润变化与航运背景",
+          "url": "https://apnews.com/article/6fefcbf7b89dd2e4e638cf80d5ffc36f"
         }
       ]
     },
     {
       "category": "娱乐｜流媒体",
-      "status": "公司财报已发布；后续并购仍待完成",
-      "title": "Roku第三季度营收同比增长约24%，广告业务与Fox交易受关注",
-      "summary": "Roku于11月2日公布2026年第三季度财务结果。公司公告及Variety报道显示，季度营收同比增长约24%，市场尤其关注平台广告业务表现。报道同时提及Roku拟议中的Fox相关交易；财报表现与交易最终获批是两个独立问题。Roku的平台覆盖、广告库存和内容分发策略，正在把传统影视公司与科技平台的边界进一步拉近。",
-      "why": "娱乐产业的收入越来越依赖流媒体入口和广告技术，而不只是票房或订阅数。对用户而言，这可能影响内容发现、广告负载和平台议价；对行业而言，则要看增长能否转成可持续现金流。",
-      "uncertainty": "单季同比增长不代表全年趋势；交易的监管结果、整合成本及对创作者的影响仍未确定。",
+      "status": "Netflix官方宣布；仅小范围试用",
+      "title": "Netflix测试AI Discover，按主题和心情帮助用户找片",
+      "summary": "Netflix 11月3日在官方博客宣布，电视应用将新增AI Discover试验标签页。用户可从“轻松一点”“适合家庭夜晚”或“短时观看”等主题进入，再逐层缩小选择，并主动调整不想再看到的推荐。首批仅面向美国、使用英语且拥有受支持电视设备的一小部分会员；公司说未来数周逐渐扩大。该功能属于内容发现与推荐，不等同于用AI自动制作影视作品。",
+      "why": "在片库越来越大的流媒体平台，用户花多久找到想看的作品，直接影响观看时长、作品曝光和平台广告价值。它也会引出对推荐透明度及用户控制权的讨论。",
+      "uncertainty": "Netflix尚未承诺全球上线日期，也没有公开足以证明该工具提升留存或改变内容采购的独立数据。",
       "sources": [
         {
-          "name": "Roku：第三季度财务结果",
-          "url": "https://www.marketscreener.com/news/roku-releases-third-quarter-2026-financial-results-ce785fd9da8bf720"
+          "name": "Netflix：AI Discover官方介绍",
+          "url": "https://about.netflix.com/en/news/introducing-ai-discover"
         },
         {
-          "name": "Variety：营收与广告业务报道",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNjFaZmZ3eVVCc3pzaHY1RG5JMFpiYkdyRnVNN0k3dFdSeFgzQmQtd3VKbC1BMl9hRE9hcEtoVVZRU0F2VWY5Umd3RXNhczJEc01xdl9Ha3p0RzctUEFMaHRXRmZOclhvR1REem5vR1FDaU9MdnlaVUFNQlRPcHMxMUVyblBaNUFvMTBEQ3E1TFBsVG1yekU5bGI3cTNCdw?oc=5"
+          "name": "TechCrunch：产品范围与使用方式",
+          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
         }
       ]
     },
     {
-      "category": "娱乐｜动漫",
-      "status": "主办方计划获行业媒体报道；奖项尚未举办",
-      "title": "日本公布Nippon Anime Awards，首届颁奖计划于2027年11月举行",
-      "summary": "Anime News Network与Variety报道，日本动漫业宣布名为Nippon Anime Awards的新奖项，首届颁奖活动拟于2027年11月举行。消息出现于动漫国际传播、创作者署名和行业评奖标准持续受到讨论的背景下。眼下可以确认的是奖项计划的公布，不能据此推断提名名单、评委构成或最终获奖作品；这些仍需主办方进一步披露。",
-      "why": "全球动漫市场扩大后，奖项可能影响作品的海外可见度和发行营销。更值得持续观察的是评选规则能否透明、是否兼顾动画师及幕后工种，而不只是人气榜单。",
-      "uncertainty": "举办时间与执行细则可能调整；网上流传的“获奖预测”没有官方依据。",
+      "category": "娱乐｜创作者",
+      "status": "BAFTA官方名单已公布",
+      "title": "BAFTA公布2026英国Breakthrough新锐名单，覆盖影视与游戏",
+      "summary": "英国电影电视艺术学院BAFTA于11月4日公布2026年Breakthrough UK入选者，包括演员Ella Bruccoleri、游戏导演与开发者Husban Siddiqi及多位导演、制作人、设计师等。该项目由Netflix支持，旨在为影视与游戏领域的新锐从业者提供职业发展机会。它是培养计划的入选名单，不是电影奖项的获奖名单；名单本身也不能直接衡量未来作品的商业成功。",
+      "why": "娱乐新闻常被明星与票房占据，新锐人才项目则显示制作、选角、美术、游戏等幕后岗位的成长路径，对未来作品供给同样重要。",
+      "uncertainty": "入选后的具体职业成果需长期观察；不将平台支持误解为Netflix对入选者作品的投资承诺。",
       "sources": [
         {
-          "name": "Anime News Network：新奖项公布",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-02/new-nippon-anime-awards-event-announced-for-november-2027/.243447"
+          "name": "BAFTA：2026 Breakthrough UK官方名单",
+          "url": "https://www.bafta.org/stories/breakthrough-uk-2026/"
         },
         {
-          "name": "Variety：日本动漫奖项报道",
-          "url": "https://variety.com/2026/film/markets-festivals/japan-new-2027-anime-award-spotlight-creators-industry-leaders-1236935947/"
-        }
-      ]
-    },
-    {
-      "category": "金融｜加密资产",
-      "status": "公司负责人声明与媒体报道；储备仍须独立验证",
-      "title": "币安高管回应重大盗窃案，称平台财务状况稳健",
-      "summary": "在上周约63亿美元的加密资产盗窃事件之后，Reuters11月3日报道，币安联合首席执行官称公司财务状况“非常稳健”。此前平台已陆续恢复部分提币服务，但不同资产和网络的处理进度不能一概而论。管理层表态是公司的声明，不等于所有储备与损失分担方案已经接受独立审计；社交平台上关于资金流出、赔偿和攻击者身份的说法也需分别核对。",
-      "why": "这起事件测试大型交易平台的储备透明度、钱包管理和用户信任。即使交易恢复，真正的关键仍是第三方可核验的资产负债信息以及后续安全改进。",
-      "uncertainty": "盗窃金额、损失承担及攻击者归属可能随调查修正；避免根据未经证实的链上截图做资产安全结论。",
-      "sources": [
-        {
-          "name": "Reuters：联合CEO谈财务状况",
-          "url": "https://lufkindailynews.com/news_reuters/business/binance-co-ceo-says-company-is-in-very-strong-financial-health-after-6-3-billion/article_d3fd41ea-dbc1-5469-8761-c434c84b352e.html"
-        },
-        {
-          "name": "Reuters：提款与资金流出后续",
-          "url": "https://www.msn.com/en-us/money/economy/binance-says-outflows-normalised-as-north-korea-rejects-us-allegation-over-heist/ar-AA2gEiW0"
+          "name": "BAFTA：项目宗旨与申请信息",
+          "url": "https://www.bafta.org/media-centre/press-releases/applications-open-breakthrough-uk-2026/"
         }
       ]
     }
@@ -159,61 +163,61 @@
   "social": [
     {
       "rank": 1,
-      "topic": "美国中期选举投票与计票截图",
-      "where": "X、TikTok及各州地方社群",
-      "context": "讨论集中于关键选区、提前投票与邮寄票。平台截图不是正式结果，先看州或县选务机关，再对照AP等机构的选情页面；本报不按未经核验的热度榜给候选人排位。",
-      "confidence": "投票日可核实；实时胜负图随时变化"
+      "topic": "美国中期选举计票图与“翻盘”短视频",
+      "where": "X、TikTok及美国地方社区",
+      "context": "个别州结果已获AP判定，但全国席次图仍会变化。转发前核对发布时间、媒体判定标准与州选务机关数据；不要把出口民调当作最终票数。",
+      "confidence": "个别选区结果较可靠；总控制权需持续更新"
     },
     {
       "rank": 2,
-      "topic": "格什姆岛打击与霍尔木兹航运传言",
-      "where": "X、Telegram及能源交易社群",
-      "context": "多家媒体确认美方称实施打击，但所谓全面封锁海峡、具体伤亡数字和二次打击视频仍需独立验证。关注航运机构公告，不转发来源不明的旧视频。",
-      "confidence": "军事行动报道较可靠；社媒细节低可信"
+      "topic": "AMD数据中心收入同比增长97%的讨论",
+      "where": "科技投资社区、半导体论坛",
+      "context": "增长数字来自AMD官方财报。围绕AI投入是否有回报的观点分歧仍大，须区分公司已实现收入与客户未来投资收益。",
+      "confidence": "财报数字可核；行业预测有不确定性"
     },
     {
       "rank": 3,
-      "topic": "Marvell与Lumentum百亿美元级并购争论",
-      "where": "投资论坛、半导体从业者社群",
-      "context": "讨论焦点是AI光互连需求、股票对价及估值。公司联合公告可核实交易安排；“已经交割”或“必然创造协同”的帖子属于过度推断。",
-      "confidence": "交易公告可核实；投资观点分歧大"
+      "topic": "Netflix AI Discover是否让选片更省时",
+      "where": "流媒体用户社区、产品讨论区",
+      "context": "官方说明目前只向美国英语电视端少量用户开放。相关体验截图可能来自试用者，无法代表所有地区都已上线。",
+      "confidence": "功能与试用范围可核；体验评价主观"
     },
     {
       "rank": 4,
-      "topic": "币安盗窃案后的提款与安全提醒",
-      "where": "加密资产社群、平台公告评论区",
-      "context": "用户关心提款状态与储备证据，也出现仿冒客服私信。仅通过官方应用和网站核验状态，不向任何人提供验证码或助记词。",
-      "confidence": "平台恢复与高管回应可核实；个人截图须核对"
+      "topic": "霍尔木兹海峡“封锁”与油轮视频",
+      "where": "X、Telegram及航运社群",
+      "context": "美方行动及伊方表态有媒体核验；单条视频未必拍摄于当天。判断实际风险应查看船舶通行、航运预警及多方独立报道。",
+      "confidence": "官方行动声明可核；传播视频与战损说法未必可信"
     },
     {
       "rank": 5,
-      "topic": "Nippon Anime Awards与创作者评奖标准",
-      "where": "动漫论坛、社交平台影视话题",
-      "context": "新奖项的公布引发对评委、幕后创作者与国际作品范围的讨论。提名和获奖名单尚未发布，讨论热度不能视作官方评选结果。",
-      "confidence": "奖项计划可核实；排名及入围传言未证实"
+      "topic": "BAFTA新锐名单中的影视与游戏创作者",
+      "where": "影视、游戏从业者社群",
+      "context": "官方名单已公布，网络讨论聚焦幕后人才与跨媒介创作。该名单属于人才扶持计划，不是颁奖季提名。",
+      "confidence": "入选名单可核；后续合作机会未定"
     }
   ],
   "watchlist": [
-    "美国中期选举：关注各州关票、官方计票和选务机构认证，区分媒体预测与正式结果。",
-    "霍尔木兹海峡：关注船舶通行、保险费率、美国与伊朗官方声明及外交接触是否有实质进展。",
-    "AI资本开支：关注Marvell与Lumentum交易文件、股东投票及大型科技公司债券发行和现金流。",
-    "娱乐与流媒体：关注Roku财报细项、Fox交易审查，以及Nippon Anime Awards评选章程。"
+    "美国中期选举：继续核对AP等机构的席位判定与各州正式计票，谨慎区分“预计赢得多数”和选务认证。",
+    "AMD与AI投资：关注第四季度财报兑现情况、数据中心毛利及客户资本开支，而非只看盘中股价。",
+    "霍尔木兹：关注船舶通行、能源保险及美伊外交表态，尤其是可核实的停火或航运安排。",
+    "Netflix AI Discover：观察试用地区扩张、用户控制推荐的实际效果，以及是否披露透明度与隐私规则。"
   ],
   "deepReads": [
     {
-      "title": "Marvell与Lumentum：联合并购公告",
-      "url": "https://www.businesswire.com/news/home/20261102374788/en/Marvell-and-Lumentum-to-Combine-Creating-a-Category-Leader-in-AI-Connectivity",
-      "reason": "直接查看交易对价、商业逻辑与交割条件，把公司预测同已发生事实分开。"
+      "title": "AMD：2026年第三季度财务结果",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "reason": "核对实际营收、数据中心增速和第四季度预测之间的区别。"
     },
     {
-      "title": "AP：美国中期选举投票日与待观察问题",
-      "url": "https://apnews.com/article/f126e12e05b579a327b98481c0ae2226",
-      "reason": "梳理本次投票为何重要，并提醒读者理解尚未确认的计票结果。"
+      "title": "Netflix：AI Discover官方说明",
+      "url": "https://about.netflix.com/en/news/introducing-ai-discover",
+      "reason": "直接看产品功能、首批试用范围和公司尚未承诺的事项。"
     },
     {
-      "title": "Anime News Network：Nippon Anime Awards公布",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-02/new-nippon-anime-awards-event-announced-for-november-2027/.243447",
-      "reason": "核对新奖项的名称、拟举行时间和目前尚未公布的细节。"
+      "title": "AP：美国中期选举何时能确定国会多数",
+      "url": "https://apnews.com/article/9dae62cdd7d776a20a26eab6fbd9b12c",
+      "reason": "理解媒体判定、各州计票与最终认证为何可能存在时间差。"
     }
   ]
 }
