@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-05",
+  "updatedAt": "2026-11-05 10:45 CST",
+  "edition": "全球晨报",
+  "readMinutes": 20,
+  "overview": [
+    "美国中期选举后，AP与Reuters均确认民主党赢得参众两院控制权；具体选区仍须完成计票和认证。",
+    "美国股市11月4日反弹，标普500指数收涨约1.6%；这是单日市场反应，不能简单归因于选举结果。",
+    "谷歌面向美国学校账户的AI与搜索设置引发争议；公司称管理员有控制权，批评者则质疑缺少完全无AI的搜索选项。",
+    "美国银行监管机构OCC发布面向检查员的AI风险指导；欧洲提出5.25亿欧元芯片创业投资计划，科技与金融监管同步推进。",
+    "东京国际电影节公布最高奖得主《Sister Brother Manhole Cover》；《万智牌》真人电影新增Maya Hawke参演。"
+  ],
+  "events": [
+    {
+      "category": "国际｜美国政治",
+      "status": "媒体确认两院控制权；各州正式认证尚需时间",
+      "title": "民主党赢得美国参众两院控制权，华盛顿将进入分立政府",
+      "summary": "AP与Reuters 11月4日的后续报道均确认，民主党在中期选举中夺回参议院与众议院控制权。总统特朗普仍在任，新一届国会就任后，白宫与国会将由不同政党掌握。出口民调显示，生活成本与伊朗战争是选民关注的重要问题；这是对投票动机的调查结果，不能用来断言每位选民的理由。个别选区的全部选票统计和州级认证仍在进行，媒体判定的控制权与法定认证不是同一个程序。",
+      "why": "国会多数影响预算、听证调查、任命与立法进程，也可能改变对伊朗政策和科技监管的审查力度。不过总统仍有行政权与否决权，不能把“换届”解读为所有政策马上逆转。",
+      "uncertainty": "最终席位数和部分紧张选区结果可能调整；政策走向取决于党内协调、两院程序及白宫回应。",
+      "sources": [
+        {
+          "name": "AP：民主党赢得两院后的政治格局",
+          "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0"
+        },
+        {
+          "name": "Reuters：两院控制权报道",
+          "url": "https://new.streetinsider.com/Reuters/Democrats%2Bseize%2BCongress%2Bin%2Bsweeping%2Bmidterm%2Brepudiation%2Bof%2BTrump/27284310.html"
+        }
+      ]
+    },
+    {
+      "category": "金融｜市场",
+      "status": "11月4日收盘数据可核；市场归因属于分析",
+      "title": "美国股市在中期选举后反弹，标普500收涨约1.6%",
+      "summary": "AP报道，11月4日美国股市大幅上涨，标普500指数收涨约1.6%，道琼斯工业平均指数上涨约1500点；油价回落也缓解了部分通胀担忧。交易员同时在重新评估分立政府下的预算、能源、国防和AI监管前景。一个交易日包含多个影响因素，不能把涨幅全归因于民主党胜选，更不能从历史上中期选举后的平均表现推断未来半年一定上涨。",
+      "why": "选举结果从政治消息迅速转成资产价格变化，读者要区分已发生的收盘数据与对政策的市场猜测。尤其科技、能源与国防股可能出现相反方向的波动，指数上涨不代表所有行业受益。",
+      "uncertainty": "油价、债券收益率和股价会随新政策表态变化；短线市场反应不构成投资建议。",
+      "sources": [
+        {
+          "name": "AP：11月4日美股及油价",
+          "url": "https://apnews.com/article/4d12764c0b3ce38ffde3077712811182"
+        },
+        {
+          "name": "AP：主要指数收盘",
+          "url": "https://apnews.com/article/c0be7ca45b5875abe758e0570cb9a265"
+        }
+      ]
+    },
+    {
+      "category": "科技｜教育",
+      "status": "谷歌公告与媒体采访可核；争议仍在发展",
+      "title": "谷歌学校账户的AI与搜索设置引发“能否无AI搜索”争论",
+      "summary": "谷歌11月3日宣布，将把美国K-12学生账户中的Gemini相关工具和Google Search默认关闭，待学校管理员明确开启。争议点在于，Search本身已整合AI功能：若学校希望完全避免学生使用AI，是否还能提供传统搜索？AP及后续媒体采访指出，谷歌并未提供一个完全无AI的Search选项。谷歌又澄清，学校可分别控制独立的Gemini产品与Search；这并不等于Search中的AI元素可以全部去除。",
+      "why": "教育系统需要在查资料、隐私、作业诚信和AI辅助之间做选择。此事也是大型平台把AI嵌入核心产品后，用户能否真正选择退出的典型案例。",
+      "uncertainty": "设置将在不同学校和时间逐步实施，具体界面与管理员权限可能变化；应以谷歌最新文档和学校实际政策为准。",
+      "sources": [
+        {
+          "name": "谷歌：学校AI与搜索设置公告",
+          "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
+        },
+        {
+          "name": "AP：学校与Search的争议",
+          "url": "https://apnews.com/article/7ba4219e505db1c11d672f6eefe7155a"
+        },
+        {
+          "name": "TechCrunch：后续回应",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+        }
+      ]
+    },
+    {
+      "category": "科技｜芯片",
+      "status": "投资计划获报道；资金尚非全部到位",
+      "title": "欧洲拟投入5.25亿欧元支持芯片创业公司",
+      "summary": "Reuters 11月4日报道，欧洲拟向芯片初创企业投入总计5.25亿欧元，以强化芯片设计与供应链能力，缩小与美国和中国的差距。关键在于区分“宣布投资计划”与“企业已经拿到资金并量产”：半导体技术研发、流片、封装、客户验证到规模化生产往往相隔多年。欧洲已有《芯片法案》与多种融资工具，新资金能否发挥作用，要看项目选择、私人资本跟投和最终采购订单。",
+      "why": "AI基础设施需求推动芯片竞争，但欧洲是否能形成有竞争力的设计与制造生态，不能只看补贴总额。对产业更重要的是人才、EDA工具、晶圆产能及可持续商业订单。",
+      "uncertainty": "目前据媒体报道的计划规模，具体分配、拨付时间和受益企业名单待官方细则确认。",
+      "sources": [
+        {
+          "name": "Reuters：欧洲芯片创业投资计划",
+          "url": "https://www.reuters.com/world/china/europe-invest-525-million-chip-startups-catch-up-with-us-china-2026-11-04/"
+        },
+        {
+          "name": "欧盟：现有芯片政策背景",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/european-chips-act"
+        }
+      ]
+    },
+    {
+      "category": "金融｜银行与AI",
+      "status": "Reuters见到监管指导文件；非正式法规",
+      "title": "美国OCC首次向银行检查员发布AI使用风险指导",
+      "summary": "Reuters报道，美国货币监理署OCC 11月4日向检查员发布针对银行AI使用的指导。其重点不是给AI另设一种全新的风险类别，而是结合银行规模、用途与潜在后果审查。例如，一个能自动发起交易的简单代理，可能比仅用于内部分析的复杂模型更需要人类监督。这是一份监管检查指导，而不是已通过国会的法律，也不意味着所有银行的AI部署已通过审查。",
+      "why": "金融机构把AI用于客服、反欺诈、信贷与交易时，风险来自权限、错误、数据和责任链，而非仅来自模型大小。监管态度将影响银行上线节奏和审计要求。",
+      "uncertainty": "文件的具体实施与银行合规实践仍需观察；不要把“首份指导”误读为全面禁止或全面放行AI。",
+      "sources": [
+        {
+          "name": "Reuters：OCC检查员AI风险指导",
+          "url": "https://wtaq.com/2026/11/04/us-bank-regulator-issues-first-ever-ai-guidance-for-examiners/"
+        },
+        {
+          "name": "OCC：银行监管职责",
+          "url": "https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html"
+        }
+      ]
+    },
+    {
+      "category": "国际｜中东",
+      "status": "各方表态已报道；海上损失独立核验不足",
+      "title": "美国选举结果牵动伊朗战争讨论，海峡油轮说法仍需核实",
+      "summary": "AP 11月4日报道，伊朗领导人将美国中期选举结果解读为选民对战争的否定，但同时对美方政策实质转向表示怀疑。特朗普与副总统万斯对败选与伊朗战争的公开表态也有差异。伊朗国家电视台称又有多艘油轮在霍尔木兹附近触雷起火，不过此前类似船舶损失说法存在相互矛盾的官方叙述；应等待船舶身份、航运机构和独立现场证据，而不是据单方声明推断海峡全面关闭。",
+      "why": "战争与能源运输风险跨越政治和金融两条线。国会权力变化可能改变监督与拨款，但停火、谈判和实际通航仍取决于各方行动。",
+      "uncertainty": "海上损失、打击目标和谈判前景均有不确定性；军政人物的表态不等同于已经生效的政策。",
+      "sources": [
+        {
+          "name": "AP：伊朗对美国选举的反应",
+          "url": "https://apnews.com/article/f3c48a92df2bd8a658d3e704a7291d11"
+        },
+        {
+          "name": "AP：万斯与特朗普对伊朗战争的表态",
+          "url": "https://apnews.com/article/a1a0f2a2373f80442dde2b04b9d4d2b3"
+        }
+      ]
+    },
+    {
+      "category": "娱乐｜电影节",
+      "status": "电影节奖项已公布；发行表现待观察",
+      "title": "《Sister Brother Manhole Cover》获东京国际电影节最高奖",
+      "summary": "第39届东京国际电影节闭幕，Variety与Screen Daily报道，北马其顿导演Milcho Manchevski的新片《Sister Brother Manhole Cover》获得东京大奖。电影节官网列有该片的竞赛单元与创作者资料。影片以兄妹在社会边缘求生为主线，获奖使其在国际发行和影展市场得到更多关注；但影展奖项与票房、流媒体观看量或国内上映安排是不同概念。",
+      "why": "娱乐版面除票房和明星外，电影节获奖能反映国际作品流通与中小制作进入视野的路径，也为观众提供不同地区的观看线索。",
+      "uncertainty": "各地发行时间、译名和观众评价仍可能变化；不把评审选择写成普遍口碑结论。",
+      "sources": [
+        {
+          "name": "Variety：东京电影节最高奖",
+          "url": "https://variety.com/2026/film/festivals/sister-brother-manhole-cover-top-prize-tokyo-film-festival-1236938999/"
+        },
+        {
+          "name": "东京电影节：影片官方资料",
+          "url": "https://2026.tiff-jp.net/en/lineup/film/39001CMP12"
+        },
+        {
+          "name": "Screen Daily：获奖名单报道",
+          "url": "https://www.screendaily.com/news/tokyo-film-festival-unveils-2026-winners/5222049.article"
+        }
+      ]
+    },
+    {
+      "category": "娱乐｜影视改编",
+      "status": "参演消息获多家行业媒体报道；影片尚未上映",
+      "title": "Maya Hawke加入《万智牌》真人电影项目",
+      "summary": "Deadline与The Hollywood Reporter 11月4日报道，演员Maya Hawke将参演由Legendary和Hasbro推动的《万智牌》真人电影。这个项目把长期经营的卡牌游戏世界观延伸到电影，并非首次出现游戏IP跨媒介改编，但角色、剧情及上映日期仍有待制作方正式披露。演员加入是开发阶段的进展，不意味着拍摄已经结束，更不代表流传的选角传闻都已得到证实。",
+      "why": "游戏IP电影化考验的不只是粉丝规模，还包括复杂设定能否变成独立可看的故事。它也是影视公司持续寻求现成世界观和跨平台受众的案例。",
+      "uncertainty": "片名、档期、角色和最终成片可能随制作变化；不采信未经确认的社媒“全阵容名单”。",
+      "sources": [
+        {
+          "name": "Deadline：Maya Hawke参演消息",
+          "url": "https://deadline.com/2026/11/maya-hawke-magic-the-gathering-movie-1237213391/"
+        },
+        {
+          "name": "The Hollywood Reporter：项目报道",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/maya-hawke-magic-the-gathering-1236747928/"
+        }
+      ]
+    }
+  ],
+  "social": [
+    {
+      "rank": 1,
+      "topic": "美国中期选举“蓝色横扫”与政策走向",
+      "where": "X、TikTok及政治新闻社群",
+      "context": "两院控制权已由AP与Reuters确认，但“总统所有政策立即失效”并不成立。社媒流传的席次图可能仍未更新至各州最新计票。",
+      "confidence": "控制权结论较可靠；具体席次及政策预测未定"
+    },
+    {
+      "rank": 2,
+      "topic": "谷歌学校账户能否使用“无AI搜索”",
+      "where": "教育工作者、家长与科技社群",
+      "context": "谷歌公告、媒体采访和后续澄清有细微差别。分别核对Gemini工具开关、Search开关及Search内部AI功能，别只看耸动标题。",
+      "confidence": "政策与争议可核；实施细节仍在澄清"
+    },
+    {
+      "rank": 3,
+      "topic": "美股选举后反弹与油价下跌",
+      "where": "金融社群、财经短视频",
+      "context": "标普500单日上涨约1.6%是收盘事实；“未来半年必涨”属于推断。投资讨论应分清股指、行业、利率与能源价格。",
+      "confidence": "收盘数据可核；因果与未来方向不确定"
+    },
+    {
+      "rank": 4,
+      "topic": "《万智牌》真人电影选角",
+      "where": "游戏玩家、影视粉丝社群",
+      "context": "Maya Hawke参演获行业媒体报道，具体角色和完整演员阵容尚未官方公布。粉丝设想不能当作制作方声明。",
+      "confidence": "参演较可靠；角色传闻未证实"
+    },
+    {
+      "rank": 5,
+      "topic": "东京电影节最高奖与国际电影发行",
+      "where": "影迷论坛、电影节话题",
+      "context": "获奖作品与导演资料可核，但线上评分样本仍有限；不同地区何时能看需等待发行公告。",
+      "confidence": "获奖事实可核；后续口碑与发行待观察"
+    }
+  ],
+  "watchlist": [
+    "新一届美国国会：关注正式席位认证、两党领导层安排，以及预算和伊朗战争监督议程。",
+    "市场与能源：观察油价、美国国债收益率和AI相关股票是否延续选后波动，勿用单日涨跌做长期结论。",
+    "学校AI政策：关注谷歌是否提供更清晰的Search和Gemini独立控制，以及学校与家长的实际反馈。",
+    "欧洲芯片资金与银行AI监管：留意受益企业名单、拨款细则及OCC指导落地，不把计划当作成果。"
+  ],
+  "deepReads": [
+    {
+      "title": "AP：美国中期选举后国会权力格局",
+      "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0",
+      "reason": "梳理两院控制权变化与政策仍需通过的制度环节。"
+    },
+    {
+      "title": "谷歌：学校AI与Search设置公告",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+      "reason": "直接比对公司原始措辞与争议报道，区分独立AI工具和搜索内置AI。"
+    },
+    {
+      "title": "Variety：东京国际电影节获奖报道",
+      "url": "https://variety.com/2026/film/festivals/sister-brother-manhole-cover-top-prize-tokyo-film-festival-1236938999/",
+      "reason": "了解最高奖作品及电影节其他获奖信息。"
+    }
+  ]
+}
