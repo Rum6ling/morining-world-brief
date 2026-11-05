@@ -1,161 +1,165 @@
 {
-  "date": "2026-11-04",
-  "updatedAt": "2026-11-04 12:51 CST",
+  "date": "2026-11-05",
+  "updatedAt": "2026-11-05 10:45 CST",
   "edition": "全球晨报",
   "readMinutes": 20,
   "overview": [
-    "美国中期选举计票显示民主党在多个关键选区取得进展；两院控制权以选务机关和可靠媒体最新确认结果为准。",
-    "AMD第三季度营收达134亿美元、同比增长45%，数据中心收入同比增长97%；第四季度170亿美元营收指引仍属预测。",
-    "Netflix开始在美国部分英语电视端测试AI Discover，让用户按心情和主题找片；尚未全面上线。",
-    "亚洲科技股11月4日下挫，日本、韩国等市场承压；美国选举与AI投资回报问题叠加影响情绪。",
-    "沙特阿美公布第三季度财报，调整后净利润312亿美元；霍尔木兹航运与中东局势仍是能源市场焦点。"
+    "美国中期选举后，AP与Reuters均确认民主党赢得参众两院控制权；具体选区仍须完成计票和认证。",
+    "美国股市11月4日反弹，标普500指数收涨约1.6%；这是单日市场反应，不能简单归因于选举结果。",
+    "谷歌面向美国学校账户的AI与搜索设置引发争议；公司称管理员有控制权，批评者则质疑缺少完全无AI的搜索选项。",
+    "美国银行监管机构OCC发布面向检查员的AI风险指导；欧洲提出5.25亿欧元芯片创业投资计划，科技与金融监管同步推进。",
+    "东京国际电影节公布最高奖得主《Sister Brother Manhole Cover》；《万智牌》真人电影新增Maya Hawke参演。"
   ],
   "events": [
     {
       "category": "国际｜美国政治",
-      "status": "选区结果陆续由媒体判定；两院最终席次仍在变化",
-      "title": "美国中期选举出现民主党关键胜场，国会控制权接近明朗",
-      "summary": "美国11月3日中期选举进入计票阶段。AP报道，民主党在多个关键众议院选区获胜，并在参议院席位上取得净增；其选情综述称民主党接近取得两院控制权。AP已分别判定弗吉尼亚州Mark Warner连任、得克萨斯州James Talarico获胜等个别比赛，但各州仍有选票未清点。不同媒体对“赢得多数”的宣布时间可能不同，选务机关认证又晚于媒体预测；本报不把实时计票或出口民调写成官方最终结果。",
-      "why": "国会多数将影响预算谈判、行政监督、科技监管与对外政策；无论哪一方掌握议程，立法仍受总统签署或否决等机制制约。",
-      "uncertainty": "截至编写时仍应把个别胜场、媒体预测的席位控制权和选务机关认证三者分开。邮寄票和争议选区可能改变具体席次。",
+      "status": "媒体确认两院控制权；各州正式认证尚需时间",
+      "title": "民主党赢得美国参众两院控制权，华盛顿将进入分立政府",
+      "summary": "AP与Reuters 11月4日的后续报道均确认，民主党在中期选举中夺回参议院与众议院控制权。总统特朗普仍在任，新一届国会就任后，白宫与国会将由不同政党掌握。出口民调显示，生活成本与伊朗战争是选民关注的重要问题；这是对投票动机的调查结果，不能用来断言每位选民的理由。个别选区的全部选票统计和州级认证仍在进行，媒体判定的控制权与法定认证不是同一个程序。",
+      "why": "国会多数影响预算、听证调查、任命与立法进程，也可能改变对伊朗政策和科技监管的审查力度。不过总统仍有行政权与否决权，不能把“换届”解读为所有政策马上逆转。",
+      "uncertainty": "最终席位数和部分紧张选区结果可能调整；政策走向取决于党内协调、两院程序及白宫回应。",
       "sources": [
         {
-          "name": "AP：民主党接近取得国会控制权",
-          "url": "https://apnews.com/article/f126e12e05b579a327b98481c0ae2226"
+          "name": "AP：民主党赢得两院后的政治格局",
+          "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0"
         },
         {
-          "name": "AP：何时能确定两院多数",
-          "url": "https://apnews.com/article/9dae62cdd7d776a20a26eab6fbd9b12c"
-        },
-        {
-          "name": "AP：得州参议员选举结果",
-          "url": "https://apnews.com/article/a83aaba344fe45c59299da1ee30c8b7f"
-        }
-      ]
-    },
-    {
-      "category": "科技｜半导体",
-      "status": "公司财报已公布；第四季度为前瞻指引",
-      "title": "AMD第三季度收入创新高，数据中心业务同比接近翻倍",
-      "summary": "AMD 11月3日披露第三季度营收133.77亿美元，按约数为134亿美元，同比增长45%；数据中心业务收入85亿美元，同比增长97%，主要由EPYC处理器和Instinct加速器需求推动。公司同时给出第四季度营收约170亿美元、上下浮动3%的预测。财报显示AI基础设施仍在拉动部分芯片供应商收入，但不能据此推断全部AI项目都已盈利；公司使用的非GAAP指标也需与法定GAAP指标区分。",
-      "why": "市场前几周持续质疑AI资本开支能否转成现金流。AMD已实现的收入与未来指引为观察真实需求提供了两个不同刻度，尤其值得对照云厂商采购、供货节奏与毛利率。",
-      "uncertainty": "第四季度指引不是已实现业绩；数据中心同比高增亦受比较基数、产品周期和客户集中度影响。",
-      "sources": [
-        {
-          "name": "AMD：第三季度财务结果原文",
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
-        },
-        {
-          "name": "Reuters：AMD业绩与AI支出预期",
-          "url": "https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/"
-        }
-      ]
-    },
-    {
-      "category": "科技｜自动驾驶",
-      "status": "产品发布已获报道；实际安全效益待验证",
-      "title": "百度推出Apollo World仿真系统，用虚拟道路训练自动驾驶车",
-      "summary": "Reuters11月3日报道，百度发布Apollo World，用AI模拟道路环境和交通状态变化，供Robotaxi在虚拟场景中训练。模拟器的一项潜在价值，是让车辆反复面对现实道路上罕见、却代价很高的突发情形。百度称其技术可帮助降低开发成本和提升跨区域适应性，但模拟成绩不等于真实公共道路的安全记录；不同城市的交通规则、天气、行人行为与监管许可仍需单独验证。",
-      "why": "自动驾驶竞争从单车传感器扩展到训练数据、仿真世界模型和大规模运营效率。投资者与乘客最该看的不是演示片段，而是公开的接管、事故、运营区域及安全审查数据。",
-      "uncertainty": "系统性能与商业节省暂主要来自企业介绍，尚不能据此估算其减少事故或实现无人运营的幅度。",
-      "sources": [
-        {
-          "name": "Reuters：百度Apollo World发布",
-          "url": "https://www.reuters.com/technology/chinas-baidu-launches-ai-model-simulating-road-environment-robotaxis-2026-11-03/"
-        },
-        {
-          "name": "SCMP：罕见道路风险训练背景",
-          "url": "https://www.scmp.com/tech/big-tech/article/3373173/baidus-new-ai-simulator-gives-robotaxis-crash-course-rare-road-hazards"
+          "name": "Reuters：两院控制权报道",
+          "url": "https://new.streetinsider.com/Reuters/Democrats%2Bseize%2BCongress%2Bin%2Bsweeping%2Bmidterm%2Brepudiation%2Bof%2BTrump/27284310.html"
         }
       ]
     },
     {
       "category": "金融｜市场",
-      "status": "盘中行情已报道；收盘数字与归因需后续核对",
-      "title": "亚洲科技股普遍回落，选举结果与AI估值共同牵动市场",
-      "summary": "AP 11月4日报道，亚洲股市下跌，报道时日本日经指数跌约3.6%，韩国Kospi跌约3.2%，台湾加权指数跌约2.3%，多只半导体和AI相关股票承压。美国中期选举计票、前期科技股估值上涨以及资本开支回收周期共同影响交易情绪。以上是特定报道时点的盘中数据，不能当作最终收盘数字，也不能把所有跌幅归因于某一场选举或一份财报。",
-      "why": "科技股与资本市场融资条件互相影响。若估值调整持续，巨额AI投资所需的股票和债券融资成本可能改变；但AMD等企业仍有强劲已实现收入，产业内部并非同涨同跌。",
-      "uncertainty": "盘中价格会变，市场因果往往无法单独识别；关注最终收盘、成交量和后续企业财报。",
+      "status": "11月4日收盘数据可核；市场归因属于分析",
+      "title": "美国股市在中期选举后反弹，标普500收涨约1.6%",
+      "summary": "AP报道，11月4日美国股市大幅上涨，标普500指数收涨约1.6%，道琼斯工业平均指数上涨约1500点；油价回落也缓解了部分通胀担忧。交易员同时在重新评估分立政府下的预算、能源、国防和AI监管前景。一个交易日包含多个影响因素，不能把涨幅全归因于民主党胜选，更不能从历史上中期选举后的平均表现推断未来半年一定上涨。",
+      "why": "选举结果从政治消息迅速转成资产价格变化，读者要区分已发生的收盘数据与对政策的市场猜测。尤其科技、能源与国防股可能出现相反方向的波动，指数上涨不代表所有行业受益。",
+      "uncertainty": "油价、债券收益率和股价会随新政策表态变化；短线市场反应不构成投资建议。",
       "sources": [
         {
-          "name": "AP：11月4日亚洲市场盘中报道",
+          "name": "AP：11月4日美股及油价",
           "url": "https://apnews.com/article/4d12764c0b3ce38ffde3077712811182"
         },
         {
-          "name": "Reuters：美国股市前一交易日AI板块反弹",
-          "url": "https://www.reuters.com/business/retail-consumer/us-stock-futures-mixed-apple-slides-midterms-loom-2026-11-03/"
+          "name": "AP：主要指数收盘",
+          "url": "https://apnews.com/article/c0be7ca45b5875abe758e0570cb9a265"
+        }
+      ]
+    },
+    {
+      "category": "科技｜教育",
+      "status": "谷歌公告与媒体采访可核；争议仍在发展",
+      "title": "谷歌学校账户的AI与搜索设置引发“能否无AI搜索”争论",
+      "summary": "谷歌11月3日宣布，将把美国K-12学生账户中的Gemini相关工具和Google Search默认关闭，待学校管理员明确开启。争议点在于，Search本身已整合AI功能：若学校希望完全避免学生使用AI，是否还能提供传统搜索？AP及后续媒体采访指出，谷歌并未提供一个完全无AI的Search选项。谷歌又澄清，学校可分别控制独立的Gemini产品与Search；这并不等于Search中的AI元素可以全部去除。",
+      "why": "教育系统需要在查资料、隐私、作业诚信和AI辅助之间做选择。此事也是大型平台把AI嵌入核心产品后，用户能否真正选择退出的典型案例。",
+      "uncertainty": "设置将在不同学校和时间逐步实施，具体界面与管理员权限可能变化；应以谷歌最新文档和学校实际政策为准。",
+      "sources": [
+        {
+          "name": "谷歌：学校AI与搜索设置公告",
+          "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
+        },
+        {
+          "name": "AP：学校与Search的争议",
+          "url": "https://apnews.com/article/7ba4219e505db1c11d672f6eefe7155a"
+        },
+        {
+          "name": "TechCrunch：后续回应",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+        }
+      ]
+    },
+    {
+      "category": "科技｜芯片",
+      "status": "投资计划获报道；资金尚非全部到位",
+      "title": "欧洲拟投入5.25亿欧元支持芯片创业公司",
+      "summary": "Reuters 11月4日报道，欧洲拟向芯片初创企业投入总计5.25亿欧元，以强化芯片设计与供应链能力，缩小与美国和中国的差距。关键在于区分“宣布投资计划”与“企业已经拿到资金并量产”：半导体技术研发、流片、封装、客户验证到规模化生产往往相隔多年。欧洲已有《芯片法案》与多种融资工具，新资金能否发挥作用，要看项目选择、私人资本跟投和最终采购订单。",
+      "why": "AI基础设施需求推动芯片竞争，但欧洲是否能形成有竞争力的设计与制造生态，不能只看补贴总额。对产业更重要的是人才、EDA工具、晶圆产能及可持续商业订单。",
+      "uncertainty": "目前据媒体报道的计划规模，具体分配、拨付时间和受益企业名单待官方细则确认。",
+      "sources": [
+        {
+          "name": "Reuters：欧洲芯片创业投资计划",
+          "url": "https://www.reuters.com/world/china/europe-invest-525-million-chip-startups-catch-up-with-us-china-2026-11-04/"
+        },
+        {
+          "name": "欧盟：现有芯片政策背景",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/european-chips-act"
+        }
+      ]
+    },
+    {
+      "category": "金融｜银行与AI",
+      "status": "Reuters见到监管指导文件；非正式法规",
+      "title": "美国OCC首次向银行检查员发布AI使用风险指导",
+      "summary": "Reuters报道，美国货币监理署OCC 11月4日向检查员发布针对银行AI使用的指导。其重点不是给AI另设一种全新的风险类别，而是结合银行规模、用途与潜在后果审查。例如，一个能自动发起交易的简单代理，可能比仅用于内部分析的复杂模型更需要人类监督。这是一份监管检查指导，而不是已通过国会的法律，也不意味着所有银行的AI部署已通过审查。",
+      "why": "金融机构把AI用于客服、反欺诈、信贷与交易时，风险来自权限、错误、数据和责任链，而非仅来自模型大小。监管态度将影响银行上线节奏和审计要求。",
+      "uncertainty": "文件的具体实施与银行合规实践仍需观察；不要把“首份指导”误读为全面禁止或全面放行AI。",
+      "sources": [
+        {
+          "name": "Reuters：OCC检查员AI风险指导",
+          "url": "https://wtaq.com/2026/11/04/us-bank-regulator-issues-first-ever-ai-guidance-for-examiners/"
+        },
+        {
+          "name": "OCC：银行监管职责",
+          "url": "https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html"
         }
       ]
     },
     {
       "category": "国际｜中东",
-      "status": "美方行动与伊方外交表态可报道；后果未定",
-      "title": "美军打击伊朗海峡目标后，霍尔木兹安全与谈判仍不明朗",
-      "summary": "AP报道，美军在霍尔木兹海峡附近对伊朗目标实施其所称“防御性”打击后，伊朗谈判代表要求美方采取行动防止战争再度扩大。海峡周边的军事行动、商船风险和外交接触同时存在，不能将“仍在接触”解释为已达成停火，也不能把军事行动直接推断为全面战争。有关油轮碰雷或起火的说法，过去已有相互矛盾的官方叙述，具体船只、时间及损失需逐一核验。",
-      "why": "霍尔木兹关系到国际原油运输，冲突会通过船舶保险、绕行成本和价格预期传导；但油价和实际供给仍要看可观察的航运数据。",
-      "uncertainty": "具体打击目标、伤亡、海峡通行范围和谈判条件仍有争议；不采用未验证的旧视频或单方战果。",
+      "status": "各方表态已报道；海上损失独立核验不足",
+      "title": "美国选举结果牵动伊朗战争讨论，海峡油轮说法仍需核实",
+      "summary": "AP 11月4日报道，伊朗领导人将美国中期选举结果解读为选民对战争的否定，但同时对美方政策实质转向表示怀疑。特朗普与副总统万斯对败选与伊朗战争的公开表态也有差异。伊朗国家电视台称又有多艘油轮在霍尔木兹附近触雷起火，不过此前类似船舶损失说法存在相互矛盾的官方叙述；应等待船舶身份、航运机构和独立现场证据，而不是据单方声明推断海峡全面关闭。",
+      "why": "战争与能源运输风险跨越政治和金融两条线。国会权力变化可能改变监督与拨款，但停火、谈判和实际通航仍取决于各方行动。",
+      "uncertainty": "海上损失、打击目标和谈判前景均有不确定性；军政人物的表态不等同于已经生效的政策。",
       "sources": [
         {
-          "name": "AP：打击后的局势分析",
-          "url": "https://apnews.com/article/183b3d32d9bf5241f744abb917e6713e"
+          "name": "AP：伊朗对美国选举的反应",
+          "url": "https://apnews.com/article/f3c48a92df2bd8a658d3e704a7291d11"
         },
         {
-          "name": "AP：伊朗谈判代表表态",
-          "url": "https://apnews.com/article/9ae5cec3d1f9cde02652f52f7f80fbce"
+          "name": "AP：万斯与特朗普对伊朗战争的表态",
+          "url": "https://apnews.com/article/a1a0f2a2373f80442dde2b04b9d4d2b3"
         }
       ]
     },
     {
-      "category": "金融｜能源",
-      "status": "公司业绩已发布；市场背景经媒体核验",
-      "title": "沙特阿美公布季度业绩，利润上升与出口弹性并存",
-      "summary": "沙特阿美11月3日发布第三季度业绩，调整后净利润312亿美元，去年同期为286亿美元；经营活动现金流为387亿美元。AP另以其法定净利润口径报道同比增长35%，并指出油价上涨以及出售马来西亚炼化业务权益的影响。两种利润口径不同，不应混写。公司称东西向输油管道继续为出口提供灵活性，反映海峡航运受扰时替代路线的重要性，但不意味着所有地区的能源供应风险消失。",
-      "why": "在地缘风险背景下，能源企业的利润、股息与运输能力并不完全同步；财务报表可以帮助区分油价收益、一次性交易和真实运营现金流。",
-      "uncertainty": "调整后与法定利润的差异需要参照财报附注；未来油价、出口通道与设施安全均不确定。",
+      "category": "娱乐｜电影节",
+      "status": "电影节奖项已公布；发行表现待观察",
+      "title": "《Sister Brother Manhole Cover》获东京国际电影节最高奖",
+      "summary": "第39届东京国际电影节闭幕，Variety与Screen Daily报道，北马其顿导演Milcho Manchevski的新片《Sister Brother Manhole Cover》获得东京大奖。电影节官网列有该片的竞赛单元与创作者资料。影片以兄妹在社会边缘求生为主线，获奖使其在国际发行和影展市场得到更多关注；但影展奖项与票房、流媒体观看量或国内上映安排是不同概念。",
+      "why": "娱乐版面除票房和明星外，电影节获奖能反映国际作品流通与中小制作进入视野的路径，也为观众提供不同地区的观看线索。",
+      "uncertainty": "各地发行时间、译名和观众评价仍可能变化；不把评审选择写成普遍口碑结论。",
       "sources": [
         {
-          "name": "沙特阿美：第三季度业绩公告",
-          "url": "https://www.aramco.com/en/news-media/news/2026/aramco-announces-third-quarter-2026-results"
+          "name": "Variety：东京电影节最高奖",
+          "url": "https://variety.com/2026/film/festivals/sister-brother-manhole-cover-top-prize-tokyo-film-festival-1236938999/"
         },
         {
-          "name": "AP：利润变化与航运背景",
-          "url": "https://apnews.com/article/6fefcbf7b89dd2e4e638cf80d5ffc36f"
+          "name": "东京电影节：影片官方资料",
+          "url": "https://2026.tiff-jp.net/en/lineup/film/39001CMP12"
+        },
+        {
+          "name": "Screen Daily：获奖名单报道",
+          "url": "https://www.screendaily.com/news/tokyo-film-festival-unveils-2026-winners/5222049.article"
         }
       ]
     },
     {
-      "category": "娱乐｜流媒体",
-      "status": "Netflix官方宣布；仅小范围试用",
-      "title": "Netflix测试AI Discover，按主题和心情帮助用户找片",
-      "summary": "Netflix 11月3日在官方博客宣布，电视应用将新增AI Discover试验标签页。用户可从“轻松一点”“适合家庭夜晚”或“短时观看”等主题进入，再逐层缩小选择，并主动调整不想再看到的推荐。首批仅面向美国、使用英语且拥有受支持电视设备的一小部分会员；公司说未来数周逐渐扩大。该功能属于内容发现与推荐，不等同于用AI自动制作影视作品。",
-      "why": "在片库越来越大的流媒体平台，用户花多久找到想看的作品，直接影响观看时长、作品曝光和平台广告价值。它也会引出对推荐透明度及用户控制权的讨论。",
-      "uncertainty": "Netflix尚未承诺全球上线日期，也没有公开足以证明该工具提升留存或改变内容采购的独立数据。",
+      "category": "娱乐｜影视改编",
+      "status": "参演消息获多家行业媒体报道；影片尚未上映",
+      "title": "Maya Hawke加入《万智牌》真人电影项目",
+      "summary": "Deadline与The Hollywood Reporter 11月4日报道，演员Maya Hawke将参演由Legendary和Hasbro推动的《万智牌》真人电影。这个项目把长期经营的卡牌游戏世界观延伸到电影，并非首次出现游戏IP跨媒介改编，但角色、剧情及上映日期仍有待制作方正式披露。演员加入是开发阶段的进展，不意味着拍摄已经结束，更不代表流传的选角传闻都已得到证实。",
+      "why": "游戏IP电影化考验的不只是粉丝规模，还包括复杂设定能否变成独立可看的故事。它也是影视公司持续寻求现成世界观和跨平台受众的案例。",
+      "uncertainty": "片名、档期、角色和最终成片可能随制作变化；不采信未经确认的社媒“全阵容名单”。",
       "sources": [
         {
-          "name": "Netflix：AI Discover官方介绍",
-          "url": "https://about.netflix.com/en/news/introducing-ai-discover"
+          "name": "Deadline：Maya Hawke参演消息",
+          "url": "https://deadline.com/2026/11/maya-hawke-magic-the-gathering-movie-1237213391/"
         },
         {
-          "name": "TechCrunch：产品范围与使用方式",
-          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
-        }
-      ]
-    },
-    {
-      "category": "娱乐｜创作者",
-      "status": "BAFTA官方名单已公布",
-      "title": "BAFTA公布2026英国Breakthrough新锐名单，覆盖影视与游戏",
-      "summary": "英国电影电视艺术学院BAFTA于11月4日公布2026年Breakthrough UK入选者，包括演员Ella Bruccoleri、游戏导演与开发者Husban Siddiqi及多位导演、制作人、设计师等。该项目由Netflix支持，旨在为影视与游戏领域的新锐从业者提供职业发展机会。它是培养计划的入选名单，不是电影奖项的获奖名单；名单本身也不能直接衡量未来作品的商业成功。",
-      "why": "娱乐新闻常被明星与票房占据，新锐人才项目则显示制作、选角、美术、游戏等幕后岗位的成长路径，对未来作品供给同样重要。",
-      "uncertainty": "入选后的具体职业成果需长期观察；不将平台支持误解为Netflix对入选者作品的投资承诺。",
-      "sources": [
-        {
-          "name": "BAFTA：2026 Breakthrough UK官方名单",
-          "url": "https://www.bafta.org/stories/breakthrough-uk-2026/"
-        },
-        {
-          "name": "BAFTA：项目宗旨与申请信息",
-          "url": "https://www.bafta.org/media-centre/press-releases/applications-open-breakthrough-uk-2026/"
+          "name": "The Hollywood Reporter：项目报道",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/maya-hawke-magic-the-gathering-1236747928/"
         }
       ]
     }
@@ -163,61 +167,61 @@
   "social": [
     {
       "rank": 1,
-      "topic": "美国中期选举计票图与“翻盘”短视频",
-      "where": "X、TikTok及美国地方社区",
-      "context": "个别州结果已获AP判定，但全国席次图仍会变化。转发前核对发布时间、媒体判定标准与州选务机关数据；不要把出口民调当作最终票数。",
-      "confidence": "个别选区结果较可靠；总控制权需持续更新"
+      "topic": "美国中期选举“蓝色横扫”与政策走向",
+      "where": "X、TikTok及政治新闻社群",
+      "context": "两院控制权已由AP与Reuters确认，但“总统所有政策立即失效”并不成立。社媒流传的席次图可能仍未更新至各州最新计票。",
+      "confidence": "控制权结论较可靠；具体席次及政策预测未定"
     },
     {
       "rank": 2,
-      "topic": "AMD数据中心收入同比增长97%的讨论",
-      "where": "科技投资社区、半导体论坛",
-      "context": "增长数字来自AMD官方财报。围绕AI投入是否有回报的观点分歧仍大，须区分公司已实现收入与客户未来投资收益。",
-      "confidence": "财报数字可核；行业预测有不确定性"
+      "topic": "谷歌学校账户能否使用“无AI搜索”",
+      "where": "教育工作者、家长与科技社群",
+      "context": "谷歌公告、媒体采访和后续澄清有细微差别。分别核对Gemini工具开关、Search开关及Search内部AI功能，别只看耸动标题。",
+      "confidence": "政策与争议可核；实施细节仍在澄清"
     },
     {
       "rank": 3,
-      "topic": "Netflix AI Discover是否让选片更省时",
-      "where": "流媒体用户社区、产品讨论区",
-      "context": "官方说明目前只向美国英语电视端少量用户开放。相关体验截图可能来自试用者，无法代表所有地区都已上线。",
-      "confidence": "功能与试用范围可核；体验评价主观"
+      "topic": "美股选举后反弹与油价下跌",
+      "where": "金融社群、财经短视频",
+      "context": "标普500单日上涨约1.6%是收盘事实；“未来半年必涨”属于推断。投资讨论应分清股指、行业、利率与能源价格。",
+      "confidence": "收盘数据可核；因果与未来方向不确定"
     },
     {
       "rank": 4,
-      "topic": "霍尔木兹海峡“封锁”与油轮视频",
-      "where": "X、Telegram及航运社群",
-      "context": "美方行动及伊方表态有媒体核验；单条视频未必拍摄于当天。判断实际风险应查看船舶通行、航运预警及多方独立报道。",
-      "confidence": "官方行动声明可核；传播视频与战损说法未必可信"
+      "topic": "《万智牌》真人电影选角",
+      "where": "游戏玩家、影视粉丝社群",
+      "context": "Maya Hawke参演获行业媒体报道，具体角色和完整演员阵容尚未官方公布。粉丝设想不能当作制作方声明。",
+      "confidence": "参演较可靠；角色传闻未证实"
     },
     {
       "rank": 5,
-      "topic": "BAFTA新锐名单中的影视与游戏创作者",
-      "where": "影视、游戏从业者社群",
-      "context": "官方名单已公布，网络讨论聚焦幕后人才与跨媒介创作。该名单属于人才扶持计划，不是颁奖季提名。",
-      "confidence": "入选名单可核；后续合作机会未定"
+      "topic": "东京电影节最高奖与国际电影发行",
+      "where": "影迷论坛、电影节话题",
+      "context": "获奖作品与导演资料可核，但线上评分样本仍有限；不同地区何时能看需等待发行公告。",
+      "confidence": "获奖事实可核；后续口碑与发行待观察"
     }
   ],
   "watchlist": [
-    "美国中期选举：继续核对AP等机构的席位判定与各州正式计票，谨慎区分“预计赢得多数”和选务认证。",
-    "AMD与AI投资：关注第四季度财报兑现情况、数据中心毛利及客户资本开支，而非只看盘中股价。",
-    "霍尔木兹：关注船舶通行、能源保险及美伊外交表态，尤其是可核实的停火或航运安排。",
-    "Netflix AI Discover：观察试用地区扩张、用户控制推荐的实际效果，以及是否披露透明度与隐私规则。"
+    "新一届美国国会：关注正式席位认证、两党领导层安排，以及预算和伊朗战争监督议程。",
+    "市场与能源：观察油价、美国国债收益率和AI相关股票是否延续选后波动，勿用单日涨跌做长期结论。",
+    "学校AI政策：关注谷歌是否提供更清晰的Search和Gemini独立控制，以及学校与家长的实际反馈。",
+    "欧洲芯片资金与银行AI监管：留意受益企业名单、拨款细则及OCC指导落地，不把计划当作成果。"
   ],
   "deepReads": [
     {
-      "title": "AMD：2026年第三季度财务结果",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
-      "reason": "核对实际营收、数据中心增速和第四季度预测之间的区别。"
+      "title": "AP：美国中期选举后国会权力格局",
+      "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0",
+      "reason": "梳理两院控制权变化与政策仍需通过的制度环节。"
     },
     {
-      "title": "Netflix：AI Discover官方说明",
-      "url": "https://about.netflix.com/en/news/introducing-ai-discover",
-      "reason": "直接看产品功能、首批试用范围和公司尚未承诺的事项。"
+      "title": "谷歌：学校AI与Search设置公告",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+      "reason": "直接比对公司原始措辞与争议报道，区分独立AI工具和搜索内置AI。"
     },
     {
-      "title": "AP：美国中期选举何时能确定国会多数",
-      "url": "https://apnews.com/article/9dae62cdd7d776a20a26eab6fbd9b12c",
-      "reason": "理解媒体判定、各州计票与最终认证为何可能存在时间差。"
+      "title": "Variety：东京国际电影节获奖报道",
+      "url": "https://variety.com/2026/film/festivals/sister-brother-manhole-cover-top-prize-tokyo-film-festival-1236938999/",
+      "reason": "了解最高奖作品及电影节其他获奖信息。"
     }
   ]
 }
