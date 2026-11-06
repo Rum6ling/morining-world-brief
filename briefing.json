@@ -1,165 +1,139 @@
 {
-  "date": "2026-11-05",
-  "updatedAt": "2026-11-05 10:45 CST",
+  "date": "2026-11-06",
+  "updatedAt": "2026-11-06 09:45 CST",
   "edition": "全球晨报",
   "readMinutes": 20,
   "overview": [
-    "美国中期选举后，AP与Reuters均确认民主党赢得参众两院控制权；具体选区仍须完成计票和认证。",
-    "美国股市11月4日反弹，标普500指数收涨约1.6%；这是单日市场反应，不能简单归因于选举结果。",
-    "谷歌面向美国学校账户的AI与搜索设置引发争议；公司称管理员有控制权，批评者则质疑缺少完全无AI的搜索选项。",
-    "美国银行监管机构OCC发布面向检查员的AI风险指导；欧洲提出5.25亿欧元芯片创业投资计划，科技与金融监管同步推进。",
-    "东京国际电影节公布最高奖得主《Sister Brother Manhole Cover》；《万智牌》真人电影新增Maya Hawke参演。"
+    "美股11月5日遭AI相关股票抛售拖累，标普500指数收跌4.4%；日本股市今晨开盘后也一度大跌，盘中数据不能当作收盘结果。",
+    "英国央行以8比1投票将基准利率上调至4%，并称能源价格上涨令明年通胀前景恶化。",
+    "独立评估机构METR查看Anthropic内部材料后，认为其模型在特定能力指标上的进展速度可能约为过去的两倍，但证据有删节、结论不等于全面能力翻倍。",
+    "谷歌宣布在美国怀俄明州建设首座当地数据中心，规划长期投资170亿美元；AI基础设施需求与建设成本争论同步升温。",
+    "俄乌继续互相发动空袭，乌克兰与美欧伙伴在布鲁塞尔讨论战后重建和安全保障；娱乐方面，Live Nation公布强劲演出数据，《疾速追杀》动画前传获推进。"
   ],
   "events": [
     {
-      "category": "国际｜美国政治",
-      "status": "媒体确认两院控制权；各州正式认证尚需时间",
-      "title": "民主党赢得美国参众两院控制权，华盛顿将进入分立政府",
-      "summary": "AP与Reuters 11月4日的后续报道均确认，民主党在中期选举中夺回参议院与众议院控制权。总统特朗普仍在任，新一届国会就任后，白宫与国会将由不同政党掌握。出口民调显示，生活成本与伊朗战争是选民关注的重要问题；这是对投票动机的调查结果，不能用来断言每位选民的理由。个别选区的全部选票统计和州级认证仍在进行，媒体判定的控制权与法定认证不是同一个程序。",
-      "why": "国会多数影响预算、听证调查、任命与立法进程，也可能改变对伊朗政策和科技监管的审查力度。不过总统仍有行政权与否决权，不能把“换届”解读为所有政策马上逆转。",
-      "uncertainty": "最终席位数和部分紧张选区结果可能调整；政策走向取决于党内协调、两院程序及白宫回应。",
+      "category": "金融｜全球市场",
+      "status": "美股收盘数据已确认；亚洲盘中数据仍会变化",
+      "title": "AI板块抛售拖累美股，标普500单日跌4.4%",
+      "summary": "11月5日美股收盘，标普500指数下跌4.4%，为2025年4月以来最差单日表现之一。AP称，抛售集中在与AI数据中心建设相关的股票，市场对巨额资本开支、估值及未来回报的疑虑升温。11月6日亚洲早盘，日本日经指数开盘后跌幅一度超过6%；这一数字是盘中观察，并非当天收盘结果。全球科技股的联动反映投资者在同一主题上重新定价，但不同市场的利率、汇率和本地资金流也会影响跌幅。不能把一次下跌概括为AI需求已消失，也不能把每只股票的变动都归因于同一个消息。",
+      "why": "科技、金融两个关注领域在这里交汇。市场接下来会更细地审视AI数据中心的订单兑现、供电和融资成本，而非只看企业公布的投资规模。对普通读者而言，最值得关注的是科技巨头现金流、芯片厂实际出货和云服务收入是否与此前预期相符。",
+      "uncertainty": "市场价格变化快；日本指数以本文发布时的早盘报道为准。关于估值是否过高、回调会持续多久，属于分析判断而非已证实事实。",
       "sources": [
         {
-          "name": "AP：民主党赢得两院后的政治格局",
-          "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0"
+          "name": "AP：11月5日美股收盘与AI股票抛售",
+          "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
         },
         {
-          "name": "Reuters：两院控制权报道",
-          "url": "https://new.streetinsider.com/Reuters/Democrats%2Bseize%2BCongress%2Bin%2Bsweeping%2Bmidterm%2Brepudiation%2Bof%2BTrump/27284310.html"
+          "name": "AP：日本股市11月6日开盘后下跌",
+          "url": "https://apnews.com/article/bba6f0bf9035a6e6b1c4fef3e8230b89"
         }
       ]
     },
     {
-      "category": "金融｜市场",
-      "status": "11月4日收盘数据可核；市场归因属于分析",
-      "title": "美国股市在中期选举后反弹，标普500收涨约1.6%",
-      "summary": "AP报道，11月4日美国股市大幅上涨，标普500指数收涨约1.6%，道琼斯工业平均指数上涨约1500点；油价回落也缓解了部分通胀担忧。交易员同时在重新评估分立政府下的预算、能源、国防和AI监管前景。一个交易日包含多个影响因素，不能把涨幅全归因于民主党胜选，更不能从历史上中期选举后的平均表现推断未来半年一定上涨。",
-      "why": "选举结果从政治消息迅速转成资产价格变化，读者要区分已发生的收盘数据与对政策的市场猜测。尤其科技、能源与国防股可能出现相反方向的波动，指数上涨不代表所有行业受益。",
-      "uncertainty": "油价、债券收益率和股价会随新政策表态变化；短线市场反应不构成投资建议。",
+      "category": "金融｜货币政策",
+      "status": "英国央行正式决议",
+      "title": "英国央行加息25个基点至4%，警惕能源冲击推高通胀",
+      "summary": "英国央行11月5日公布，货币政策委员会以8票赞成、1票反对，将Bank Rate上调0.25个百分点至4%；那位持不同意见的委员主张一次上调0.5个百分点。央行指出，英国9月消费者价格指数同比上涨3.5%，预计到2027年年中可能升至约5%。其解释强调中东冲突推升全球能源价格，并可能逐渐传导至家庭账单和企业成本。央行同时说，目前工资与其他商品价格的第二轮传导证据有限，政策不会沿预设路径机械加息。这里的5%是预测而非已经发生的通胀。",
+      "why": "英国利率变化影响借贷成本、英镑、国债收益率和消费者支出，也反映能源冲击如何从地缘政治传到金融市场。与美股AI板块下跌放在一起看，投资者正在同时面对增长预期和通胀压力。",
+      "uncertainty": "通胀轨迹取决于能源价格、冲突进展和国内工资定价。下一次政策会议的选择尚未确定，不能仅凭本次投票推断连续加息。",
       "sources": [
         {
-          "name": "AP：11月4日美股及油价",
-          "url": "https://apnews.com/article/4d12764c0b3ce38ffde3077712811182"
+          "name": "英国央行：11月货币政策摘要与会议纪要",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
         },
         {
-          "name": "AP：主要指数收盘",
-          "url": "https://apnews.com/article/c0be7ca45b5875abe758e0570cb9a265"
+          "name": "AP：英国央行加息报道",
+          "url": "https://apnews.com/article/dce506792fe3b452ec4c3982147286f3"
         }
       ]
     },
     {
-      "category": "科技｜教育",
-      "status": "谷歌公告与媒体采访可核；争议仍在发展",
-      "title": "谷歌学校账户的AI与搜索设置引发“能否无AI搜索”争论",
-      "summary": "谷歌11月3日宣布，将把美国K-12学生账户中的Gemini相关工具和Google Search默认关闭，待学校管理员明确开启。争议点在于，Search本身已整合AI功能：若学校希望完全避免学生使用AI，是否还能提供传统搜索？AP及后续媒体采访指出，谷歌并未提供一个完全无AI的Search选项。谷歌又澄清，学校可分别控制独立的Gemini产品与Search；这并不等于Search中的AI元素可以全部去除。",
-      "why": "教育系统需要在查资料、隐私、作业诚信和AI辅助之间做选择。此事也是大型平台把AI嵌入核心产品后，用户能否真正选择退出的典型案例。",
-      "uncertainty": "设置将在不同学校和时间逐步实施，具体界面与管理员权限可能变化；应以谷歌最新文档和学校实际政策为准。",
+      "category": "科技｜人工智能",
+      "status": "独立机构评估，结论带较大不确定性",
+      "title": "METR评估Anthropic研发提速：特定指标进展速度或约翻倍",
+      "summary": "独立研究机构METR在11月5日发布对Anthropic内部AI研发材料的评估。研究人员认为，截至10月，该公司的模型在定义较清晰的任务上提升能力的速度，可能约为2024年3月至2025年10月期间的两倍；他们也表示真实倍数可能更接近1.3倍或3倍。报告中的内部基准趋势估计为原先的1.9倍，95%置信区间为1.5至2.8倍。机构认为当前提速有相当部分可能来自研发人员使用AI工具，但并未证明AI已经自主完成关键研发。其评估主要针对Anthropic这一家公司和特定能力指标，不能外推成所有AI能力都翻倍。",
+      "why": "如果AI工具能提高AI研发效率，模型迭代与安全评估的节奏都可能发生变化，影响产业投资与治理判断。报告同时展示了独立评估的边界：Anthropic对多数关键内部证据作了删节，公众无法完全复核其推断。",
+      "uncertainty": "METR明确承认估计存在重大不确定性，内部数据访问与删节限制了透明度；“AI促成了多少提速”是带主观判断的归因，不是精确测量。",
       "sources": [
         {
-          "name": "谷歌：学校AI与搜索设置公告",
-          "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
+          "name": "METR：Anthropic AI研发加速独立评估",
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
         },
         {
-          "name": "AP：学校与Search的争议",
-          "url": "https://apnews.com/article/7ba4219e505db1c11d672f6eefe7155a"
-        },
-        {
-          "name": "TechCrunch：后续回应",
-          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+          "name": "AP：独立监测机构的评估报道",
+          "url": "https://apnews.com/article/9cf8c590ffc1abdb489179bdccc69c23"
         }
       ]
     },
     {
-      "category": "科技｜芯片",
-      "status": "投资计划获报道；资金尚非全部到位",
-      "title": "欧洲拟投入5.25亿欧元支持芯片创业公司",
-      "summary": "Reuters 11月4日报道，欧洲拟向芯片初创企业投入总计5.25亿欧元，以强化芯片设计与供应链能力，缩小与美国和中国的差距。关键在于区分“宣布投资计划”与“企业已经拿到资金并量产”：半导体技术研发、流片、封装、客户验证到规模化生产往往相隔多年。欧洲已有《芯片法案》与多种融资工具，新资金能否发挥作用，要看项目选择、私人资本跟投和最终采购订单。",
-      "why": "AI基础设施需求推动芯片竞争，但欧洲是否能形成有竞争力的设计与制造生态，不能只看补贴总额。对产业更重要的是人才、EDA工具、晶圆产能及可持续商业订单。",
-      "uncertainty": "目前据媒体报道的计划规模，具体分配、拨付时间和受益企业名单待官方细则确认。",
+      "category": "科技｜基础设施",
+      "status": "公司已宣布建设与长期投资计划",
+      "title": "谷歌宣布怀俄明州数据中心，计划长期投资170亿美元",
+      "summary": "谷歌11月5日宣布在美国怀俄明州建设其在该州的首个数据中心，并将该项目称为长期170亿美元投资。这个金额是公司披露的规划规模，不等于已经支出的资金，也不意味着设施已投入运营。Reuters报道，在AI计算需求推动大型数据中心扩建的同时，地方对电力、用水、土地及公共成本的担忧也在增加。市场当天对AI建设回报的重新估值，与谷歌的新项目并列出现，但两者并不构成可证明的单一因果链。",
+      "why": "算力扩张正在从芯片订单走向电网、土地和社区许可。即使云业务增长，数据中心的建设周期与资本回收速度仍会影响企业利润和地方资源配置。后续应观察实际施工、能源安排和投入运营时间，而不是只看宣布金额。",
+      "uncertainty": "170亿美元是长期计划，项目建设进度、最终支出、就业和环境影响仍需以后续披露与当地资料核实。",
       "sources": [
         {
-          "name": "Reuters：欧洲芯片创业投资计划",
-          "url": "https://www.reuters.com/world/china/europe-invest-525-million-chip-startups-catch-up-with-us-china-2026-11-04/"
+          "name": "Google：怀俄明州数据中心公告",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/"
         },
         {
-          "name": "欧盟：现有芯片政策背景",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/european-chips-act"
+          "name": "Reuters：谷歌170亿美元数据中心计划",
+          "url": "https://ca.marketscreener.com/news/google-plans-17-billion-wyoming-data-center-amid-rising-threats-of-curbs-ce785fdddb8ff327"
         }
       ]
     },
     {
-      "category": "金融｜银行与AI",
-      "status": "Reuters见到监管指导文件；非正式法规",
-      "title": "美国OCC首次向银行检查员发布AI使用风险指导",
-      "summary": "Reuters报道，美国货币监理署OCC 11月4日向检查员发布针对银行AI使用的指导。其重点不是给AI另设一种全新的风险类别，而是结合银行规模、用途与潜在后果审查。例如，一个能自动发起交易的简单代理，可能比仅用于内部分析的复杂模型更需要人类监督。这是一份监管检查指导，而不是已通过国会的法律，也不意味着所有银行的AI部署已通过审查。",
-      "why": "金融机构把AI用于客服、反欺诈、信贷与交易时，风险来自权限、错误、数据和责任链，而非仅来自模型大小。监管态度将影响银行上线节奏和审计要求。",
-      "uncertainty": "文件的具体实施与银行合规实践仍需观察；不要把“首份指导”误读为全面禁止或全面放行AI。",
+      "category": "国际｜俄乌战争",
+      "status": "会谈与空袭均有报道；未达成和平协议",
+      "title": "俄乌继续交火，美欧与乌克兰讨论战后安全保障",
+      "summary": "AP 11月5日报道，俄乌在夜间互相发动空袭；与此同时，乌克兰与美国、英国、法国、德国、欧盟等方面在布鲁塞尔就战后重建、2027年资金安排和安全保障继续磋商。欧洲委员会当天向乌克兰拨付44亿欧元，属于此前确定贷款框架的一部分。会谈聚焦战争结束后如何提供保障，但交战双方并未因此宣布停火，讨论文件也不能视为已经落地的安全承诺。有关下轮更广泛谈判的时间表仍须以各方正式公告核对。",
+      "why": "这类谈判影响未来援助与欧洲安全安排，也会通过能源与风险偏好影响金融市场。对晨报读者，关键是区分正在讨论的战后机制、已经拨付的资金和战场上仍持续的军事行动。",
+      "uncertainty": "谈判内容与担保形式可能改变；报道中的各方评价属于其自身表述，不代表协议已经达成。空袭损失数字若有后续修订，应以官方及独立核验为准。",
       "sources": [
         {
-          "name": "Reuters：OCC检查员AI风险指导",
-          "url": "https://wtaq.com/2026/11/04/us-bank-regulator-issues-first-ever-ai-guidance-for-examiners/"
+          "name": "AP：布鲁塞尔安全磋商及俄乌空袭",
+          "url": "https://apnews.com/article/0b975a30f862731346e7e1d098a8d538"
         },
         {
-          "name": "OCC：银行监管职责",
-          "url": "https://www.occ.gov/topics/supervision-and-examination/index-supervision-and-examination.html"
+          "name": "Reuters：欧盟就乌克兰重建与安全保障会谈",
+          "url": "https://www.investing.com/news/world-news/eu-to-host-talks-on-ukraine-with-united-states-and-others-on-wednesday-4995163"
         }
       ]
     },
     {
-      "category": "国际｜中东",
-      "status": "各方表态已报道；海上损失独立核验不足",
-      "title": "美国选举结果牵动伊朗战争讨论，海峡油轮说法仍需核实",
-      "summary": "AP 11月4日报道，伊朗领导人将美国中期选举结果解读为选民对战争的否定，但同时对美方政策实质转向表示怀疑。特朗普与副总统万斯对败选与伊朗战争的公开表态也有差异。伊朗国家电视台称又有多艘油轮在霍尔木兹附近触雷起火，不过此前类似船舶损失说法存在相互矛盾的官方叙述；应等待船舶身份、航运机构和独立现场证据，而不是据单方声明推断海峡全面关闭。",
-      "why": "战争与能源运输风险跨越政治和金融两条线。国会权力变化可能改变监督与拨款，但停火、谈判和实际通航仍取决于各方行动。",
-      "uncertainty": "海上损失、打击目标和谈判前景均有不确定性；军政人物的表态不等同于已经生效的政策。",
+      "category": "娱乐｜现场演出",
+      "status": "公司公布的未经审计季度业绩",
+      "title": "Live Nation季度营收增长19%，现场音乐需求仍强",
+      "summary": "Live Nation 11月5日披露，2026年第三季度营收101亿美元，同比增长19%；全球演出入场人数6100万，同比增长19%，营业利润8.92亿美元，同比增长13%。公司还表示，截至10月，2026年演出门票售出约1.7亿张，同比增长13%，并预计全年接待近1.8亿名观众。以上是企业公布的经营数字，部分年度指标属于预期。门票销量上升并不能直接证明平均票价下降或购票体验改善；观众仍可能对服务费、抢票和转售市场有不同感受。",
+      "why": "这组数字显示大型现场演出仍是娱乐产业的重要增长点，也能帮助区分唱片流媒体增长与线下消费的不同趋势。观察时应把观众人数、单张票价、手续费以及场馆投资分开看。",
+      "uncertainty": "季度数据未经审计，全年接待人数是公司预测；市场份额、票价可负担性及竞争影响不能仅由该业绩稿得出结论。",
       "sources": [
         {
-          "name": "AP：伊朗对美国选举的反应",
-          "url": "https://apnews.com/article/f3c48a92df2bd8a658d3e704a7291d11"
+          "name": "Live Nation：2026年第三季度业绩公告",
+          "url": "https://news.livenationentertainment.com/news/live-nation-entertainment-reports-third-quarter-2026-results"
         },
         {
-          "name": "AP：万斯与特朗普对伊朗战争的表态",
-          "url": "https://apnews.com/article/a1a0f2a2373f80442dde2b04b9d4d2b3"
+          "name": "Live Nation投资者关系：财务报告入口",
+          "url": "https://investors.livenationentertainment.com/financial-information/financial-results"
         }
       ]
     },
     {
-      "category": "娱乐｜电影节",
-      "status": "电影节奖项已公布；发行表现待观察",
-      "title": "《Sister Brother Manhole Cover》获东京国际电影节最高奖",
-      "summary": "第39届东京国际电影节闭幕，Variety与Screen Daily报道，北马其顿导演Milcho Manchevski的新片《Sister Brother Manhole Cover》获得东京大奖。电影节官网列有该片的竞赛单元与创作者资料。影片以兄妹在社会边缘求生为主线，获奖使其在国际发行和影展市场得到更多关注；但影展奖项与票房、流媒体观看量或国内上映安排是不同概念。",
-      "why": "娱乐版面除票房和明星外，电影节获奖能反映国际作品流通与中小制作进入视野的路径，也为观众提供不同地区的观看线索。",
-      "uncertainty": "各地发行时间、译名和观众评价仍可能变化；不把评审选择写成普遍口碑结论。",
+      "category": "娱乐｜影视",
+      "status": "媒体报道项目获推进；上映时间未公布",
+      "title": "《疾速追杀》动画前传推进，基努·里维斯将回归",
+      "summary": "Variety与TheWrap 11月5日报道，狮门影业已为《疾速追杀》动画前传项目开绿灯，基努·里维斯将回归为约翰·威克配音。故事计划聚焦系列中反复提到的“不可完成的任务”，也就是角色退出杀手世界之前的经历。这意味着旧IP继续向不同媒介扩展，但项目推进、演员敲定和正式上映仍是三个阶段，现阶段尚不能把社交平台流传的档期或最终阵容当作官方消息。",
+      "why": "《疾速追杀》系列的动画化提供了动作场面和前传叙事的空间，也说明片厂正继续挖掘成熟IP。对影迷最值得后续关注的是导演及制作团队、正式片名和发行日期。",
+      "uncertainty": "已报道的核心信息是项目推进与里维斯回归；具体上映时间、发行方式和更多演员尚待片方公布。",
       "sources": [
         {
-          "name": "Variety：东京电影节最高奖",
-          "url": "https://variety.com/2026/film/festivals/sister-brother-manhole-cover-top-prize-tokyo-film-festival-1236938999/"
+          "name": "Variety：《疾速追杀》动画前传与基努·里维斯",
+          "url": "https://au.variety.com/2026/film/news/keanu-reeves-john-wick-animated-movie-prequel-42332/"
         },
         {
-          "name": "东京电影节：影片官方资料",
-          "url": "https://2026.tiff-jp.net/en/lineup/film/39001CMP12"
-        },
-        {
-          "name": "Screen Daily：获奖名单报道",
-          "url": "https://www.screendaily.com/news/tokyo-film-festival-unveils-2026-winners/5222049.article"
-        }
-      ]
-    },
-    {
-      "category": "娱乐｜影视改编",
-      "status": "参演消息获多家行业媒体报道；影片尚未上映",
-      "title": "Maya Hawke加入《万智牌》真人电影项目",
-      "summary": "Deadline与The Hollywood Reporter 11月4日报道，演员Maya Hawke将参演由Legendary和Hasbro推动的《万智牌》真人电影。这个项目把长期经营的卡牌游戏世界观延伸到电影，并非首次出现游戏IP跨媒介改编，但角色、剧情及上映日期仍有待制作方正式披露。演员加入是开发阶段的进展，不意味着拍摄已经结束，更不代表流传的选角传闻都已得到证实。",
-      "why": "游戏IP电影化考验的不只是粉丝规模，还包括复杂设定能否变成独立可看的故事。它也是影视公司持续寻求现成世界观和跨平台受众的案例。",
-      "uncertainty": "片名、档期、角色和最终成片可能随制作变化；不采信未经确认的社媒“全阵容名单”。",
-      "sources": [
-        {
-          "name": "Deadline：Maya Hawke参演消息",
-          "url": "https://deadline.com/2026/11/maya-hawke-magic-the-gathering-movie-1237213391/"
-        },
-        {
-          "name": "The Hollywood Reporter：项目报道",
-          "url": "https://www.hollywoodreporter.com/movies/movie-news/maya-hawke-magic-the-gathering-1236747928/"
+          "name": "TheWrap：狮门推进动画前传报道",
+          "url": "https://www.thewrap.com/creative-content/movies/john-wick-animated-prequel-keanu-reeves-lionsgate/"
         }
       ]
     }
@@ -167,61 +141,61 @@
   "social": [
     {
       "rank": 1,
-      "topic": "美国中期选举“蓝色横扫”与政策走向",
-      "where": "X、TikTok及政治新闻社群",
-      "context": "两院控制权已由AP与Reuters确认，但“总统所有政策立即失效”并不成立。社媒流传的席次图可能仍未更新至各州最新计票。",
-      "confidence": "控制权结论较可靠；具体席次及政策预测未定"
+      "topic": "AI股票暴跌与“泡沫破裂”争论",
+      "where": "X、Reddit投资社群、财经短视频",
+      "context": "已核实的是标普500指数11月5日收跌4.4%，AI建设相关股票领跌；“行业已终结”“必将反弹”都属于预测。日本早盘跌幅不是收盘幅度。",
+      "confidence": "市场收盘事实可靠；社媒热度为编辑观察，未取得全平台统一排名"
     },
     {
       "rank": 2,
-      "topic": "谷歌学校账户能否使用“无AI搜索”",
-      "where": "教育工作者、家长与科技社群",
-      "context": "谷歌公告、媒体采访和后续澄清有细微差别。分别核对Gemini工具开关、Search开关及Search内部AI功能，别只看耸动标题。",
-      "confidence": "政策与争议可核；实施细节仍在澄清"
+      "topic": "METR报告中的“AI研发速度翻倍”",
+      "where": "科技研究社群、X与开发者论坛",
+      "context": "报告只评估Anthropic在较清晰任务指标上的进展速度，机构给出很宽的可能区间，并强调关键证据被删节。不能改写成“所有AI能力每年翻倍”。",
+      "confidence": "报告存在且结论已核验；跨平台传播量未独立统计"
     },
     {
       "rank": 3,
-      "topic": "美股选举后反弹与油价下跌",
-      "where": "金融社群、财经短视频",
-      "context": "标普500单日上涨约1.6%是收盘事实；“未来半年必涨”属于推断。投资讨论应分清股指、行业、利率与能源价格。",
-      "confidence": "收盘数据可核；因果与未来方向不确定"
+      "topic": "谷歌170亿美元数据中心与社区成本",
+      "where": "美国地方新闻讨论区、科技与能源社群",
+      "context": "项目金额属于长期投资规划。讨论集中在电力、水和地方收益，但项目真实资源占用应等具体许可与建设资料。",
+      "confidence": "公告可靠；具体地方影响尚未定论"
     },
     {
       "rank": 4,
-      "topic": "《万智牌》真人电影选角",
-      "where": "游戏玩家、影视粉丝社群",
-      "context": "Maya Hawke参演获行业媒体报道，具体角色和完整演员阵容尚未官方公布。粉丝设想不能当作制作方声明。",
-      "confidence": "参演较可靠；角色传闻未证实"
+      "topic": "《疾速追杀》动画前传与基努回归",
+      "where": "影迷社区、X与影视资讯账号",
+      "context": "多家娱乐媒体报道项目获推进，里维斯将参与；网传上映日期和其他演员名单仍需片方确认。",
+      "confidence": "项目核心消息有多家媒体报道；未有可比较的平台热榜数据"
     },
     {
       "rank": 5,
-      "topic": "东京电影节最高奖与国际电影发行",
-      "where": "影迷论坛、电影节话题",
-      "context": "获奖作品与导演资料可核，但线上评分样本仍有限；不同地区何时能看需等待发行公告。",
-      "confidence": "获奖事实可核；后续口碑与发行待观察"
+      "topic": "演唱会门票销量再创新高与购票负担",
+      "where": "音乐粉丝社区、演出与票务讨论区",
+      "context": "Live Nation公布截至10月售出约1.7亿张2026年演出门票，但数量增长不等于票价下降。有关手续费和转售市场的个人经历应与公司财报数据分开判断。",
+      "confidence": "销售数字来自公司公告；用户体验讨论不能以个案代表整体"
     }
   ],
   "watchlist": [
-    "新一届美国国会：关注正式席位认证、两党领导层安排，以及预算和伊朗战争监督议程。",
-    "市场与能源：观察油价、美国国债收益率和AI相关股票是否延续选后波动，勿用单日涨跌做长期结论。",
-    "学校AI政策：关注谷歌是否提供更清晰的Search和Gemini独立控制，以及学校与家长的实际反馈。",
-    "欧洲芯片资金与银行AI监管：留意受益企业名单、拨款细则及OCC指导落地，不把计划当作成果。"
+    "金融市场：跟踪11月6日亚洲各主要股市收盘，而非用早盘跌幅推断全天结果；观察AI基础设施相关股票是否继续承压。",
+    "英国经济：关注能源价格与通胀后续数据，以及英国央行12月17日会议；本次加息并未预设下一步。",
+    "AI研发：留意METR评估的同行回应、可公开核验的数据和Anthropic下一份风险报告，区分能力指标与现实任务表现。",
+    "俄乌谈判：看布鲁塞尔磋商是否形成具体安全保障文本、资金拨付安排和经各方确认的下一轮会谈日程。"
   ],
   "deepReads": [
     {
-      "title": "AP：美国中期选举后国会权力格局",
-      "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0",
-      "reason": "梳理两院控制权变化与政策仍需通过的制度环节。"
+      "title": "METR：Anthropic AI研发加速独立评估",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "reason": "直接查看数据范围、关键删节和机构自己列出的不确定性，避免被“翻倍”标题误导。"
     },
     {
-      "title": "谷歌：学校AI与Search设置公告",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
-      "reason": "直接比对公司原始措辞与争议报道，区分独立AI工具和搜索内置AI。"
+      "title": "英国央行：11月货币政策摘要与纪要",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+      "reason": "阅读加息投票、通胀预测与能源风险的原始表述。"
     },
     {
-      "title": "Variety：东京国际电影节获奖报道",
-      "url": "https://variety.com/2026/film/festivals/sister-brother-manhole-cover-top-prize-tokyo-film-festival-1236938999/",
-      "reason": "了解最高奖作品及电影节其他获奖信息。"
+      "title": "Live Nation：2026年第三季度业绩",
+      "url": "https://news.livenationentertainment.com/news/live-nation-entertainment-reports-third-quarter-2026-results",
+      "reason": "核对演出人数、门票销量和营收等口径，区分已实现数字与全年预测。"
     }
   ]
 }
